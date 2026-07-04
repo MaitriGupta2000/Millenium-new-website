@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const product = getProductBySlug(resolvedParams.slug);
   if (!product) return {};
   return {
-    title: `${product.name} — Millennium Technologies`,
+    title: `${product.name} — Millennium Technology`,
     description: product.tagline,
   };
 }
@@ -50,7 +50,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             {product.tag && (
               <span className="text-xs font-semibold tracking-wide text-amber-600">{product.tag}</span>
             )}
-            <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl text-[#1A1A1A] mt-1 text-balance">{product.name}</h1>
+            <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl text-[#1A1A1A] mt-1 text-balance">{product.name}</h1>
             <p className="text-sm text-[#737373] mt-2 font-body">{product.typeLabel}</p>
             {product.rating && product.rating.count > 0 && (
               <div className="flex items-center gap-1.5 mt-2">

@@ -38,7 +38,7 @@ export function ProductCard({ product, className = "" }: { product: Product; cla
         {product.tag && (
           <p className="text-[11px] font-semibold tracking-wide text-amber-600 mb-1">{product.tag}</p>
         )}
-        <h3 className="font-display text-lg text-[#1A1A1A] mb-1 line-clamp-2">{product.name}</h3>
+        <h3 className="font-display text-base text-[#1A1A1A] mb-1 line-clamp-2">{product.name}</h3>
         <p className="text-[#737373] text-sm font-body">
           {product.stock === "out_of_stock" ? "Out of Stock" : formatPriceINR(product.price)}
         </p>

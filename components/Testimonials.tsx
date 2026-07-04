@@ -16,10 +16,10 @@ export function Testimonials() {
   const prevTestimonial = () => setActiveIndex((prev) => (prev === 0 ? picks.length - 1 : prev - 1));
 
   return (
-    <section id="testimonials" ref={ref} className="py-20 lg:py-32 bg-white border-t border-[#E5E5E5]">
+    <section id="testimonials" ref={ref} className="py-14 lg:py-20 bg-white border-t border-[#E5E5E5]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         <div
-          className={`text-center mb-16 transition-all duration-700 ${
+          className={`text-center mb-10 transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
@@ -41,8 +41,8 @@ export function Testimonials() {
             key={activeIndex}
             className="flex flex-col items-center text-center px-8 lg:px-20 animate-[fade-in_400ms_ease-out]"
           >
-            <blockquote className="mb-8">
-              <p className="font-display text-[0.75rem] md:text-[0.9375rem] lg:text-[1.125rem] text-[#1A1A1A] leading-relaxed max-w-4xl line-clamp-6">
+            <blockquote className="mb-8 max-w-3xl">
+              <p className="font-display text-lg md:text-xl lg:text-2xl text-[#1A1A1A] leading-relaxed line-clamp-6">
                 &ldquo;{picks[activeIndex].review.text}&rdquo;
               </p>
             </blockquote>

@@ -4,8 +4,11 @@ import { NewArrivalsSection } from "@/components/NewArrivalsSection";
 import { FeaturedProductsSection } from "@/components/FeaturedProductsSection";
 import { ProductSpotlightSection } from "@/components/ProductSpotlightSection";
 import { ProductFeaturesSection } from "@/components/ProductFeaturesSection";
+import { AmazonStoreBanner } from "@/components/AmazonStoreBanner";
 import { LifestyleGallerySection } from "@/components/LifestyleGallerySection";
 import { Testimonials } from "@/components/Testimonials";
+import { FAQSection } from "@/components/FAQSection";
+import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -17,8 +20,11 @@ export default function Home() {
       <FeaturedProductsSection />
       <ProductSpotlightSection />
       <ProductFeaturesSection />
+      <AmazonStoreBanner />
       <LifestyleGallerySection />
       <Testimonials />
+      <FAQSection />
+      <ContactSection />
       <Footer />
     </main>
   );

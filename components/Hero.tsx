@@ -54,9 +54,9 @@ export function Hero() {
           <div
             className="absolute inset-0"
             style={{
-              backgroundImage: "url('/hero-bg.webp')",
+              backgroundImage: "url('/complete-hero-bg.jpeg')",
               backgroundSize: "cover",
-              backgroundPosition: "center right",
+              backgroundPosition: "center",
             }}
           />
 
@@ -64,7 +64,7 @@ export function Hero() {
             className="absolute inset-0 pointer-events-none"
             style={{
               background:
-                "linear-gradient(to right, #000 0%, #000 10%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0.65) 30%, rgba(0,0,0,0.45) 40%, rgba(0,0,0,0.28) 50%, rgba(0,0,0,0.14) 60%, rgba(0,0,0,0.05) 72%, transparent 85%)",
+                "linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.25) 35%, rgba(0,0,0,0.15) 60%, rgba(0,0,0,0.3) 100%)",
             }}
           />
 

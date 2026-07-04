@@ -16,16 +16,16 @@ export function FeaturedProductsSection() {
   const filteredProducts = PRODUCTS.filter((p) => getCategoryMeta(p.category).title === activeCategory);
 
   return (
-    <section id="shop" ref={ref} className="py-20 lg:py-32 bg-[#FAFAFA] border-t border-[#E5E5E5]">
+    <section id="shop" ref={ref} className="py-14 lg:py-20 bg-[#FAFAFA] border-t border-[#E5E5E5]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         <div
-          className={`mb-16 transition-all duration-700 ${
+          className={`mb-10 transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
           <div className="flex items-center gap-4 mb-6">
             <div className="h-1 w-12 bg-amber-500 rounded-full"></div>
-            <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-[#1A1A1A]">Explore Millennium Shop</h2>
+            <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-[#1A1A1A]">Explore Products</h2>
           </div>
           <p className="text-[#737373] text-base font-body">
             Discover monitor extenders, networking cards, and accessories made for every workspace.
@@ -38,26 +38,20 @@ export function FeaturedProductsSection() {
               isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"
             }`}
           >
-            <div className="flex flex-col gap-0 border-t border-[#E5E5E5]">
+            <div className="flex flex-col gap-1.5">
               {categories.map((category) => (
-                <div key={category} className="border-b border-[#E5E5E5]">
-                  <button
-                    type="button"
-                    onClick={() => setActiveCategory(category)}
-                    className={`w-full text-left py-4 px-2 text-sm transition-colors font-body ${
-                      activeCategory === category ? "text-[#1A1A1A] font-medium" : "text-[#737373] hover:text-[#1A1A1A]"
-                    }`}
-                  >
-                    <span className="relative inline-block pb-1">
-                      {category}
-                      <span
-                        className={`absolute left-0 -bottom-0.5 h-[1.5px] w-full bg-amber-500 origin-left transition-transform duration-300 ease-out ${
-                          activeCategory === category ? "scale-x-100" : "scale-x-0"
-                        }`}
-                      />
-                    </span>
-                  </button>
-                </div>
+                <button
+                  key={category}
+                  type="button"
+                  onClick={() => setActiveCategory(category)}
+                  className={`w-full text-left py-3 px-4 rounded-full text-sm transition-all duration-300 font-body ${
+                    activeCategory === category
+                      ? "bg-[#1A1A1A] text-white font-medium shadow-sm"
+                      : "text-[#737373] hover:bg-[#F0F0F0] hover:text-[#1A1A1A]"
+                  }`}
+                >
+                  {category}
+                </button>
               ))}
             </div>
           </div>
@@ -97,7 +91,7 @@ export function FeaturedProductsSection() {
                       </a>
                     </div>
                     <Link href={`/products/${product.slug}`}>
-                      <h3 className="font-display text-lg text-[#1A1A1A] mb-1 line-clamp-2">{product.name}</h3>
+                      <h3 className="font-display text-base text-[#1A1A1A] mb-1 line-clamp-2">{product.name}</h3>
                       <p className="text-[#737373] text-sm font-body">
                         {product.stock === "out_of_stock" ? "Out of Stock" : formatPriceINR(product.price)}
                       </p>

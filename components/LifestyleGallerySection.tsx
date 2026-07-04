@@ -22,9 +22,9 @@ export function LifestyleGallerySection() {
   });
 
   return (
-    <section id="lifestyle" ref={sectionRef} className="py-24 px-6 md:px-12 lg:px-24 bg-[#FAFAFA] border-t border-[#E5E5E5]">
+    <section id="lifestyle" ref={sectionRef} className="py-16 px-6 md:px-12 lg:px-24 bg-[#FAFAFA] border-t border-[#E5E5E5]">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-16 text-center">
+        <div className="mb-10 text-center">
           <div className="inline-flex items-center gap-3 mb-6">
             <div className="h-1 w-8 bg-amber-500 rounded-full"></div>
             <p
@@ -41,7 +41,7 @@ export function LifestyleGallerySection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Real Setups
+            Use Cases
           </h2>
           <p
             className={`text-[#737373] text-lg max-w-2xl mx-auto transition-all duration-1000 delay-200 ${

@@ -1,25 +1,53 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { Menu, X, ChevronDown } from "lucide-react";
+import { CATEGORIES } from "@/lib/products";
 
-const navLinks = [
-  { href: "#shop", label: "Explore Our Shop" },
-  { href: "#features", label: "Why Choose Millennium" },
-  { href: "#lifestyle", label: "Real Setups" },
-  { href: "#testimonials", label: "Testimonials" },
+type NavLink = {
+  label: string;
+  href?: string;
+  dropdown?: { name: string; href: string }[];
+};
+
+const navLinks: NavLink[] = [
+  { href: "/", label: "Home" },
+  {
+    label: "Products",
+    href: "/#shop",
+    dropdown: CATEGORIES.map((c) => ({ name: c.title, href: `/category/${c.slug}` })),
+  },
+  { href: "#contact", label: "Contact us" },
+  { href: "#about", label: "About us" },
+  {
+    label: "Support",
+    dropdown: [
+      { name: "Setups", href: "#lifestyle" },
+      { name: "Testimonials & Reviews", href: "#testimonials" },
+      { name: "FAQ", href: "#faq" },
+    ],
+  },
 ];
 
 export function Nav() {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [openMobileGroup, setOpenMobileGroup] = useState<string | null>(null);
+
+  // Non-home pages have no dark hero behind the nav, so treat them as "scrolled" from the start.
+  const isScrolled = scrolled || !isHome;
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      setScrolled(window.scrollY > 20);
     };
     window.addEventListener("scroll", handleScroll);
+    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -31,27 +59,67 @@ export function Nav() {
         } ${isScrolled ? "bg-white/80 backdrop-blur-xl shadow-lg shadow-black/5" : "bg-transparent"}`}
       >
         <div className="flex items-center justify-between h-14 px-2">
-          <Link
-            href="/"
-            className={`font-display text-2xl tracking-tight transition-colors duration-500 ${
-              isScrolled ? "text-[#1A1A1A]" : "text-white"
-            }`}
-          >
-            Millennium.
+          <Link href="/" className="block shrink-0">
+            <span
+              className={`flex items-center rounded-full transition-all duration-500 ${
+                isScrolled ? "px-0 py-0" : "bg-white/95 backdrop-blur px-3 py-1.5 shadow-sm"
+              }`}
+            >
+              <Image src="/logo.png" alt="Millennium Technology" width={140} height={29} priority className="h-6 w-auto" />
+            </span>
           </Link>
 
           <div className="hidden md:flex items-center gap-6">
-            {navLinks.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                className={`text-xs transition-colors duration-500 ${
-                  isScrolled ? "text-[#1A1A1A] hover:text-[#737373]" : "text-white hover:text-white/70"
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) =>
+              link.dropdown ? (
+                <div key={link.label} className="relative group">
+                  {link.href ? (
+                    <Link
+                      href={link.href}
+                      className={`flex items-center gap-1 text-xs transition-colors duration-500 ${
+                        isScrolled ? "text-[#1A1A1A] hover:text-[#737373]" : "text-white hover:text-white/70"
+                      }`}
+                    >
+                      {link.label}
+                      <ChevronDown className="w-3 h-3" />
+                    </Link>
+                  ) : (
+                    <button
+                      type="button"
+                      className={`flex items-center gap-1 text-xs transition-colors duration-500 ${
+                        isScrolled ? "text-[#1A1A1A] hover:text-[#737373]" : "text-white hover:text-white/70"
+                      }`}
+                    >
+                      {link.label}
+                      <ChevronDown className="w-3 h-3" />
+                    </button>
+                  )}
+                  <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
+                    <div className="bg-white rounded-2xl shadow-lg shadow-black/10 border border-[#E5E5E5]/70 py-2 min-w-[200px]">
+                      {link.dropdown.map((item) => (
+                        <Link
+                          key={item.name}
+                          href={item.href}
+                          className="block px-4 py-2.5 text-sm text-[#1A1A1A] hover:bg-[#F5F5F5] transition-colors whitespace-nowrap"
+                        >
+                          {item.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <Link
+                  key={link.label}
+                  href={link.href!}
+                  className={`text-xs transition-colors duration-500 ${
+                    isScrolled ? "text-[#1A1A1A] hover:text-[#737373]" : "text-white hover:text-white/70"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
           </div>
 
           <button
@@ -72,17 +140,50 @@ export function Nav() {
           }`}
         >
           <div className="overflow-hidden">
-            <div className="py-8 border-t border-[#E5E5E5]/50 bg-white flex flex-col gap-6">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.label}
-                  href={link.href}
-                  className="font-display text-3xl text-[#1A1A1A] hover:text-[#737373] transition-colors px-2"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              ))}
+            <div className="py-6 border-t border-[#E5E5E5]/50 bg-white flex flex-col gap-1">
+              {navLinks.map((link) =>
+                link.dropdown ? (
+                  <div key={link.label}>
+                    <button
+                      type="button"
+                      onClick={() => setOpenMobileGroup(openMobileGroup === link.label ? null : link.label)}
+                      className="w-full flex items-center justify-between font-display text-2xl text-[#1A1A1A] px-2 py-3"
+                    >
+                      {link.label}
+                      <ChevronDown
+                        className={`w-5 h-5 transition-transform ${openMobileGroup === link.label ? "rotate-180" : ""}`}
+                      />
+                    </button>
+                    <div
+                      className={`grid transition-all duration-300 ease-in-out ${
+                        openMobileGroup === link.label ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                      }`}
+                    >
+                      <div className="overflow-hidden flex flex-col gap-1 pl-4">
+                        {link.dropdown.map((item) => (
+                          <Link
+                            key={item.name}
+                            href={item.href}
+                            className="text-[#737373] hover:text-[#1A1A1A] transition-colors px-2 py-2"
+                            onClick={() => setMobileMenuOpen(false)}
+                          >
+                            {item.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <Link
+                    key={link.label}
+                    href={link.href!}
+                    className="font-display text-2xl text-[#1A1A1A] hover:text-[#737373] transition-colors px-2 py-3"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                )
+              )}
             </div>
           </div>
         </div>

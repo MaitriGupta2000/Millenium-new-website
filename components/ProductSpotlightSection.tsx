@@ -7,10 +7,12 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { getProductBySlug, formatPriceINR } from "@/lib/products";
 import type { Product } from "@/lib/types";
 
+// Monitor extenders lead the rotation — they're the best-selling line.
 const SPOTLIGHT_SLUGS = [
   "triview-15-6-flexsplit",
+  "quadview-15-6-ultraview-pro",
+  "duoview-16-widestand",
   "10gb-dual-sfp-network-adapter-x520-da2",
-  "ps5-slim-pro-external-cooling-fan",
   "4k-hdmi-video-capture-card",
 ];
 
@@ -43,10 +45,10 @@ export function ProductSpotlightSection() {
   const handlePrev = () => setCurrentIndex((prev) => (prev === 0 ? spotlightProducts.length - 1 : prev - 1));
 
   return (
-    <section ref={ref} className="py-20 lg:py-32 bg-white border-t border-[#E5E5E5]">
+    <section ref={ref} className="py-14 lg:py-20 bg-white border-t border-[#E5E5E5]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         <div
-          className={`mb-16 transition-all duration-700 ${
+          className={`mb-10 transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
@@ -117,7 +119,7 @@ export function ProductSpotlightSection() {
               isVisible && !isTextFading ? "opacity-100" : "opacity-0"
             }`}
           >
-            <h1 className="font-display text-4xl lg:text-5xl text-[#1A1A1A] mb-2 transition-opacity duration-300 ease-in-out">
+            <h1 className="font-display text-2xl md:text-3xl lg:text-4xl text-[#1A1A1A] mb-2 transition-opacity duration-300 ease-in-out">
               {currentProduct.name}
             </h1>
             <p className="text-xl text-[#1A1A1A] mb-6 font-body transition-opacity duration-300 ease-in-out">
