@@ -5,7 +5,6 @@ import { FeaturedProductsSection } from "@/components/FeaturedProductsSection";
 import { ProductSpotlightSection } from "@/components/ProductSpotlightSection";
 import { ProductFeaturesSection } from "@/components/ProductFeaturesSection";
 import { LifestyleGallerySection } from "@/components/LifestyleGallerySection";
-import { AboutSection } from "@/components/AboutSection";
 import { Testimonials } from "@/components/Testimonials";
 import { Footer } from "@/components/Footer";
 
@@ -19,7 +18,6 @@ export default function Home() {
       <ProductSpotlightSection />
       <ProductFeaturesSection />
       <LifestyleGallerySection />
-      <AboutSection />
       <Testimonials />
       <Footer />
     </main>

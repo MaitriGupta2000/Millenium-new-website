@@ -73,7 +73,7 @@ export function FeaturedProductsSection() {
                   style={{ transitionDelay: `${50 + index * 30}ms` }}
                 >
                   <div className="text-center">
-                    <div className="aspect-[4/5] relative overflow-hidden bg-[#F5F5F5] mb-4 rounded-2xl">
+                    <div className="aspect-square relative overflow-hidden bg-[#F5F5F5] mb-4 rounded-2xl">
                       <Link href={`/products/${product.slug}`} className="absolute inset-0">
                         {product.images[0] && (
                           <Image

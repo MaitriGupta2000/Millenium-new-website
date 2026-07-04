@@ -28,8 +28,8 @@ export function Hero() {
   }, []);
 
   const borderRadius = scrollProgress * 24;
-  const finalHeight = 600;
-  const initialHeight = 800;
+  const finalHeight = 700;
+  const initialHeight = 940;
   const currentHeight = initialHeight - (initialHeight - finalHeight) * scrollProgress;
   const horizontalPadding = scrollProgress * 48;
 
@@ -45,18 +45,27 @@ export function Hero() {
         }}
       >
         <div
-          className="relative w-full overflow-hidden bg-gradient-to-br from-[#1A1A1A] via-black to-[#0d0d0d]"
-          style={{ height: `${currentHeight}px`, borderRadius: `${borderRadius}px` }}
+          className="relative w-full overflow-hidden bg-black"
+          style={{
+            height: `${currentHeight}px`,
+            borderRadius: `${borderRadius}px`,
+          }}
         >
           <div
-            className={`absolute -bottom-1/4 -right-1/4 w-2/3 h-2/3 rounded-full bg-amber-500/20 blur-3xl transition-opacity duration-1000 ${
-              isVisible ? "opacity-100" : "opacity-0"
-            }`}
+            className="absolute inset-0"
+            style={{
+              backgroundImage: "url('/hero-bg.webp')",
+              backgroundSize: "cover",
+              backgroundPosition: "center right",
+            }}
           />
+
           <div
-            className={`absolute -top-1/3 -left-1/4 w-1/2 h-1/2 rounded-full bg-amber-500/10 blur-3xl transition-opacity duration-1000 ${
-              isVisible ? "opacity-100" : "opacity-0"
-            }`}
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background:
+                "linear-gradient(to right, #000 0%, #000 10%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0.65) 30%, rgba(0,0,0,0.45) 40%, rgba(0,0,0,0.28) 50%, rgba(0,0,0,0.14) 60%, rgba(0,0,0,0.05) 72%, transparent 85%)",
+            }}
           />
 
           <div className="absolute inset-0 flex flex-col justify-end p-8 lg:p-16">
@@ -90,9 +99,23 @@ export function Hero() {
             </div>
 
             {/* Desktop */}
-            <div className="hidden lg:block">
+            <div className="hidden lg:flex absolute inset-y-0 left-16 flex-col justify-center w-[40%] max-w-xl">
+              <h1
+                className={`font-display text-7xl text-white italic transition-all duration-700 delay-300 ${
+                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                }`}
+              >
+                Built for Focus.
+              </h1>
+              <p
+                className={`mt-6 text-white/90 text-base transition-all duration-700 delay-400 ${
+                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+                }`}
+              >
+                Discover monitor extenders, networking cards, and accessories designed for real workspaces.
+              </p>
               <div
-                className={`absolute left-16 bottom-16 transition-all duration-700 delay-500 ${
+                className={`mt-10 transition-all duration-700 delay-500 ${
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
                 }`}
               >
@@ -105,23 +128,6 @@ export function Hero() {
                     <ArrowUpRight className="w-4 h-4" />
                   </span>
                 </Link>
-              </div>
-
-              <div className="absolute right-16 bottom-16 text-right">
-                <h1
-                  className={`font-display text-8xl text-white italic transition-all duration-700 delay-300 ${
-                    isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-                  }`}
-                >
-                  Built for Focus.
-                </h1>
-                <p
-                  className={`mt-4 text-white/90 text-sm max-w-md ml-auto transition-all duration-700 delay-400 text-left ${
-                    isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-                  }`}
-                >
-                  Discover monitor extenders, networking cards, and accessories designed for real workspaces.
-                </p>
               </div>
             </div>
           </div>

@@ -66,9 +66,13 @@ export function Nav() {
           </button>
         </div>
 
-        {mobileMenuOpen && (
-          <div className="md:hidden py-8 border-t border-[#E5E5E5]/50 bg-white">
-            <div className="flex flex-col gap-6">
+        <div
+          className={`md:hidden grid transition-all duration-300 ease-in-out ${
+            mobileMenuOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+          }`}
+        >
+          <div className="overflow-hidden">
+            <div className="py-8 border-t border-[#E5E5E5]/50 bg-white flex flex-col gap-6">
               {navLinks.map((link) => (
                 <Link
                   key={link.label}
@@ -81,7 +85,7 @@ export function Nav() {
               ))}
             </div>
           </div>
-        )}
+        </div>
       </nav>
     </header>
   );

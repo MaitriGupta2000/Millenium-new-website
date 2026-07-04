@@ -48,7 +48,7 @@ export function NewArrivalsSection() {
               }`}
               style={{ transitionDelay: `${200 + index * 150}ms` }}
             >
-              <div className="aspect-[4/5] relative overflow-hidden rounded-2xl bg-[#F5F5F5] mb-4">
+              <div className="aspect-square relative overflow-hidden rounded-2xl bg-[#F5F5F5] mb-4">
                 {product!.images[0] && (
                   <Image
                     src={product!.images[0]}

@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Layers, Cable, Truck, ChevronLeft, ChevronRight, ArrowUpRight } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { getProductBySlug, formatPriceINR } from "@/lib/products";
+import type { Product } from "@/lib/types";
 
 const SPOTLIGHT_SLUGS = [
   "triview-15-6-flexsplit",
@@ -13,12 +14,29 @@ const SPOTLIGHT_SLUGS = [
   "4k-hdmi-video-capture-card",
 ];
 
+const TEXT_FADE_MS = 200;
+
 export function ProductSpotlightSection() {
   const { ref, isVisible } = useScrollReveal({ threshold: 0.1 });
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [textIndex, setTextIndex] = useState(0);
+  const [isTextFading, setIsTextFading] = useState(false);
 
-  const spotlightProducts = SPOTLIGHT_SLUGS.map((slug) => getProductBySlug(slug)).filter(Boolean);
-  const currentProduct = spotlightProducts[currentIndex];
+  const spotlightProducts = SPOTLIGHT_SLUGS.map((slug) => getProductBySlug(slug)).filter(
+    (product): product is Product => product !== undefined
+  );
+  const currentProduct = spotlightProducts[textIndex];
+
+  useEffect(() => {
+    if (currentIndex === textIndex) return;
+    setIsTextFading(true);
+    const t = setTimeout(() => {
+      setTextIndex(currentIndex);
+      setIsTextFading(false);
+    }, TEXT_FADE_MS);
+    return () => clearTimeout(t);
+  }, [currentIndex, textIndex]);
+
   if (!currentProduct) return null;
 
   const handleNext = () => setCurrentIndex((prev) => (prev + 1) % spotlightProducts.length);
@@ -44,14 +62,22 @@ export function ProductSpotlightSection() {
           >
             <div className="relative">
               <div className="aspect-square relative overflow-hidden bg-[#F5F5F5] rounded-3xl">
-                {currentProduct.images[0] && (
-                  <Image
-                    src={currentProduct.images[0]}
-                    alt={currentProduct.name}
-                    fill
-                    className="w-full h-full object-cover transition-opacity duration-300 ease-in-out"
-                    priority
-                  />
+                {spotlightProducts.map(
+                  (product, index) =>
+                    product.images[0] && (
+                      <Image
+                        key={product.slug}
+                        src={product.images[0]}
+                        alt={product.name}
+                        fill
+                        sizes="(min-width: 1024px) 50vw, 100vw"
+                        className={`w-full h-full object-cover transition-opacity duration-500 ease-in-out ${
+                          index === currentIndex ? "opacity-100" : "opacity-0"
+                        }`}
+                        priority={index === 0}
+                        loading={index === 0 ? undefined : "eager"}
+                      />
+                    )
                 )}
               </div>
 
@@ -87,8 +113,8 @@ export function ProductSpotlightSection() {
           </div>
 
           <div
-            className={`flex flex-col justify-center transition-opacity duration-300 ease-in-out ${
-              isVisible ? "opacity-100" : "opacity-0"
+            className={`flex flex-col justify-center transition-opacity duration-200 ease-in-out ${
+              isVisible && !isTextFading ? "opacity-100" : "opacity-0"
             }`}
           >
             <h1 className="font-display text-4xl lg:text-5xl text-[#1A1A1A] mb-2 transition-opacity duration-300 ease-in-out">

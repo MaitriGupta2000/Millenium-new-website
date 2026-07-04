@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { getTopReviews } from "@/lib/products";
 
 export function Testimonials() {
@@ -16,7 +16,7 @@ export function Testimonials() {
   const prevTestimonial = () => setActiveIndex((prev) => (prev === 0 ? picks.length - 1 : prev - 1));
 
   return (
-    <section id="testimonials" ref={ref} className="py-20 lg:py-32 bg-[#FAFAFA] border-t border-[#E5E5E5]">
+    <section id="testimonials" ref={ref} className="py-20 lg:py-32 bg-white border-t border-[#E5E5E5]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         <div
           className={`text-center mb-16 transition-all duration-700 ${
@@ -42,15 +42,21 @@ export function Testimonials() {
             className="flex flex-col items-center text-center px-8 lg:px-20 animate-[fade-in_400ms_ease-out]"
           >
             <blockquote className="mb-8">
-              <p className="font-display text-2xl md:text-3xl lg:text-4xl text-[#1A1A1A] leading-relaxed max-w-4xl line-clamp-6">
+              <p className="font-display text-[0.75rem] md:text-[0.9375rem] lg:text-[1.125rem] text-[#1A1A1A] leading-relaxed max-w-4xl line-clamp-6">
                 &ldquo;{picks[activeIndex].review.text}&rdquo;
               </p>
             </blockquote>
             <footer>
               <p className="text-[#1A1A1A] font-medium mb-1">{picks[activeIndex].review.author}</p>
-              <p className="text-sm text-[#737373] font-body">
+              <a
+                href={picks[activeIndex].product.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-sm text-[#737373] hover:text-[#1A1A1A] transition-colors font-body underline underline-offset-4"
+              >
                 Verified Buyer — on {picks[activeIndex].product.name}
-              </p>
+                <ArrowUpRight className="w-3.5 h-3.5" />
+              </a>
             </footer>
           </div>
 

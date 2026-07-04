@@ -16,12 +16,6 @@ const FEATURES = [
       "No fabricated testimonials. Every rating and review shown on this site is pulled directly from the product's real Amazon listing.",
     slug: "pcie-quad-port-server-network-adapter-i350-t4",
   },
-  {
-    title: "Fast, Reliable Fulfilment",
-    description:
-      "Every product ships and is fulfilled through Amazon, so you get the delivery speed and buyer protection you already trust.",
-    slug: "ai-magnetic-mobile-cooling-fan",
-  },
 ];
 
 export function ProductFeaturesSection() {
@@ -56,36 +50,52 @@ export function ProductFeaturesSection() {
           </p>
         </div>
 
-        <div className="space-y-32">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-8">
           {FEATURES.map((feature, index) => {
             const product = getProductBySlug(feature.slug);
+            const fromRight = index % 2 === 1;
+
+            const imageBlock = (
+              <div className="aspect-[4/3] relative overflow-hidden bg-[#F5F5F5] rounded-3xl mb-6">
+                {product?.images[0] && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={product.images[0]}
+                    alt={feature.title}
+                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                  />
+                )}
+              </div>
+            );
+
+            const textBlock = (
+              <div>
+                <h3 className="font-display text-3xl md:text-4xl mb-4">{feature.title}</h3>
+                <p className="text-[#737373] text-lg leading-relaxed">{feature.description}</p>
+              </div>
+            );
+
             return (
               <div
                 key={feature.title}
-                className={`grid md:grid-cols-2 gap-12 items-center transition-all duration-1000 ${
-                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                className={`transition-all duration-700 ease-out ${fromRight ? "md:-mt-16" : ""} ${
+                  isVisible
+                    ? "opacity-100 translate-x-0"
+                    : `opacity-0 ${fromRight ? "translate-x-6" : "-translate-x-6"}`
                 }`}
-                style={{ transitionDelay: `${(index + 1) * 200}ms` }}
+                style={{ transitionDelay: `${200 + index * 150}ms` }}
               >
-                <div className={index % 2 === 1 ? "md:order-2" : ""}>
-                  <h3 className="font-display text-3xl md:text-4xl mb-6">{feature.title}</h3>
-                  <p className="text-[#737373] text-lg leading-relaxed">{feature.description}</p>
-                </div>
-
-                <div
-                  className={`aspect-[3/2] relative overflow-hidden bg-[#F5F5F5] rounded-3xl ${
-                    index % 2 === 1 ? "md:order-1" : ""
-                  }`}
-                >
-                  {product?.images[0] && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={product.images[0]}
-                      alt={feature.title}
-                      className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                    />
-                  )}
-                </div>
+                {fromRight ? (
+                  <>
+                    {imageBlock}
+                    {textBlock}
+                  </>
+                ) : (
+                  <>
+                    {textBlock}
+                    {imageBlock}
+                  </>
+                )}
               </div>
             );
           })}

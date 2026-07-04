@@ -94,7 +94,7 @@
     "amazonUrl": "https://amzn.in/d/0fxdN9wH",
     "filterGroup": "DuoView",
     "images": [
-      "/products/duoview-15-6-airlink-wireless/generated/photo-editing.png",
+      "/products/duoview-15-6-airlink-wireless/generated/photo-editing.jpg",
       "/products/duoview-15-6-airlink-wireless/1.jpg",
       "/products/duoview-15-6-airlink-wireless/2.jpg",
       "/products/duoview-15-6-airlink-wireless/3.jpg",
@@ -189,7 +189,7 @@
     "amazonUrl": "https://amzn.in/d/0awt52nA",
     "filterGroup": "DuoView",
     "images": [
-      "/products/duoview-15-6-ultraslim/generated/writing-research-v3.png",
+      "/products/duoview-15-6-ultraslim/generated/writing-research-v3.jpg",
       "/products/duoview-15-6-ultraslim/1.jpg",
       "/products/duoview-15-6-ultraslim/2.jpg",
       "/products/duoview-15-6-ultraslim/3.jpg",
@@ -284,7 +284,7 @@
     "amazonUrl": "https://amzn.in/d/00G4oMvM",
     "filterGroup": "DuoView",
     "images": [
-      "/products/duoview-16-widestand/generated/project-management-v3.png",
+      "/products/duoview-16-widestand/generated/project-management-v3.jpg",
       "/products/duoview-16-widestand/1.jpg",
       "/products/duoview-16-widestand/2.jpg",
       "/products/duoview-16-widestand/3.jpg",
@@ -396,7 +396,7 @@
     "amazonUrl": "https://amzn.in/d/03BXqVPM",
     "filterGroup": "DuoView",
     "images": [
-      "/products/duoview-18-5-ultrawide/generated/financial-modeling-v3.png",
+      "/products/duoview-18-5-ultrawide/generated/financial-modeling-v3.jpg",
       "/products/duoview-18-5-ultrawide/1.jpg",
       "/products/duoview-18-5-ultrawide/2.jpg",
       "/products/duoview-18-5-ultrawide/3.jpg",
@@ -516,7 +516,7 @@
     "amazonUrl": "https://amzn.in/d/0cBI35vO",
     "filterGroup": "TriView",
     "images": [
-      "/products/triview-14-ultrasleek/generated/social-media.png",
+      "/products/triview-14-ultrasleek/generated/social-media.jpg",
       "/products/triview-14-ultrasleek/1.jpg",
       "/products/triview-14-ultrasleek/2.jpg",
       "/products/triview-14-ultrasleek/3.jpg",
@@ -616,7 +616,7 @@
     "amazonUrl": "https://amzn.in/d/07LVowr0",
     "filterGroup": "TriView",
     "images": [
-      "/products/triview-14-duallink/generated/music-production.png",
+      "/products/triview-14-duallink/generated/music-production.jpg",
       "/products/triview-14-duallink/1.jpg",
       "/products/triview-14-duallink/2.jpg",
       "/products/triview-14-duallink/3.jpg",
@@ -731,7 +731,7 @@
     "amazonUrl": "https://amzn.in/d/0cTndGst",
     "filterGroup": "TriView",
     "images": [
-      "/products/triview-15-6-oneconnect/generated/qa-testing.png",
+      "/products/triview-15-6-oneconnect/generated/qa-testing.jpg",
       "/products/triview-15-6-oneconnect/1.jpg",
       "/products/triview-15-6-oneconnect/2.jpg",
       "/products/triview-15-6-oneconnect/3.jpg",
@@ -841,16 +841,16 @@
     "amazonUrl": "https://amzn.in/d/06gETrM6",
     "filterGroup": "TriView",
     "images": [
-      "/products/triview-15-6-flexsplit/generated/hero-trading.png",
+      "/products/triview-15-6-flexsplit/generated/hero-trading.jpg",
       "/products/triview-15-6-flexsplit/1.jpg",
       "/products/triview-15-6-flexsplit/2.jpg",
       "/products/triview-15-6-flexsplit/3.jpg",
       "/products/triview-15-6-flexsplit/4.jpg",
-      "/products/triview-15-6-flexsplit/generated/video-editing.png",
-      "/products/triview-15-6-flexsplit/generated/coding.png",
-      "/products/triview-15-6-flexsplit/generated/trading-v2.png",
-      "/products/triview-15-6-flexsplit/generated/multitasking.png",
-      "/products/triview-15-6-flexsplit/generated/analytics.png"
+      "/products/triview-15-6-flexsplit/generated/video-editing.jpg",
+      "/products/triview-15-6-flexsplit/generated/coding.jpg",
+      "/products/triview-15-6-flexsplit/generated/trading-v2.jpg",
+      "/products/triview-15-6-flexsplit/generated/multitasking.jpg",
+      "/products/triview-15-6-flexsplit/generated/analytics.jpg"
     ],
     "rating": {
       "value": 3.8,
@@ -950,7 +950,7 @@
     "amazonUrl": "https://amzn.in/d/06NmV0TL",
     "filterGroup": "TriView",
     "images": [
-      "/products/triview-15-6-vertiflex/generated/live-streaming.png",
+      "/products/triview-15-6-vertiflex/generated/live-streaming.jpg",
       "/products/triview-15-6-vertiflex/1.jpg",
       "/products/triview-15-6-vertiflex/2.jpg",
       "/products/triview-15-6-vertiflex/3.jpg",
@@ -1053,7 +1053,7 @@
     "amazonUrl": "https://amzn.in/d/0fBrKkOt",
     "filterGroup": "TriView",
     "images": [
-      "/products/triview-18-5-vertimax/generated/3d-cad-design.png",
+      "/products/triview-18-5-vertimax/generated/3d-cad-design.jpg",
       "/products/triview-18-5-vertimax/1.jpg",
       "/products/triview-18-5-vertimax/2.jpg",
       "/products/triview-18-5-vertimax/3.jpg",
@@ -1164,7 +1164,7 @@
     "amazonUrl": "https://amzn.in/d/0g87WLDJ",
     "filterGroup": "QuadView",
     "images": [
-      "/products/quadview-14-flex/generated/cybersecurity-soc.png",
+      "/products/quadview-14-flex/generated/cybersecurity-soc.jpg",
       "/products/quadview-14-flex/1.jpg",
       "/products/quadview-14-flex/2.jpg",
       "/products/quadview-14-flex/3.jpg",
@@ -1285,7 +1285,7 @@
     "amazonUrl": "https://amzn.in/d/04uANrgD",
     "filterGroup": "QuadView",
     "images": [
-      "/products/quadview-15-6-ultraview/generated/ai-ml-training.png",
+      "/products/quadview-15-6-ultraview/generated/ai-ml-training.jpg",
       "/products/quadview-15-6-ultraview/1.jpg",
       "/products/quadview-15-6-ultraview/2.jpg",
       "/products/quadview-15-6-ultraview/3.jpg",
@@ -1412,7 +1412,7 @@
     "amazonUrl": "https://amzn.in/d/0i1wL5UO",
     "filterGroup": "QuadView",
     "images": [
-      "/products/quadview-15-6-ultraview-pro/generated/architecture-bim.png",
+      "/products/quadview-15-6-ultraview-pro/generated/architecture-bim.jpg",
       "/products/quadview-15-6-ultraview-pro/1.jpg",
       "/products/quadview-15-6-ultraview-pro/2.jpg",
       "/products/quadview-15-6-ultraview-pro/3.jpg",
@@ -1515,7 +1515,7 @@
     "amazonUrl": "https://amzn.in/d/01LZFfHn",
     "filterGroup": "Gigabit",
     "images": [
-      "/products/pcie-gigabit-network-adapter-rtl8111f/generated/pc-build.png",
+      "/products/pcie-gigabit-network-adapter-rtl8111f/generated/pc-build.jpg",
       "/products/pcie-gigabit-network-adapter-rtl8111f/1.jpg",
       "/products/pcie-gigabit-network-adapter-rtl8111f/2.jpg",
       "/products/pcie-gigabit-network-adapter-rtl8111f/3.jpg"
@@ -1610,7 +1610,7 @@
     "amazonUrl": "https://amzn.in/d/0758l4WT",
     "filterGroup": "Gigabit",
     "images": [
-      "/products/pcie-gigabit-network-adapter-82574-ct/generated/pc-build.png",
+      "/products/pcie-gigabit-network-adapter-82574-ct/generated/pc-build.jpg",
       "/products/pcie-gigabit-network-adapter-82574-ct/1.jpg",
       "/products/pcie-gigabit-network-adapter-82574-ct/2.jpg",
       "/products/pcie-gigabit-network-adapter-82574-ct/3.jpg",
@@ -1707,7 +1707,7 @@
     "amazonUrl": "https://amzn.in/d/07ujBw5z",
     "filterGroup": "Gigabit",
     "images": [
-      "/products/pcie-dual-port-server-network-adapter-82571-pt/generated/server-rack.png",
+      "/products/pcie-dual-port-server-network-adapter-82571-pt/generated/server-rack.jpg",
       "/products/pcie-dual-port-server-network-adapter-82571-pt/1.jpg",
       "/products/pcie-dual-port-server-network-adapter-82571-pt/2.jpg",
       "/products/pcie-dual-port-server-network-adapter-82571-pt/3.jpg",
@@ -1784,7 +1784,7 @@
     "amazonUrl": "https://amzn.in/d/06YAS9Od",
     "filterGroup": "Gigabit",
     "images": [
-      "/products/pcie-quad-port-server-network-adapter-82571/generated/server-rack.png",
+      "/products/pcie-quad-port-server-network-adapter-82571/generated/server-rack.jpg",
       "/products/pcie-quad-port-server-network-adapter-82571/1.jpg",
       "/products/pcie-quad-port-server-network-adapter-82571/2.jpg",
       "/products/pcie-quad-port-server-network-adapter-82571/3.jpg",
@@ -1888,7 +1888,7 @@
     "amazonUrl": "https://amzn.in/d/0eRWxevG",
     "filterGroup": "Gigabit",
     "images": [
-      "/products/pcie-quad-port-server-network-adapter-i350-t4/generated/server-rack.png",
+      "/products/pcie-quad-port-server-network-adapter-i350-t4/generated/server-rack.jpg",
       "/products/pcie-quad-port-server-network-adapter-i350-t4/1.jpg",
       "/products/pcie-quad-port-server-network-adapter-i350-t4/2.jpg",
       "/products/pcie-quad-port-server-network-adapter-i350-t4/3.jpg",
@@ -1974,7 +1974,7 @@
     "amazonUrl": "https://amzn.in/d/02rsa4Q4",
     "filterGroup": "10Gb",
     "images": [
-      "/products/10gb-dual-rj45-network-adapter-x540-t2/generated/server-rack.png",
+      "/products/10gb-dual-rj45-network-adapter-x540-t2/generated/server-rack.jpg",
       "/products/10gb-dual-rj45-network-adapter-x540-t2/1.jpg",
       "/products/10gb-dual-rj45-network-adapter-x540-t2/2.jpg",
       "/products/10gb-dual-rj45-network-adapter-x540-t2/3.jpg",
@@ -2059,7 +2059,7 @@
     "amazonUrl": "https://amzn.in/d/0fttMSwQ",
     "filterGroup": "10Gb",
     "images": [
-      "/products/10gb-single-sfp-network-adapter-x520-da1/generated/server-rack.png",
+      "/products/10gb-single-sfp-network-adapter-x520-da1/generated/server-rack.jpg",
       "/products/10gb-single-sfp-network-adapter-x520-da1/1.jpg",
       "/products/10gb-single-sfp-network-adapter-x520-da1/2.jpg",
       "/products/10gb-single-sfp-network-adapter-x520-da1/3.jpg",
@@ -2147,7 +2147,7 @@
     "amazonUrl": "https://amzn.in/d/01gIp6xE",
     "filterGroup": "10Gb",
     "images": [
-      "/products/10gb-dual-sfp-network-adapter-x520-da2/generated/server-rack.png",
+      "/products/10gb-dual-sfp-network-adapter-x520-da2/generated/server-rack.jpg",
       "/products/10gb-dual-sfp-network-adapter-x520-da2/1.jpg",
       "/products/10gb-dual-sfp-network-adapter-x520-da2/2.jpg",
       "/products/10gb-dual-sfp-network-adapter-x520-da2/3.jpg",
@@ -2224,7 +2224,7 @@
     "amazonUrl": "https://amzn.in/d/0cmUUzVb",
     "filterGroup": "10Gb",
     "images": [
-      "/products/10gb-dual-sfp-network-adapter-bcm57810/generated/server-rack.png",
+      "/products/10gb-dual-sfp-network-adapter-bcm57810/generated/server-rack.jpg",
       "/products/10gb-dual-sfp-network-adapter-bcm57810/1.jpg",
       "/products/10gb-dual-sfp-network-adapter-bcm57810/2.jpg",
       "/products/10gb-dual-sfp-network-adapter-bcm57810/3.jpg",
@@ -2314,7 +2314,7 @@
     "amazonUrl": "https://amzn.in/d/0j9ZbLCl",
     "filterGroup": "10Gb",
     "images": [
-      "/products/10gb-quad-sfp-network-adapter-xl710-da4/generated/server-rack.png",
+      "/products/10gb-quad-sfp-network-adapter-xl710-da4/generated/server-rack.jpg",
       "/products/10gb-quad-sfp-network-adapter-xl710-da4/1.jpg",
       "/products/10gb-quad-sfp-network-adapter-xl710-da4/2.jpg",
       "/products/10gb-quad-sfp-network-adapter-xl710-da4/3.jpg",
@@ -2394,7 +2394,7 @@
     "amazonUrl": "https://amzn.in/d/03EwE6LS",
     "filterGroup": "40Gb",
     "images": [
-      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/generated/server-rack.png",
+      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/generated/server-rack.jpg",
       "/products/40gb-single-qsfp-network-adapter-xl710-qda1/1.jpg",
       "/products/40gb-single-qsfp-network-adapter-xl710-qda1/2.jpg",
       "/products/40gb-single-qsfp-network-adapter-xl710-qda1/3.jpg",
@@ -2480,7 +2480,7 @@
     "amazonUrl": "https://amzn.in/d/08gwiu7O",
     "filterGroup": "40Gb",
     "images": [
-      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/generated/server-rack.png",
+      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/generated/server-rack.jpg",
       "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/1.jpg",
       "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/2.jpg",
       "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/3.jpg",
@@ -2558,7 +2558,7 @@
     "amazonUrl": "https://amzn.in/d/09NXUY3u",
     "filterGroup": "USB",
     "images": [
-      "/products/pcie-4-port-usb-3-0-expansion-card/generated/pc-build.png",
+      "/products/pcie-4-port-usb-3-0-expansion-card/generated/pc-build.jpg",
       "/products/pcie-4-port-usb-3-0-expansion-card/1.jpg",
       "/products/pcie-4-port-usb-3-0-expansion-card/2.jpg",
       "/products/pcie-4-port-usb-3-0-expansion-card/3.jpg",
@@ -2657,7 +2657,7 @@
     "amazonUrl": "https://amzn.in/d/085KB3Gx",
     "filterGroup": "SATA",
     "images": [
-      "/products/pcie-sata-expansion-card-2-port/generated/pc-build.png",
+      "/products/pcie-sata-expansion-card-2-port/generated/pc-build.jpg",
       "/products/pcie-sata-expansion-card-2-port/1.jpg",
       "/products/pcie-sata-expansion-card-2-port/2.jpg",
       "/products/pcie-sata-expansion-card-2-port/3.jpg",
@@ -2764,7 +2764,7 @@
     "amazonUrl": "https://amzn.in/d/06OsqXfe",
     "filterGroup": "SATA",
     "images": [
-      "/products/pcie-sata-expansion-card-4-port/generated/pc-build.png",
+      "/products/pcie-sata-expansion-card-4-port/generated/pc-build.jpg",
       "/products/pcie-sata-expansion-card-4-port/1.jpg",
       "/products/pcie-sata-expansion-card-4-port/2.jpg",
       "/products/pcie-sata-expansion-card-4-port/3.jpg",
@@ -2867,7 +2867,7 @@
     "amazonUrl": "https://amzn.in/d/06qjTM89",
     "filterGroup": "FireWire",
     "images": [
-      "/products/pcie-firewire-1394-card-4-port/generated/pc-build.png",
+      "/products/pcie-firewire-1394-card-4-port/generated/pc-build.jpg",
       "/products/pcie-firewire-1394-card-4-port/1.jpg",
       "/products/pcie-firewire-1394-card-4-port/2.jpg",
       "/products/pcie-firewire-1394-card-4-port/3.jpg",
@@ -2954,7 +2954,7 @@
     "amazonUrl": "https://amzn.in/d/0gRkZLCq",
     "filterGroup": "Serial",
     "images": [
-      "/products/pcie-2-port-serial-card/generated/pc-build.png",
+      "/products/pcie-2-port-serial-card/generated/pc-build.jpg",
       "/products/pcie-2-port-serial-card/1.jpg",
       "/products/pcie-2-port-serial-card/2.jpg",
       "/products/pcie-2-port-serial-card/3.jpg",
@@ -3044,7 +3044,7 @@
     "amazonUrl": "https://amzn.in/d/0hG75zpQ",
     "filterGroup": "Serial",
     "images": [
-      "/products/pcie-4-port-serial-card/generated/pc-build.png",
+      "/products/pcie-4-port-serial-card/generated/pc-build.jpg",
       "/products/pcie-4-port-serial-card/1.jpg",
       "/products/pcie-4-port-serial-card/2.jpg",
       "/products/pcie-4-port-serial-card/3.jpg",
@@ -3134,7 +3134,7 @@
     "amazonUrl": "https://amzn.in/d/0ewatNoE",
     "filterGroup": "Serial + Parallel",
     "images": [
-      "/products/pcie-serial-parallel-combo-card/generated/pc-build.png",
+      "/products/pcie-serial-parallel-combo-card/generated/pc-build.jpg",
       "/products/pcie-serial-parallel-combo-card/1.jpg",
       "/products/pcie-serial-parallel-combo-card/2.jpg",
       "/products/pcie-serial-parallel-combo-card/3.jpg",
@@ -3220,7 +3220,7 @@
     "amazonUrl": "https://amzn.in/d/0gnNiewW",
     "filterGroup": "Parallel",
     "images": [
-      "/products/pcie-parallel-lpt-adapter-card/generated/pc-build.png",
+      "/products/pcie-parallel-lpt-adapter-card/generated/pc-build.jpg",
       "/products/pcie-parallel-lpt-adapter-card/1.jpg",
       "/products/pcie-parallel-lpt-adapter-card/2.jpg"
     ],
@@ -3301,7 +3301,7 @@
     "amazonUrl": "https://amzn.in/d/0b0IwTm6",
     "filterGroup": "USB",
     "images": [
-      "/products/pcie-7-port-usb-3-0-expansion-card/generated/pc-build.png",
+      "/products/pcie-7-port-usb-3-0-expansion-card/generated/pc-build.jpg",
       "/products/pcie-7-port-usb-3-0-expansion-card/1.jpg",
       "/products/pcie-7-port-usb-3-0-expansion-card/2.jpg",
       "/products/pcie-7-port-usb-3-0-expansion-card/3.jpg",
@@ -3386,7 +3386,7 @@
     "amazonUrl": "https://amzn.in/d/093Fy3LH",
     "filterGroup": "Audio",
     "images": [
-      "/products/pcie-5-1-channel-audio-card/generated/pc-build.png",
+      "/products/pcie-5-1-channel-audio-card/generated/pc-build.jpg",
       "/products/pcie-5-1-channel-audio-card/1.jpg",
       "/products/pcie-5-1-channel-audio-card/2.jpg"
     ],
@@ -3468,7 +3468,7 @@
     "specs": [],
     "amazonUrl": "https://amzn.in/d/01f1qIsk",
     "images": [
-      "/products/ps5-rgb-dual-cooling-dock-charging-station/generated/gaming-lounge.png",
+      "/products/ps5-rgb-dual-cooling-dock-charging-station/generated/gaming-lounge.jpg",
       "/products/ps5-rgb-dual-cooling-dock-charging-station/1.jpg",
       "/products/ps5-rgb-dual-cooling-dock-charging-station/2.jpg",
       "/products/ps5-rgb-dual-cooling-dock-charging-station/3.jpg",
@@ -3539,7 +3539,7 @@
     "specs": [],
     "amazonUrl": "https://amzn.in/d/0iBjgFaK",
     "images": [
-      "/products/ps5-slim-pro-external-cooling-fan/generated/console-cooling.png",
+      "/products/ps5-slim-pro-external-cooling-fan/generated/console-cooling.jpg",
       "/products/ps5-slim-pro-external-cooling-fan/1.jpg",
       "/products/ps5-slim-pro-external-cooling-fan/2.jpg",
       "/products/ps5-slim-pro-external-cooling-fan/3.jpg",
@@ -3596,7 +3596,7 @@
     "specs": [],
     "amazonUrl": "https://amzn.in/d/04jAz15N",
     "images": [
-      "/products/ai-magnetic-mobile-cooling-fan/generated/mobile-gaming-v2.png",
+      "/products/ai-magnetic-mobile-cooling-fan/generated/mobile-gaming-v2.jpg",
       "/products/ai-magnetic-mobile-cooling-fan/1.jpg",
       "/products/ai-magnetic-mobile-cooling-fan/2.jpg",
       "/products/ai-magnetic-mobile-cooling-fan/3.jpg",
@@ -3654,7 +3654,7 @@
     "specs": [],
     "amazonUrl": "https://amzn.in/d/04ykxyiP",
     "images": [
-      "/products/mobile-gaming-controller-cooling-fan/generated/fps-grip-v2.png",
+      "/products/mobile-gaming-controller-cooling-fan/generated/fps-grip-v2.jpg",
       "/products/mobile-gaming-controller-cooling-fan/1.jpg",
       "/products/mobile-gaming-controller-cooling-fan/2.jpg",
       "/products/mobile-gaming-controller-cooling-fan/3.jpg",
@@ -3761,7 +3761,7 @@
     ],
     "amazonUrl": "https://amzn.in/d/073u3U0e",
     "images": [
-      "/products/magnetic-mobile-gaming-cooler-al19/generated/racing-grip-v2.png",
+      "/products/magnetic-mobile-gaming-cooler-al19/generated/racing-grip-v2.jpg",
       "/products/magnetic-mobile-gaming-cooler-al19/1.jpg",
       "/products/magnetic-mobile-gaming-cooler-al19/2.jpg",
       "/products/magnetic-mobile-gaming-cooler-al19/3.jpg",
@@ -3868,7 +3868,7 @@
     ],
     "amazonUrl": "https://amzn.in/d/06ARi7cv",
     "images": [
-      "/products/rgb-magnetic-mobile-gaming-cooler-js86/generated/action-grip-v2.png",
+      "/products/rgb-magnetic-mobile-gaming-cooler-js86/generated/action-grip-v2.jpg",
       "/products/rgb-magnetic-mobile-gaming-cooler-js86/1.jpg",
       "/products/rgb-magnetic-mobile-gaming-cooler-js86/2.jpg",
       "/products/rgb-magnetic-mobile-gaming-cooler-js86/3.jpg",
@@ -3947,7 +3947,7 @@
     "specs": [],
     "amazonUrl": "https://amzn.in/d/0eWL528u",
     "images": [
-      "/products/magnetic-mobile-gaming-cooler-j20/generated/moba-grip-v2.png",
+      "/products/magnetic-mobile-gaming-cooler-j20/generated/moba-grip-v2.jpg",
       "/products/magnetic-mobile-gaming-cooler-j20/1.jpg",
       "/products/magnetic-mobile-gaming-cooler-j20/2.jpg",
       "/products/magnetic-mobile-gaming-cooler-j20/3.jpg",
@@ -4020,7 +4020,7 @@
     ],
     "amazonUrl": "https://amzn.in/d/0gukeyfM",
     "images": [
-      "/products/mobile-gaming-cooler-refrigeration-chip/generated/frost-macro.png",
+      "/products/mobile-gaming-cooler-refrigeration-chip/generated/frost-macro.jpg",
       "/products/mobile-gaming-cooler-refrigeration-chip/1.jpg",
       "/products/mobile-gaming-cooler-refrigeration-chip/2.jpg",
       "/products/mobile-gaming-cooler-refrigeration-chip/3.jpg",
@@ -4118,7 +4118,7 @@
     ],
     "amazonUrl": "https://amzn.in/d/0f7tTNx0",
     "images": [
-      "/products/4k-hdmi-video-capture-card/generated/creator-desk.png",
+      "/products/4k-hdmi-video-capture-card/generated/creator-desk.jpg",
       "/products/4k-hdmi-video-capture-card/1.jpg",
       "/products/4k-hdmi-video-capture-card/2.jpg",
       "/products/4k-hdmi-video-capture-card/3.jpg",
@@ -4205,7 +4205,7 @@
     ],
     "amazonUrl": "https://amzn.in/d/0ivW1e1C",
     "images": [
-      "/products/hdmi-splitter-extended-display/generated/extended-display.png",
+      "/products/hdmi-splitter-extended-display/generated/extended-display.jpg",
       "/products/hdmi-splitter-extended-display/1.jpg",
       "/products/hdmi-splitter-extended-display/2.jpg",
       "/products/hdmi-splitter-extended-display/3.jpg",
@@ -4216,12 +4216,6 @@
       "count": 1629
     },
     "reviews": [
-      {
-        "author": "Thaver Tech Pvt. Ltd.",
-        "rating": 5,
-        "title": "Best HDMI for Office Uses",
-        "text": "We at Thaver Tech Pvt. Ltd. purchased the Millennium Technology USB & USB Type-C to Dual Port HDMI Adapter on 18 August 2025 and have been using it regularly in our office setup for extending displays across multiple monitors. The adapter was easy to install and worked smoothly with our systems. It helped us create a more productive workspace by enabling dual-monitor extended displays, which is especially useful for tasks such as digital marketing, software development, content creation, and multitasking. The video output quality is clear and stable, and the adapter performs reliably during daily office operations. We appreciate its compatibility with both USB and USB Type-C ports, making it convenient to use across different laptops and desktops. The support for Windows and Mac OS adds further flexibility for mixed-device environments. The build quality is good, and the device has continued to function consistently without connectivity issues. For businesses and professionals looking to expand their screen workspace without investing in expensive hardware upgrades, this adapter offers excellent value for money. Overall, we are very satisfied with the performance and would recommend it to offices, remote workers, designers, developers, and anyone who requires a dual-monitor setup for improved productivity."
-      },
       {
         "author": "Subhakant",
         "rating": 5,

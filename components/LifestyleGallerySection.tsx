@@ -98,20 +98,6 @@ export function LifestyleGallerySection() {
             ))}
           </div>
         </div>
-
-        <div
-          className={`mt-16 text-center transition-all duration-1000 delay-700 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
-        >
-          <p className="text-[#737373] mb-6">Share your Millennium setup with us</p>
-          <button
-            type="button"
-            className="border border-black px-8 py-3 rounded-full hover:bg-black hover:text-white transition-all duration-300"
-          >
-            #MillenniumSetup
-          </button>
-        </div>
       </div>
     </section>
   );
