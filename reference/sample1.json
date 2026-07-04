@@ -1,0 +1,270 @@
+{
+  "site": {
+    "brand": "Millennium Technologies",
+    "tagline": "Innovative Products Designed for You",
+    "description": "Millennium Technologies designs and manufactures monitor extenders, networking cards, add-on cards, gaming accessories, and compute accessories.",
+    "primary_cta": {
+      "label": "Shop Now",
+      "action": "scroll_to_extenders_section"
+    }
+  },
+
+  "design_tokens": {
+    "colors": {
+      "background_light": "#F7F8FA",
+      "background_gradient": ["#F2F0EA", "#EDEFF5"],
+      "surface_white": "#FFFFFF",
+      "surface_dark": "#0B0C10",
+      "primary_accent": "#3D5CFF",
+      "text_primary": "#111213",
+      "text_secondary": "#6B7280",
+      "border_light": "#E5E7EB",
+      "badge_dark": "#16171B"
+    },
+    "typography": {
+      "font_family": "Inter, sans-serif",
+      "heading_weight": 600,
+      "heading_size_hero": "44px",
+      "heading_size_section": "24px",
+      "body_size": "14px",
+      "small_size": "12px"
+    },
+    "radius": {
+      "hero_card": "32px",
+      "product_card": "20px",
+      "button": "40px",
+      "badge": "999px"
+    },
+    "shadow": {
+      "card": "0 8px 24px rgba(0,0,0,0.06)",
+      "hero": "0 20px 60px rgba(0,0,0,0.15)"
+    }
+  },
+
+  "navigation": {
+    "style": "floating_pill",
+    "links": ["Home", "Products", "About Us", "Features", "Reviews"],
+    "icons": ["search", "cart"]
+  },
+
+  "hero_section": {
+    "layout": "split_left_text_right_render",
+    "headline": "Innovative Products Designed for You",
+    "subtext": "Premium monitor extenders and tech accessories engineered for productivity.",
+    "primary_button": "Shop Now",
+    "secondary_link": "Explore",
+    "hero_image": "flagship_triple_monitor_extender_render",
+    "floating_side_icons": ["filter", "cart_highlight", "grid", "info"]
+  },
+
+  "product_categories": [
+    {
+      "id": "extenders",
+      "title": "Monitor Extenders",
+      "description": "Dual, triple, and quad monitor extension arms and stands.",
+      "layout": "grid_4_col",
+      "products": [
+        {
+          "id": "ext-dual-01",
+          "name": "DualView Pro",
+          "type": "Dual Monitor Extender",
+          "price": "$0.00",
+          "image": "placeholder_dual_extender.jpg",
+          "features": [
+            "Adjustable height & tilt",
+            "Cable management channel",
+            "Aluminum alloy build"
+          ],
+          "detail_page": "/products/ext-dual-01",
+          "amazon_link": "https://www.amazon.com/REPLACE_ME"
+        },
+        {
+          "id": "ext-triple-01",
+          "name": "TripleSpan Max",
+          "type": "Triple Monitor Extender",
+          "price": "$0.00",
+          "image": "placeholder_triple_extender.jpg",
+          "features": [
+            "Supports up to 27-inch screens",
+            "360° swivel arms",
+            "Heavy-duty desk clamp"
+          ],
+          "detail_page": "/products/ext-triple-01",
+          "amazon_link": "https://www.amazon.com/REPLACE_ME"
+        },
+        {
+          "id": "ext-quad-01",
+          "name": "QuadStation Elite",
+          "type": "Quad Monitor Extender",
+          "price": "$0.00",
+          "image": "placeholder_quad_extender.jpg",
+          "features": [
+            "4-monitor simultaneous mount",
+            "VESA 75/100 compatible",
+            "Reinforced steel core"
+          ],
+          "detail_page": "/products/ext-quad-01",
+          "amazon_link": "https://www.amazon.com/REPLACE_ME"
+        }
+      ],
+      "promo_banner": {
+        "title": "Innovative designs for you",
+        "cta": "See more",
+        "background": "dark"
+      }
+    },
+    {
+      "id": "networking-cards",
+      "title": "Networking Cards",
+      "description": "High-speed PCIe network adapters for desktops and workstations.",
+      "layout": "grid_4_col",
+      "products": [
+        {
+          "id": "net-card-01",
+          "name": "NetLink 2.5G",
+          "type": "PCIe Network Card",
+          "price": "$0.00",
+          "image": "placeholder_network_card.jpg",
+          "features": [
+            "2.5GbE speed",
+            "Low profile bracket included",
+            "Plug-and-play driver support"
+          ],
+          "detail_page": "/products/net-card-01",
+          "amazon_link": "https://www.amazon.com/REPLACE_ME"
+        }
+      ]
+    },
+    {
+      "id": "addon-cards",
+      "title": "Add-on Cards",
+      "description": "Expansion cards for USB, capture, and connectivity upgrades.",
+      "layout": "grid_4_col",
+      "products": [
+        {
+          "id": "addon-usb-01",
+          "name": "PortXpand USB-C",
+          "type": "USB Expansion Card",
+          "price": "$0.00",
+          "image": "placeholder_addon_card.jpg",
+          "features": [
+            "4x USB-C 3.2 ports",
+            "PCIe 4.0 interface",
+            "Compact single-slot design"
+          ],
+          "detail_page": "/products/addon-usb-01",
+          "amazon_link": "https://www.amazon.com/REPLACE_ME"
+        }
+      ]
+    },
+    {
+      "id": "gaming-accessories",
+      "title": "Gaming Accessories",
+      "description": "Peripherals and add-ons built for competitive setups.",
+      "layout": "grid_4_col",
+      "products": [
+        {
+          "id": "game-acc-01",
+          "name": "StrikePad RGB",
+          "type": "Gaming Mousepad",
+          "price": "$0.00",
+          "image": "placeholder_gaming_accessory.jpg",
+          "features": [
+            "Extended surface area",
+            "RGB edge lighting",
+            "Non-slip rubber base"
+          ],
+          "detail_page": "/products/game-acc-01",
+          "amazon_link": "https://www.amazon.com/REPLACE_ME"
+        }
+      ]
+    },
+    {
+      "id": "compute-accessories",
+      "title": "Compute Accessories",
+      "description": "Cooling, storage mounts, and workstation enhancements.",
+      "layout": "grid_4_col",
+      "products": [
+        {
+          "id": "compute-acc-01",
+          "name": "CoolBase 120",
+          "type": "Laptop Cooling Stand",
+          "price": "$0.00",
+          "image": "placeholder_compute_accessory.jpg",
+          "features": [
+            "Dual quiet fans",
+            "Adjustable incline",
+            "Aluminum heat-dissipation deck"
+          ],
+          "detail_page": "/products/compute-acc-01",
+          "amazon_link": "https://www.amazon.com/REPLACE_ME"
+        }
+      ]
+    }
+  ],
+
+  "product_card_schema": {
+    "image": "string (product photo)",
+    "name": "string (product name)",
+    "type": "string (specific variant/category label)",
+    "price": "string",
+    "features": ["array of short bullet strings (2-3 items)"],
+    "primary_action": {
+      "label": "View Details",
+      "target": "detail_page (internal route)"
+    },
+    "secondary_action": {
+      "label": "Buy on Amazon",
+      "target": "amazon_link (external, opens new tab)"
+    }
+  },
+
+  "product_detail_page_schema": {
+    "route_pattern": "/products/{product_id}",
+    "sections": [
+      {
+        "block": "gallery",
+        "content": "array of product images, multiple angles"
+      },
+      {
+        "block": "title_block",
+        "content": {
+          "name": "string",
+          "type": "string",
+          "price": "string",
+          "short_tagline": "string"
+        }
+      },
+      {
+        "block": "full_description",
+        "content": "long-form paragraph describing the product"
+      },
+      {
+        "block": "specs_table",
+        "content": "key-value pairs, e.g. Material, Dimensions, Weight Capacity, Compatibility"
+      },
+      {
+        "block": "features_list",
+        "content": "full bullet list of all features (not truncated like the card)"
+      },
+      {
+        "block": "cta",
+        "content": {
+          "label": "Buy on Amazon",
+          "style": "primary_button",
+          "external_link": true
+        }
+      },
+      {
+        "block": "related_products",
+        "content": "3-4 other products from the same category"
+      }
+    ]
+  },
+
+  "footer": {
+    "columns": ["Company", "Products", "Support", "Legal"],
+    "newsletter_signup": true,
+    "social_links": ["Twitter/X", "Instagram", "LinkedIn"]
+  }
+}
