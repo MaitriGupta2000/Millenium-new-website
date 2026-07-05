@@ -29,7 +29,7 @@ export function ReviewsSection({ product }: { product: Product }) {
               </div>
               {review.title && <p className="text-sm font-medium text-[#1A1A1A] mb-1 font-body">{review.title}</p>}
               <p className="text-sm text-[#737373] leading-relaxed font-body">{review.text}</p>
-              <p className="text-xs text-[#737373] mt-3 font-body">— {review.author}, Amazon Customer</p>
+              <p className="text-xs text-[#737373] mt-3 font-body">- {review.author}, Amazon Customer</p>
             </div>
           ))}
         </div>

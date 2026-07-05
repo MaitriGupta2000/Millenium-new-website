@@ -69,7 +69,7 @@ export function Footer() {
               <Image src="/logo.png" alt="Millennium Technology" width={160} height={33} className="h-8 w-auto" />
             </Link>
             <p className="text-[#737373] leading-relaxed mb-6 font-body">
-              Monitor extenders, networking cards, add-on cards, gaming accessories, and compute accessories —
+              Monitor extenders, networking cards, add-on cards, gaming accessories, and compute accessories -
               engineered for real workspaces.
             </p>
 

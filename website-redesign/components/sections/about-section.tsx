@@ -27,7 +27,7 @@ export function AboutSection() {
               Beauty That Cares
             </h2>
             <p className="text-[#737373] leading-relaxed mb-6 font-body">
-              Lumera was born from a simple belief—that skincare should be as gentle on your skin as it is on the planet. We create products that combine natural ingredients with scientific innovation.
+              Lumera was born from a simple belief-that skincare should be as gentle on your skin as it is on the planet. We create products that combine natural ingredients with scientific innovation.
             </p>
             <p className="text-[#737373] leading-relaxed font-body">
               Each formula in our collection is carefully crafted for its purity, effectiveness, and ability to enhance your natural beauty.

@@ -18,7 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Lumera — Modern Living Store',
+  title: 'Lumera - Modern Living Store',
   description: 'Discover handpicked products made just for you. A curated space for calm, design, and everyday elegance.',
   generator: 'v0.app',
   icons: {

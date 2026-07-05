@@ -1,27 +1,27 @@
 # Marketing Studio Ad References
 
-Ad references are reusable inspiration videos a user wants to model new ads after — typically tied to a specific avatar and/or product. The backend processes the input video and stores a reusable reference the user can recall later.
+Ad references are reusable inspiration videos a user wants to model new ads after - typically tied to a specific avatar and/or product. The backend processes the input video and stores a reusable reference the user can recall later.
 
 ## Inputs
 
 Create an ad reference from one of two source types:
 
-- `--video-input <upload_id>` — UUID returned by `higgsfield upload create <video_path> --video`. Use when the user has a local video file or already uploaded one.
-- `--job <job_id>` — UUID of a previously generated video job (`higgsfield generate list --json`). Use when the user wants to reuse one of their own generated clips as a reference.
+- `--video-input <upload_id>` - UUID returned by `higgsfield upload create <video_path> --video`. Use when the user has a local video file or already uploaded one.
+- `--job <job_id>` - UUID of a previously generated video job (`higgsfield generate list --json`). Use when the user wants to reuse one of their own generated clips as a reference.
 
 Exactly one of these two flags is required.
 
 Optional binding flags (each accepts at most one id):
 
-- `--avatar <avatar_id>` — link the reference to a marketing-studio avatar (preset or custom). One avatar max per reference.
-- `--product <product_id>` — link the reference to a marketing-studio product. One product max per reference.
+- `--avatar <avatar_id>` - link the reference to a marketing-studio avatar (preset or custom). One avatar max per reference.
+- `--product <product_id>` - link the reference to a marketing-studio product. One product max per reference.
 
 ## Sources accepted
 
 There are exactly two supported inputs:
 
-- A **local video file** — pass via `higgsfield upload create <path> --video`, then use the returned `upload_id` with `--video-input`.
-- A **prior video generation job** from this account — pass the `job_id` with `--job`.
+- A **local video file** - pass via `higgsfield upload create <path> --video`, then use the returned `upload_id` with `--video-input`.
+- A **prior video generation job** from this account - pass the `job_id` with `--job`.
 
 If the user supplies anything else (a URL, a streaming link, an external reference), ask for a local video file. Do not attempt to fetch or convert other inputs.
 

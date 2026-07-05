@@ -21,7 +21,7 @@ export function AmazonStoreBanner() {
             Supercharge Your Productivity Today
           </h2>
           <p className="text-[#737373] max-w-xl mx-auto mb-8 font-body">
-            Upgrade your workspace with our products. Enjoy fast shipping and secure checkout — buy directly from us
+            Upgrade your workspace with our products. Enjoy fast shipping and secure checkout - buy directly from us
             or get it fast with Amazon.
           </p>
           <a

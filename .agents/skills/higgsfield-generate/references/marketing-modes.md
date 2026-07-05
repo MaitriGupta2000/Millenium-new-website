@@ -11,7 +11,7 @@ Current mode values for `marketing_studio_video` `--mode`. The live schema is th
 | `product_review` | Product Review | ✅ | Presenter giving an opinion on the product. |
 | `tv_spot` | TV Spot | ❌ | Broadcast-style commercial. Higher production. |
 | `wild_card` | Wild Card | ❌ | Experimental, model picks the vibe. |
-| `ugc_virtual_try_on` | UGC Virtual Try On | ✅ | Person trying on clothing/accessories — UGC vibe. |
+| `ugc_virtual_try_on` | UGC Virtual Try On | ✅ | Person trying on clothing/accessories - UGC vibe. |
 | `virtual_try_on` | Pro Virtual Try On | ❌ | Same but more polished, model-driven. |
 
 The "Hook/setting" column shows whether `--hook_id` and `--setting_id` are valid for that mode. Modes marked ❌ ignore or reject setup items.
@@ -48,6 +48,6 @@ For `marketing_studio_video`, the API accepts:
 For `marketing_studio_video` driven by a product URL (no manual product create / fetch), the MCP-side flow is:
 
 1. Call `higgsfield marketing-studio products fetch --url <url> --wait` (or use `show_marketing_studio` widget action `fetch`).
-2. Call `higgsfield generate create marketing_studio_video --url <same url>` — the backend looks up / reuses the entity and submits.
+2. Call `higgsfield generate create marketing_studio_video --url <same url>` - the backend looks up / reuses the entity and submits.
 
-Repeated fetches for the same URL dedupe — the backend reuses any existing non-failed entity.
+Repeated fetches for the same URL dedupe - the backend reuses any existing non-failed entity.

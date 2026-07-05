@@ -24,7 +24,7 @@ Good: "transform into anime style, vibrant colors, soft cel shading"
 
 - Verbs: zooms in, dollies left, sweeping pan, slow push, fast whip
 - Subject motion: "the dancer spins", "smoke rises slowly"
-- Don't redescribe the static frame — model already has it.
+- Don't redescribe the static frame - model already has it.
 
 ## Negative phrasing
 
@@ -34,10 +34,10 @@ Most models don't expose a `negative_prompt`. Phrase positively:
 
 ## Aspect ratio guidance
 
-- `16:9` — landscape, cinematic
-- `9:16` — vertical, social
-- `1:1` — square, profile / icon
-- `4:3`, `3:4`, `21:9` — model-dependent, check `higgsfield model get <jst>`
+- `16:9` - landscape, cinematic
+- `9:16` - vertical, social
+- `1:1` - square, profile / icon
+- `4:3`, `3:4`, `21:9` - model-dependent, check `higgsfield model get <jst>`
 
 ## Safety
 

@@ -54,7 +54,7 @@ export function Testimonials() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-sm text-[#737373] hover:text-[#1A1A1A] transition-colors font-body underline underline-offset-4"
               >
-                Verified Buyer — on {picks[activeIndex].product.name}
+                Verified Buyer - on {picks[activeIndex].product.name}
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </a>
             </footer>

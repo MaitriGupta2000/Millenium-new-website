@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const resolvedParams = await params;
   const meta = CATEGORIES.find((c) => c.slug === resolvedParams.slug);
   if (!meta) return {};
-  return { title: `${meta.title} — Millennium Technology`, description: meta.description };
+  return { title: `${meta.title} - Millennium Technology`, description: meta.description };
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {

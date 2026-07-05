@@ -10,7 +10,7 @@ ID=$(higgsfield marketing-studio products fetch --url https://shop.example.com/s
 
 `--wait` polls until `status` is `completed` or `failed`. Default timeout 90s.
 
-If `failed`, check `fail_reason` — usually invalid URL or scrape blocked.
+If `failed`, check `fail_reason` - usually invalid URL or scrape blocked.
 
 App Store URLs auto-route to `webproducts` (different endpoint). Use:
 

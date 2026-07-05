@@ -2,12 +2,12 @@
 
 How to pass reference images, videos, audio, and videos for analysis. Mirrored from MCP server media-handling logic.
 
-## Path or UUID — both work
+## Path or UUID - both work
 
 Each media flag accepts either a local file path or a UUID. The CLI auto-uploads paths before submission and auto-detects whether a UUID is an upload id (from `higgsfield upload create`) or a previous job id.
 
 ```bash
-# Local path — CLI uploads automatically
+# Local path - CLI uploads automatically
 higgsfield generate create nano_banana_2 --prompt "stylize in watercolor" --image ./photo.png --wait
 
 # Upload id (from higgsfield upload create)
@@ -16,7 +16,7 @@ higgsfield generate create nano_banana_2 --prompt "..." --image <upload_id> --wa
 # Job id from a previous generation
 higgsfield generate create seedance_2_0 --prompt "anim" --start-image <previous_job_id> --wait
 
-# Video analysis — CLI uploads the file, Virality Predictor returns a text score/report plus an Open report link.
+# Video analysis - CLI uploads the file, Virality Predictor returns a text score/report plus an Open report link.
 # The output is text, but the task is still video analysis.
 higgsfield generate create brain_activity --video ./ad.mp4 --wait
 ```
@@ -59,7 +59,7 @@ higgsfield model get <model_id>   # shows the accepted media roles for this mode
 
 ## Multiple images
 
-Most image models accept multiple references — repeat the `--image` flag:
+Most image models accept multiple references - repeat the `--image` flag:
 
 ```bash
 higgsfield generate create nano_banana_2 --prompt "..." \
@@ -67,7 +67,7 @@ higgsfield generate create nano_banana_2 --prompt "..." \
   --wait
 ```
 
-Single-reference video models (`grok_video_v15`, `veo3`, `veo3_1`, `kling3_0_turbo`, `kling2_6`) reject extra images — the CLI errors locally before submission with `Model accepts only one image reference`.
+Single-reference video models (`grok_video_v15`, `veo3`, `veo3_1`, `kling3_0_turbo`, `kling2_6`) reject extra images - the CLI errors locally before submission with `Model accepts only one image reference`.
 
 3D asset generation with `multi_image_to_3d` accepts 1–4 images. Repeat `--image` for front/side/back/detail views:
 
@@ -91,7 +91,7 @@ higgsfield generate create seedance_2_0 \
   --wait
 ```
 
-**Do NOT pass `--generate-audio` to `seedance_2_0`** — the model schema doesn't declare it. Use the audio media role instead.
+**Do NOT pass `--generate-audio` to `seedance_2_0`** - the model schema doesn't declare it. Use the audio media role instead.
 
 Seed Audio is the default text-to-audio model. It can run prompt-only, or use optional audio/image references:
 
@@ -124,10 +124,10 @@ higgsfield generate create mirelo_text_to_audio \
 
 The CLI returns specific error messages for known shape mismatches:
 
-- `Model accepts only --image (no roles)` — the model uses the legacy `input_images` shape, not `medias` with roles. Drop role-prefixed flags and use plain `--image`.
-- `Model does not accept media inputs` — the model is prompt-only or non-media (`z_image`, `recraft_v4_1`, `mirelo_text_to_audio`, `sonilo_music`, `soul_location`, `soul_cast`, `wan2_6` for some configs). Drop all media flags.
-- `Unknown media role "<role>"` — the role isn't in this model's media schema. Run `higgsfield model get <model>` and check accepted media roles or `*_references` params.
-- `Missing required params: medias` for `brain_activity` — pass exactly one clip with `--video <path-or-id>`.
+- `Model accepts only --image (no roles)` - the model uses the legacy `input_images` shape, not `medias` with roles. Drop role-prefixed flags and use plain `--image`.
+- `Model does not accept media inputs` - the model is prompt-only or non-media (`z_image`, `recraft_v4_1`, `mirelo_text_to_audio`, `sonilo_music`, `soul_location`, `soul_cast`, `wan2_6` for some configs). Drop all media flags.
+- `Unknown media role "<role>"` - the role isn't in this model's media schema. Run `higgsfield model get <model>` and check accepted media roles or `*_references` params.
+- `Missing required params: medias` for `brain_activity` - pass exactly one clip with `--video <path-or-id>`.
 
 ## Seeing what a model accepts
 

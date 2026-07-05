@@ -86,7 +86,7 @@ export function TestimonialsSection() {
                 <footer>
                   <p className="text-[#1A1A1A] font-medium mb-1">{testimonial.author}</p>
                   <p className="text-sm text-[#737373] font-body">
-                    {testimonial.role} — {testimonial.location}
+                    {testimonial.role} - {testimonial.location}
                   </p>
                 </footer>
               </div>

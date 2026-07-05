@@ -56,7 +56,7 @@ export function LifestyleGallerySection() {
               Your Daily Rituals
             </h3>
             <p className="text-white/80 text-base leading-relaxed mb-8">
-              We believe in the beauty of intentional living. Each moment, each product, each space—crafted to bring you peace and joy.
+              We believe in the beauty of intentional living. Each moment, each product, each space-crafted to bring you peace and joy.
             </p>
             <button className="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-[#1A1A1A] transition-all duration-300 self-start">
               Explore More
