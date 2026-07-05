@@ -6,7 +6,7 @@ export const PRODUCTS: Product[] = productsData as Product[];
 export const CATEGORIES: CategoryMeta[] = [
   {
     slug: "monitor-extenders",
-    title: "Monitor Extenders",
+    title: "Laptop Screen Extenders",
     description: "Dual, triple, and quad laptop screen extenders for a portable multi-monitor workspace.",
     icon: "monitor",
   },

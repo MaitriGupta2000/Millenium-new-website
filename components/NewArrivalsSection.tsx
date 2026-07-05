@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { getProductBySlug, formatPriceINR } from "@/lib/products";
 
-// Monitor extenders are the best-selling line, so they dominate the rotation.
+// Laptop screen extenders are the best-selling line, so they dominate the rotation.
 const EXTENDER_POOL = [
   "quadview-15-6-ultraview-pro",
   "triview-15-6-flexsplit",

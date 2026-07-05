@@ -83,7 +83,7 @@ export function Hero() {
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
                 }`}
               >
-                Monitor extenders, networking cards, and accessories engineered for real workspaces.
+                Laptop screen extenders, networking cards, and accessories engineered for real workspaces.
               </p>
               <Link
                 href="#shop"
@@ -112,7 +112,7 @@ export function Hero() {
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
                 }`}
               >
-                Discover monitor extenders, networking cards, and accessories designed for real workspaces.
+                Discover laptop screen extenders, networking cards, and accessories designed for real workspaces.
               </p>
               <div
                 className={`mt-10 transition-all duration-700 delay-500 ${

@@ -20,14 +20,16 @@ const navLinks: NavLink[] = [
     href: "/#shop",
     dropdown: CATEGORIES.map((c) => ({ name: c.title, href: `/category/${c.slug}` })),
   },
-  { href: "#contact", label: "Contact us" },
-  { href: "#about", label: "About us" },
+  { href: "/#contact", label: "Contact us" },
+  { href: "/#about", label: "About us" },
   {
     label: "Support",
     dropdown: [
-      { name: "Setups", href: "#lifestyle" },
-      { name: "Testimonials & Reviews", href: "#testimonials" },
-      { name: "FAQ", href: "#faq" },
+      { name: "Setups", href: "/#lifestyle" },
+      { name: "Testimonials & Reviews", href: "/#testimonials" },
+      { name: "FAQ", href: "/#faq" },
+      { name: "Warranty Registration", href: "/warranty" },
+      { name: "Blog", href: "/blog" },
     ],
   },
 ];
@@ -65,7 +67,7 @@ export function Nav() {
                 isScrolled ? "px-0 py-0" : "bg-white/95 backdrop-blur px-3 py-1.5 shadow-sm"
               }`}
             >
-              <Image src="/logo.png" alt="Millennium Technology" width={140} height={29} priority className="h-6 w-auto" />
+              <Image src="/logo.png" alt="Millennium Technology" width={196} height={40} priority className="h-9 w-auto" />
             </span>
           </Link>
 

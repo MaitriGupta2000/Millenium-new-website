@@ -14,7 +14,7 @@ const FEATURES = [
   {
     title: "Engineered for Real Workspaces",
     description:
-      "Every monitor extender and accessory is built for how people actually work - long sessions, cramped desks, and setups that need to travel.",
+      "Every laptop screen extender and accessory is built for how people actually work - long sessions, cramped desks, and setups that need to travel.",
     slug: "duoview-16-widestand",
   },
   {

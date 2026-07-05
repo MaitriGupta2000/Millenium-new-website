@@ -7,7 +7,7 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { getProductBySlug, formatPriceINR } from "@/lib/products";
 import type { Product } from "@/lib/types";
 
-// Monitor extenders lead the rotation - they're the best-selling line.
+// Laptop screen extenders lead the rotation - they're the best-selling line.
 const SPOTLIGHT_SLUGS = [
   "triview-15-6-flexsplit",
   "quadview-15-6-ultraview-pro",

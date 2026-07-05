@@ -4,7 +4,7 @@
     "category": "monitor-extenders",
     "name": "DuoView 15.6 AirLink Wireless",
     "tag": "DUOVIEW",
-    "typeLabel": "Dual Monitor Extender",
+    "typeLabel": "Dual Laptop Screen Extender",
     "tagline": "Freedom Has No Cables.",
     "description": [
       "A truly wireless 15.6\" Full HD portable monitor with a built-in rechargeable battery. Extend your workspace, stream content, and stay productive anywhere-without adapters, drivers, or tangled cables.",
@@ -111,7 +111,7 @@
     "category": "monitor-extenders",
     "name": "DuoView 15.6 UltraSlim",
     "tag": "DUOVIEW",
-    "typeLabel": "Dual Monitor Extender",
+    "typeLabel": "Dual Laptop Screen Extender",
     "tagline": "Lightweight Productivity. Anywhere.",
     "description": [
       "A 15.6-inch Full HD portable monitor designed for professionals who travel light. Ultra-slim, lightweight, and easy to carry, UltraSlim gives you the extra screen space you need without adding bulk to your bag.",
@@ -206,7 +206,7 @@
     "category": "monitor-extenders",
     "name": "DuoView 16 WideStand",
     "tag": "DUOVIEW",
-    "typeLabel": "Dual Monitor Extender",
+    "typeLabel": "Dual Laptop Screen Extender",
     "tagline": "Work Comfortably. Anywhere.",
     "description": [
       "A 16-inch Full HD portable monitor designed with a built-in wide-angle stand for greater stability, better viewing comfort, and a more productive dual-screen experience wherever work takes you.",
@@ -308,7 +308,7 @@
     "category": "monitor-extenders",
     "name": "DuoView 18.5 UltraWide",
     "tag": "DUOVIEW",
-    "typeLabel": "Dual Monitor Extender",
+    "typeLabel": "Dual Laptop Screen Extender",
     "tagline": "More Screen. Less Switching.",
     "description": [
       "An 18.5-inch Full HD portable monitor built for professionals who need more workspace. View larger spreadsheets, manage multiple applications, and work more efficiently with a screen designed for serious productivity.",
@@ -426,7 +426,7 @@
     "category": "monitor-extenders",
     "name": "TriView 14 UltraSleek",
     "tag": "TRIVIEW",
-    "typeLabel": "Triple Monitor Extender",
+    "typeLabel": "Triple Laptop Screen Extender",
     "tagline": "Your Laptop. Expanded.",
     "description": [
       "Transform your laptop into a complete triple-screen workstation with two integrated 14-inch Full HD displays. Designed for professionals who need more visibility, more productivity, and fewer compromises wherever they work.",
@@ -533,7 +533,7 @@
     "category": "monitor-extenders",
     "name": "TriView 14 DualLink",
     "tag": "TRIVIEW",
-    "typeLabel": "Triple Monitor Extender",
+    "typeLabel": "Triple Laptop Screen Extender",
     "tagline": "Stop Switching Tabs. Start Getting Work Done.",
     "description": [
       "Transform your laptop into a powerful triple-screen workstation with dual 14-inch Full HD displays. Built for professionals who work across multiple applications, meetings, dashboards, and documents every day.",
@@ -640,7 +640,7 @@
     "category": "monitor-extenders",
     "name": "TriView 15.6 OneConnect",
     "tag": "TRIVIEW",
-    "typeLabel": "Triple Monitor Extender",
+    "typeLabel": "Triple Laptop Screen Extender",
     "tagline": "One Connection. Three Screens. Endless Possibilities.",
     "description": [
       "Expand your laptop into a powerful triple-screen workstation with dual 15.6-inch Full HD displays and simplified connectivity. Designed for professionals who want maximum productivity without the complexity of traditional multi-monitor setups.",
@@ -681,7 +681,7 @@
       },
       {
         "title": "Replace Your Desk Setup Without Replacing Your Mobility",
-        "description": "Many professionals dream of having a large multi-monitor setup. Few want to carry multiple monitors. TriView OneConnect bridges that gap by delivering a full triple-screen experience in a portable form factor that fits naturally into a modern mobile workflow. It's not just a monitor extender. It's a portable workstation."
+        "description": "Many professionals dream of having a large multi-monitor setup. Few want to carry multiple monitors. TriView OneConnect bridges that gap by delivering a full triple-screen experience in a portable form factor that fits naturally into a modern mobile workflow. It's not just a laptop screen extender. It's a portable workstation."
       }
     ],
     "specs": [
@@ -748,12 +748,12 @@
     "category": "monitor-extenders",
     "name": "TriView 15.6 FlexSplit",
     "tag": "TRIVIEW",
-    "typeLabel": "Triple Monitor Extender",
+    "typeLabel": "Triple Laptop Screen Extender",
     "tagline": "One Setup. Eleven Ways To Work.",
     "description": [
       "The world's most adaptable laptop screen extender. Featuring detachable 15.6-inch Full HD displays, portrait and landscape viewing modes, and over 11 workspace configurations, FlexSplit transforms to match the way you work.",
       "Most triple-screen extenders lock you into a single setup. FlexSplit gives you the freedom to arrange your workspace based on the task at hand. Writing a report? Go vertical. Analysing dashboards? Go ultra-wide. Presenting to a client? Rotate a screen outward. Working with a teammate? Detach and share a display. FlexSplit adapts to your workflow instead of forcing you into one.",
-      "Each 15.6-inch display can be detached and repositioned independently, allowing you to create entirely new workspace layouts. Whether you need a collaborative setup, a vertical reading experience, or a wider productivity workspace, FlexSplit gives you complete control. Most monitor extenders add screens. FlexSplit adds flexibility."
+      "Each 15.6-inch display can be detached and repositioned independently, allowing you to create entirely new workspace layouts. Whether you need a collaborative setup, a vertical reading experience, or a wider productivity workspace, FlexSplit gives you complete control. Most laptop screen extenders add screens. FlexSplit adds flexibility."
     ],
     "price": 29999,
     "stock": "in_stock",
@@ -769,7 +769,7 @@
       },
       {
         "title": "Detach. Rotate. Reconfigure.",
-        "description": "Each 15.6-inch display can be detached and repositioned independently, allowing you to create entirely new workspace layouts. Whether you need a collaborative setup, a vertical reading experience, or a wider productivity workspace, FlexSplit gives you complete control. Most monitor extenders add screens. FlexSplit adds flexibility."
+        "description": "Each 15.6-inch display can be detached and repositioned independently, allowing you to create entirely new workspace layouts. Whether you need a collaborative setup, a vertical reading experience, or a wider productivity workspace, FlexSplit gives you complete control. Most laptop screen extenders add screens. FlexSplit adds flexibility."
       },
       {
         "title": "Built For Different Types Of Work",
@@ -789,7 +789,7 @@
       },
       {
         "title": "The Most Flexible Workstation We've Ever Built",
-        "description": "Most portable monitor extenders are designed around one way of working. FlexSplit was designed around the reality that every professional works differently. With detachable displays, portrait and landscape orientations, and over 11 possible configurations, it becomes one of the most versatile productivity tools in your workspace. Not because it gives you more screens. Because it gives you more ways to use them."
+        "description": "Most portable laptop screen extenders are designed around one way of working. FlexSplit was designed around the reality that every professional works differently. With detachable displays, portrait and landscape orientations, and over 11 possible configurations, it becomes one of the most versatile productivity tools in your workspace. Not because it gives you more screens. Because it gives you more ways to use them."
       }
     ],
     "specs": [
@@ -863,7 +863,7 @@
     "category": "monitor-extenders",
     "name": "TriView 15.6 VertiFlex",
     "tag": "TRIVIEW",
-    "typeLabel": "Triple Monitor Extender",
+    "typeLabel": "Triple Laptop Screen Extender",
     "tagline": "The Power Of Thinking Vertically.",
     "description": [
       "A revolutionary vertical triple-screen workstation designed for professionals who work with charts, reports, code, documents, and data all day. Featuring dual 15.6-inch vertical displays that help you see more content with less scrolling.",
@@ -904,7 +904,7 @@
       },
       {
         "title": "Designed Around Information, Not Screens",
-        "description": "Most monitor extenders focus on adding more displays. VertiFlex focuses on improving how information is displayed. By aligning the screen layout with the way professionals actually consume information, it creates a workflow that feels faster, cleaner, and more intuitive. It's not simply another monitor extender. It's a different way to work."
+        "description": "Most laptop screen extenders focus on adding more displays. VertiFlex focuses on improving how information is displayed. By aligning the screen layout with the way professionals actually consume information, it creates a workflow that feels faster, cleaner, and more intuitive. It's not simply another laptop screen extender. It's a different way to work."
       }
     ],
     "specs": [
@@ -967,7 +967,7 @@
     "category": "monitor-extenders",
     "name": "TriView 18.5 VertiMax",
     "tag": "TRIVIEW",
-    "typeLabel": "Triple Monitor Extender",
+    "typeLabel": "Triple Laptop Screen Extender",
     "tagline": "The Ultimate Vertical Workstation.",
     "description": [
       "Built for professionals who live in charts, reports, dashboards, and data. Featuring dual 18.5-inch Full HD vertical displays, VertiMax delivers an expansive triple-screen workspace designed to maximize visibility and minimize distractions.",
@@ -1078,7 +1078,7 @@
     "category": "monitor-extenders",
     "name": "QuadView 14 Flex",
     "tag": "QUADVIEW",
-    "typeLabel": "Quad Monitor Extender",
+    "typeLabel": "Quad Laptop Screen Extender",
     "tagline": "Four Screens. One Command Center.",
     "description": [
       "Transform your laptop into a complete four-screen workstation with three integrated Full HD displays. Built for professionals who need maximum visibility, faster decision-making, and complete control over complex workflows.",
@@ -1200,7 +1200,7 @@
     "category": "monitor-extenders",
     "name": "QuadView 15.6 UltraView",
     "tag": "QUADVIEW",
-    "typeLabel": "Quad Monitor Extender",
+    "typeLabel": "Quad Laptop Screen Extender",
     "tagline": "Your Laptop. Without Limits.",
     "description": [
       "Expand your laptop into a four-screen workstation with three large 15.6-inch Full HD displays. Designed for professionals who manage complex workflows, monitor multiple systems, and need maximum visibility without sacrificing mobility.",
@@ -1225,7 +1225,7 @@
       },
       {
         "title": "Why Screen Size Matters",
-        "description": "When you're working across four displays, screen size becomes critical. The larger 15.6-inch displays provide significantly more usable workspace than smaller monitor extenders, making spreadsheets easier to analyse, dashboards easier to monitor, and presentations easier to review. The difference isn't just visible. It's something you feel throughout the workday."
+        "description": "When you're working across four displays, screen size becomes critical. The larger 15.6-inch displays provide significantly more usable workspace than smaller laptop screen extenders, making spreadsheets easier to analyse, dashboards easier to monitor, and presentations easier to review. The difference isn't just visible. It's something you feel throughout the workday."
       },
       {
         "title": "Full HD Clarity Across Every Screen",
@@ -1327,7 +1327,7 @@
     "category": "monitor-extenders",
     "name": "QuadView 15.6 UltraView Pro",
     "tag": "QUADVIEW",
-    "typeLabel": "Quad Monitor Extender",
+    "typeLabel": "Quad Laptop Screen Extender",
     "tagline": "The Ultimate Portable Workstation.",
     "description": [
       "Built for professionals who refuse to compromise. Featuring three expansive 15.6-inch Full HD displays, QuadView UltraView Pro transforms your laptop into a complete four-screen productivity ecosystem designed for trading, operations, business management, analytics, and high-performance workflows.",
@@ -1368,7 +1368,7 @@
       },
       {
         "title": "Designed For Professionals Who Outgrow Traditional Setups",
-        "description": "Most monitor extenders are designed to add screens. UltraView Pro is designed to create a complete working environment. By keeping every critical workflow visible and accessible, it helps reduce interruptions, improve focus, and create a more efficient way of working. This isn't simply another monitor extender. It's the most capable workstation Millennium has ever built."
+        "description": "Most laptop screen extenders are designed to add screens. UltraView Pro is designed to create a complete working environment. By keeping every critical workflow visible and accessible, it helps reduce interruptions, improve focus, and create a more efficient way of working. This isn't simply another laptop screen extender. It's the most capable workstation Millennium has ever built."
       }
     ],
     "specs": [

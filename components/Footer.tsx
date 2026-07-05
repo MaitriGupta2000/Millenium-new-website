@@ -34,11 +34,11 @@ const footerLinks = [
     title: "Site Map",
     links: [
       { name: "Home", href: "/" },
-      { name: "About Us", href: "#about" },
-      { name: "Explore Products", href: "#shop" },
-      { name: "Use Cases", href: "#lifestyle" },
-      { name: "Testimonials", href: "#testimonials" },
-      { name: "Contact Us", href: "#contact" },
+      { name: "About Us", href: "/#about" },
+      { name: "Explore Products", href: "/#shop" },
+      { name: "Use Cases", href: "/#lifestyle" },
+      { name: "Testimonials", href: "/#testimonials" },
+      { name: "Contact Us", href: "/#contact" },
     ],
   },
   {
@@ -66,10 +66,10 @@ export function Footer() {
             }`}
           >
             <Link href="/" className="block mb-6">
-              <Image src="/logo.png" alt="Millennium Technology" width={160} height={33} className="h-8 w-auto" />
+              <Image src="/logo.png" alt="Millennium Technology" width={196} height={40} className="h-10 w-auto" />
             </Link>
             <p className="text-[#737373] leading-relaxed mb-6 font-body">
-              Monitor extenders, networking cards, add-on cards, gaming accessories, and compute accessories -
+              Laptop screen extenders, networking cards, add-on cards, gaming accessories, and compute accessories -
               engineered for real workspaces.
             </p>
 
@@ -109,6 +109,14 @@ export function Footer() {
                       </li>
                     ))}
                   </ul>
+                  {column.title === "Site Map" && (
+                    <p className="text-sm text-[#737373] font-body leading-relaxed mt-5 max-w-[220px]">
+                      Millennium Technology
+                      <br />
+                      208-209, Regent Square, Above D-Mart, Near Mahalaxmi Temple, Anand Mahal Road, Adajan, Surat –
+                      395009
+                    </p>
+                  )}
                 </div>
               ))}
 

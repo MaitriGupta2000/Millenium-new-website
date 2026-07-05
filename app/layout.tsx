@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Millennium Technology - Innovative Products Designed for You",
   description:
-    "Millennium Technology designs and manufactures monitor extenders, networking cards, add-on cards, gaming accessories, and compute accessories.",
+    "Millennium Technology designs and manufactures laptop screen extenders, networking cards, add-on cards, gaming accessories, and compute accessories.",
 };
 
 export default function RootLayout({

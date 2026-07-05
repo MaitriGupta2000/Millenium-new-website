@@ -28,7 +28,7 @@ export function FeaturedProductsSection() {
             <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-[#1A1A1A]">Explore Products</h2>
           </div>
           <p className="text-[#737373] text-base font-body">
-            Discover monitor extenders, networking cards, and accessories made for every workspace.
+            Discover laptop screen extenders, networking cards, and accessories made for every workspace.
           </p>
         </div>
 
