@@ -70,12 +70,12 @@ export function LifestyleGallerySection() {
             </Link>
           </div>
 
-          <div className="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="lg:w-2/3 grid grid-cols-2 gap-3 sm:gap-6">
             {tiles.map((tile, index) => (
               <Link
                 key={tile.slug}
                 href={`/category/${tile.slug}`}
-                className={`relative overflow-hidden rounded-3xl bg-white group transition-all duration-1000 ${
+                className={`relative overflow-hidden rounded-2xl sm:rounded-3xl bg-white group transition-all duration-1000 ${
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
                 }`}
                 style={{ transitionDelay: `${(index + 1) * 150}ms`, aspectRatio: "3/4" }}
@@ -88,9 +88,9 @@ export function LifestyleGallerySection() {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 )}
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500" />
-                <div className="absolute bottom-0 left-0 right-0 p-8">
-                  <p className="font-display text-white text-2xl md:text-3xl transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/0 to-black/0 md:from-black/0 md:group-hover:from-black/50 transition-colors duration-500" />
+                <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-8">
+                  <p className="font-display text-white text-base sm:text-2xl md:text-3xl transform translate-y-0 opacity-100 md:translate-y-4 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100 transition-all duration-500">
                     {tile.title}
                   </p>
                 </div>

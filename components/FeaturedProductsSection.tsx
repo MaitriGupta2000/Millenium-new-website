@@ -57,7 +57,7 @@ export function FeaturedProductsSection() {
           </div>
 
           <div className="flex-1">
-            <div className="grid gap-x-6 gap-y-10" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))" }}>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-8 lg:gap-x-6 lg:gap-y-10 lg:[grid-template-columns:repeat(auto-fill,minmax(220px,1fr))]">
               {filteredProducts.map((product, index) => (
                 <div
                   key={product.slug}

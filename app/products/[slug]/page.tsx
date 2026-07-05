@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const product = getProductBySlug(resolvedParams.slug);
   if (!product) return {};
   return {
-    title: `${product.name} — Millennium Technology`,
+    title: `${product.name} - Millennium Technology`,
     description: product.tagline,
   };
 }
@@ -135,7 +135,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         {related.length > 0 && (
           <section className="mt-16">
             <h2 className="font-display text-3xl text-[#1A1A1A] mb-6">More from {meta.title}</h2>
-            <div className="grid gap-x-6 gap-y-10" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))" }}>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-8 lg:gap-x-6 lg:gap-y-10 lg:[grid-template-columns:repeat(auto-fill,minmax(220px,1fr))]">
               {related.map((p) => (
                 <ProductCard key={p.slug} product={p} />
               ))}

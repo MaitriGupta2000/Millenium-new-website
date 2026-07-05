@@ -14,7 +14,7 @@ const FEATURES = [
   {
     title: "Engineered for Real Workspaces",
     description:
-      "Every monitor extender and accessory is built for how people actually work — long sessions, cramped desks, and setups that need to travel.",
+      "Every monitor extender and accessory is built for how people actually work - long sessions, cramped desks, and setups that need to travel.",
     slug: "duoview-16-widestand",
   },
   {
@@ -55,19 +55,19 @@ export function ProductFeaturesSection() {
           >
             Millennium Online India Limited has been the trusted choice of professionals, traders, coders, and
             institutions across India since 1999. From our roots in Surat, we&apos;ve spent over two decades
-            engineering reliability into every product we ship — from server-grade networking cards and PCIe add-on
+            engineering reliability into every product we ship - from server-grade networking cards and PCIe add-on
             cards to portable multi-screen setups that let you work the way you think.
           </p>
 
           <div
-            className={`flex flex-wrap items-center justify-center gap-4 transition-all duration-1000 delay-300 ${
+            className={`grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-xl sm:max-w-none mx-auto transition-all duration-1000 delay-300 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
             {STATS.map((stat) => (
               <div
                 key={stat.label}
-                className="text-center px-6 py-4 rounded-2xl border border-[#E5E5E5] bg-white/60 min-w-[130px]"
+                className="flex flex-col items-center justify-center text-center px-4 py-4 rounded-2xl border border-[#E5E5E5] bg-white/60"
               >
                 <p className="font-display text-2xl md:text-3xl text-[#1A1A1A]">{stat.value}</p>
                 <p className="text-xs text-[#737373] uppercase tracking-wider font-body">{stat.label}</p>
