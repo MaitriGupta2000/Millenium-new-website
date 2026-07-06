@@ -2,9 +2,20 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Mail, Phone, MessageCircle } from "lucide-react";
+import { Mail, Phone, MessageCircle, type LucideIcon } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { CATEGORIES } from "@/lib/products";
+
+type FooterLink = {
+  name: string;
+  href: string;
+  icon?: LucideIcon;
+};
+
+type FooterColumn = {
+  title: string;
+  links: FooterLink[];
+};
 
 const socialLinks = [
   {
@@ -29,7 +40,7 @@ const socialLinks = [
   },
 ];
 
-const footerLinks = [
+const footerLinks: FooterColumn[] = [
   {
     title: "Contact",
     links: [
