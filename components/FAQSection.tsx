@@ -33,7 +33,7 @@ const FAQS = [
   {
     question: "Are they compatible with my laptop? Is a driver required?",
     answer:
-      "All Xavion products list detailed compatibility specifications. Most devices are plug-and-play; however, certain models may require driver installation, which can be downloaded from our support page if needed.",
+      "All products list detailed compatibility specifications. Most devices are plug-and-play; however, certain models may require driver installation, which can be downloaded from our support page if needed.",
   },
   {
     question: "How much does shipping cost and how long will it take?",
