@@ -99,7 +99,7 @@ export function Hero() {
             </div>
 
             {/* Desktop */}
-            <div className="hidden lg:flex absolute inset-y-0 left-16 flex-col justify-center w-[40%] max-w-xl">
+            <div className="hidden lg:flex absolute inset-y-0 left-16 flex-col justify-center w-[40%] max-w-xl translate-y-10">
               <h1
                 className={`font-display text-7xl text-white italic transition-all duration-700 delay-300 ${
                   isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"

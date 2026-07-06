@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { CATEGORIES } from "@/lib/products";
 
@@ -20,8 +19,8 @@ const navLinks: NavLink[] = [
     href: "/#shop",
     dropdown: CATEGORIES.map((c) => ({ name: c.title, href: `/category/${c.slug}` })),
   },
-  { href: "/#contact", label: "Contact us" },
   { href: "/#about", label: "About us" },
+  { href: "/#contact", label: "Contact us" },
   {
     label: "Support",
     dropdown: [
@@ -35,65 +34,54 @@ const navLinks: NavLink[] = [
 ];
 
 export function Nav() {
-  const pathname = usePathname();
-  const isHome = pathname === "/";
-  const [scrolled, setScrolled] = useState(false);
+  const [scrollOpacity, setScrollOpacity] = useState(0.8);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openMobileGroup, setOpenMobileGroup] = useState<string | null>(null);
 
-  // Non-home pages have no dark hero behind the nav, so treat them as "scrolled" from the start.
-  const isScrolled = scrolled || !isHome;
-
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
+      const progress = Math.min(window.scrollY / 200, 1);
+      setScrollOpacity(0.8 + progress * 0.2);
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const bgOpacity = mobileMenuOpen ? 1 : scrollOpacity;
+
   return (
     <header className="fixed top-0 left-0 right-0 z-[100] pointer-events-none">
       <nav
-        className={`max-w-5xl mx-auto mt-6 px-4 pointer-events-auto transition-all duration-500 ${
-          mobileMenuOpen ? "" : "rounded-full"
-        } ${isScrolled ? "bg-white/80 backdrop-blur-xl shadow-lg shadow-black/5" : "bg-transparent"}`}
+        className={`max-w-5xl mx-auto mt-6 px-4 pointer-events-auto backdrop-blur-xl shadow-lg shadow-black/5 transition-[border-radius] duration-300 ${
+          mobileMenuOpen ? "rounded-3xl" : "rounded-full"
+        }`}
+        style={{ backgroundColor: `rgba(255, 255, 255, ${bgOpacity})` }}
       >
         <div className="flex items-center justify-between h-14 px-2">
           <Link href="/" className="block shrink-0">
-            <span
-              className={`flex items-center rounded-full transition-all duration-500 ${
-                isScrolled ? "px-0 py-0" : "bg-white/95 backdrop-blur px-3 py-1.5 shadow-sm"
-              }`}
-            >
-              <Image src="/logo.png" alt="Millennium Technology" width={196} height={40} priority className="h-9 w-auto" />
-            </span>
+            <Image src="/logo.png" alt="Millennium Technology" width={196} height={40} priority className="h-9 w-auto" />
           </Link>
 
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-7">
             {navLinks.map((link) =>
               link.dropdown ? (
                 <div key={link.label} className="relative group">
                   {link.href ? (
                     <Link
                       href={link.href}
-                      className={`flex items-center gap-1 text-xs transition-colors duration-500 ${
-                        isScrolled ? "text-[#1A1A1A] hover:text-[#737373]" : "text-white hover:text-white/70"
-                      }`}
+                      className="flex items-center gap-1 text-sm text-[#1A1A1A] hover:text-[#737373] transition-colors duration-300"
                     >
                       {link.label}
-                      <ChevronDown className="w-3 h-3" />
+                      <ChevronDown className="w-3.5 h-3.5" />
                     </Link>
                   ) : (
                     <button
                       type="button"
-                      className={`flex items-center gap-1 text-xs transition-colors duration-500 ${
-                        isScrolled ? "text-[#1A1A1A] hover:text-[#737373]" : "text-white hover:text-white/70"
-                      }`}
+                      className="flex items-center gap-1 text-sm text-[#1A1A1A] hover:text-[#737373] transition-colors duration-300"
                     >
                       {link.label}
-                      <ChevronDown className="w-3 h-3" />
+                      <ChevronDown className="w-3.5 h-3.5" />
                     </button>
                   )}
                   <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
@@ -114,9 +102,7 @@ export function Nav() {
                 <Link
                   key={link.label}
                   href={link.href!}
-                  className={`text-xs transition-colors duration-500 ${
-                    isScrolled ? "text-[#1A1A1A] hover:text-[#737373]" : "text-white hover:text-white/70"
-                  }`}
+                  className="text-sm text-[#1A1A1A] hover:text-[#737373] transition-colors duration-300"
                 >
                   {link.label}
                 </Link>
@@ -126,9 +112,7 @@ export function Nav() {
 
           <button
             type="button"
-            className={`md:hidden p-2 rounded-full transition-colors duration-500 ${
-              isScrolled ? "hover:bg-[#F5F5F5] text-[#1A1A1A]" : "hover:bg-white/10 text-white"
-            }`}
+            className="md:hidden p-2 rounded-full hover:bg-[#F5F5F5] text-[#1A1A1A] transition-colors duration-300"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Menu"
           >
