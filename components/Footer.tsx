@@ -31,6 +31,14 @@ const socialLinks = [
 
 const footerLinks = [
   {
+    title: "Contact",
+    links: [
+      { name: "sales@millenniumtechnology.in", href: "mailto:sales@millenniumtechnology.in", icon: Mail },
+      { name: "+91 96625 45915", href: "tel:+919662545915", icon: Phone },
+      { name: "WhatsApp Us", href: "https://wa.me/+919662545915", icon: MessageCircle },
+    ],
+  },
+  {
     title: "Site Map",
     links: [
       { name: "Home", href: "/" },
@@ -45,12 +53,6 @@ const footerLinks = [
     title: "Shop",
     links: CATEGORIES.map((c) => ({ name: c.title, href: `/category/${c.slug}` })),
   },
-];
-
-const contactLinks = [
-  { name: "sales@millenniumtechnology.in", href: "mailto:sales@millenniumtechnology.in", icon: Mail },
-  { name: "+91 96625 45915", href: "tel:+919662545915", icon: Phone },
-  { name: "WhatsApp Us", href: "https://wa.me/+919662545915", icon: MessageCircle },
 ];
 
 export function Footer() {
@@ -103,44 +105,34 @@ export function Footer() {
                   <ul className="flex flex-col gap-3">
                     {column.links.map((link) => (
                       <li key={link.name}>
-                        <Link href={link.href} className="text-sm text-[#737373] hover:text-[#1A1A1A] transition-colors font-body">
-                          {link.name}
-                        </Link>
+                        {link.href.startsWith("/") ? (
+                          <Link href={link.href} className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-[#1A1A1A] transition-colors font-body">
+                            {link.name}
+                          </Link>
+                        ) : (
+                          <a
+                            href={link.href}
+                            target={link.href.startsWith("http") ? "_blank" : undefined}
+                            rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                            className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-[#1A1A1A] transition-colors font-body"
+                          >
+                            {link.icon ? <link.icon className="w-4 h-4 shrink-0" /> : null}
+                            {link.name}
+                          </a>
+                        )}
                       </li>
                     ))}
                   </ul>
-                  {column.title === "Site Map" && (
-                    <p className="text-sm text-[#737373] font-body leading-relaxed mt-5 max-w-[220px]">
+                  {column.title === "Contact" && (
+                    <p className="text-sm text-[#737373] font-body leading-relaxed mt-5 max-w-[240px]">
                       Millennium Technology
                       <br />
-                      208-209, Regent Square, Above D-Mart, Near Mahalaxmi Temple, Anand Mahal Road, Adajan, Surat –
+                      208-209, Regent Square, Above D-Mart, Near Mahalaxmi Temple, Anand Mahal Road, Adajan, Surat -
                       395009
                     </p>
                   )}
                 </div>
               ))}
-
-              <div
-                className="transition-all duration-700"
-                style={{ transitionDelay: `${100 + footerLinks.length * 100}ms` }}
-              >
-                <h3 className="text-sm text-[#1A1A1A] font-medium mb-4">Contact</h3>
-                <ul className="flex flex-col gap-3">
-                  {contactLinks.map((contact) => (
-                    <li key={contact.name}>
-                      <a
-                        href={contact.href}
-                        target={contact.href.startsWith("http") ? "_blank" : undefined}
-                        rel={contact.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                        className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-[#1A1A1A] transition-colors font-body"
-                      >
-                        <contact.icon className="w-4 h-4 shrink-0" />
-                        {contact.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
             </div>
           </div>
         </div>
