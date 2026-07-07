@@ -519,8 +519,7 @@
       "/products/triview-14-ultrasleek/generated/social-media.jpg",
       "/products/triview-14-ultrasleek/1.jpg",
       "/products/triview-14-ultrasleek/2.jpg",
-      "/products/triview-14-ultrasleek/3.jpg",
-      "/products/triview-14-ultrasleek/4.jpg"
+      "/products/triview-14-ultrasleek/3.jpg"
     ],
     "rating": {
       "value": 4.3,
@@ -618,7 +617,6 @@
     "images": [
       "/products/triview-14-duallink/generated/music-production.jpg",
       "/products/triview-14-duallink/1.jpg",
-      "/products/triview-14-duallink/2.jpg",
       "/products/triview-14-duallink/3.jpg",
       "/products/triview-14-duallink/4.jpg"
     ],
@@ -734,7 +732,6 @@
       "/products/triview-15-6-oneconnect/generated/qa-testing.jpg",
       "/products/triview-15-6-oneconnect/1.jpg",
       "/products/triview-15-6-oneconnect/2.jpg",
-      "/products/triview-15-6-oneconnect/3.jpg",
       "/products/triview-15-6-oneconnect/4.jpg"
     ],
     "rating": {
@@ -951,10 +948,8 @@
     "filterGroup": "TriView",
     "images": [
       "/products/triview-15-6-vertiflex/generated/live-streaming.jpg",
-      "/products/triview-15-6-vertiflex/1.jpg",
       "/products/triview-15-6-vertiflex/2.jpg",
-      "/products/triview-15-6-vertiflex/3.jpg",
-      "/products/triview-15-6-vertiflex/4.jpg"
+      "/products/triview-15-6-vertiflex/3.jpg"
     ],
     "rating": {
       "value": 4.3,
@@ -1054,10 +1049,8 @@
     "filterGroup": "TriView",
     "images": [
       "/products/triview-18-5-vertimax/generated/3d-cad-design.jpg",
-      "/products/triview-18-5-vertimax/1.jpg",
       "/products/triview-18-5-vertimax/2.jpg",
-      "/products/triview-18-5-vertimax/3.jpg",
-      "/products/triview-18-5-vertimax/4.jpg"
+      "/products/triview-18-5-vertimax/3.jpg"
     ],
     "rating": {
       "value": 4,
