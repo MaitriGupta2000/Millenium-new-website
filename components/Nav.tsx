@@ -53,9 +53,7 @@ export function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-[100] pointer-events-none">
       <nav
-        className={`max-w-5xl mx-auto mt-6 px-4 pointer-events-auto backdrop-blur-xl shadow-lg shadow-black/5 transition-[border-radius] duration-300 ${
-          mobileMenuOpen ? "rounded-3xl" : "rounded-full"
-        }`}
+        className="max-w-5xl mx-auto mt-6 px-4 pointer-events-auto backdrop-blur-xl shadow-lg shadow-black/5 rounded-3xl"
         style={{ backgroundColor: `rgba(255, 255, 255, ${bgOpacity})` }}
       >
         <div className="flex items-center justify-between h-14 px-2">
