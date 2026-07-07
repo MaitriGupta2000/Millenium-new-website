@@ -16,10 +16,40 @@ const playfair = Playfair_Display({
   style: ["normal", "italic"],
 });
 
+const siteUrl = "https://millenniumtechnology.in";
+const description =
+  "Millennium Technology designs and manufactures laptop screen extenders, networking cards, add-on cards, gaming accessories, and compute accessories.";
+
 export const metadata: Metadata = {
-  title: "Millennium Technology - Innovative Products Designed for You",
-  description:
-    "Millennium Technology designs and manufactures laptop screen extenders, networking cards, add-on cards, gaming accessories, and compute accessories.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Millennium Technology - Innovative Products Designed for You",
+    template: "%s | Millennium Technology",
+  },
+  description,
+  alternates: { canonical: "/" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    type: "website",
+    url: siteUrl,
+    siteName: "Millennium Technology",
+    title: "Millennium Technology - Innovative Products Designed for You",
+    description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Millennium Technology - Innovative Products Designed for You",
+    description,
+  },
+};
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Millennium Technology",
+  url: siteUrl,
+  logo: `${siteUrl}/logo.png`,
+  sameAs: [] as string[],
 };
 
 export default function RootLayout({
@@ -29,6 +59,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+      </head>
       <body className="font-sans antialiased bg-background text-[#1A1A1A]">
         {children}
         <WhatsAppButton />
