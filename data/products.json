@@ -1434,7 +1434,7 @@
   {
     "slug": "pcie-gigabit-network-adapter-rtl8111f",
     "category": "networking-cards",
-    "name": "PCI Express Gigabit 1000Mbps Network Adaptor | RJ45 Ethernet Card",
+    "name": "PCI Express Gigabit 1000Mbps Network Adaptor | RJ45 Ethernet Card, Chipset - RTL811F",
     "typeLabel": "Gigabit Single-Port Network Card",
     "tagline": "Reliable Gigabit Connectivity For Desktop PCs",
     "description": [
@@ -1562,7 +1562,7 @@
   {
     "slug": "pcie-gigabit-network-adapter-82574-ct",
     "category": "networking-cards",
-    "name": "Pci Express Gigabit Network Adapter with 9301 82574 Chipset CT | 1000Mbps Pci Express Ethernet (LAN) Card",
+    "name": "RJ45 Single Port, Intel 82574 chipset, 1 GbE PCIE x1/x4/x8/x16, INTEL 9301CT COMPATIBLE",
     "typeLabel": "Gigabit Single-Port Network Card",
     "tagline": "Enterprise-Grade Gigabit Networking For Desktop & Workstation Systems",
     "description": [
@@ -1656,7 +1656,7 @@
   {
     "slug": "pcie-dual-port-server-network-adapter-82571-pt",
     "category": "networking-cards",
-    "name": "Pci Express (PCIe x4) Gigabit Dual Port Server Network Adapter with 9402 82571 Chipset PT | 1000Mbps Pci Express Dual Port Server Ethernet (LAN) Card",
+    "name": "RJ45 Dual Port, Intel 82571, 1 GbE PCIE x4/x8/x16, INTEL 9402PT COMPATIBLE",
     "typeLabel": "Gigabit Dual-Port Server Network Card",
     "tagline": "Dual-Port Gigabit Networking For Servers, Workstations & Enterprise Systems",
     "description": [
@@ -1736,7 +1736,7 @@
   {
     "slug": "pcie-quad-port-server-network-adapter-82571",
     "category": "networking-cards",
-    "name": "Pci Express (PCIe x1) Gigabit 4 Port Quad Server Network Adapter with 82571 Chipset with Low Profile",
+    "name": "RJ45 Quad Port, Intel 82571, 1 GbE, PCIE x1/x4/x8/x16 INTEL 9404 COMPATIBLE",
     "typeLabel": "Gigabit Quad-Port Server Network Card",
     "tagline": "Four Gigabit Ports. One Powerful Network Solution.",
     "description": [
@@ -1836,7 +1836,7 @@
   {
     "slug": "pcie-quad-port-server-network-adapter-i350-t4",
     "category": "networking-cards",
-    "name": "Pci Express (PCIe x4) Gigabit 4 Port Quad Server Network Adapter with I350 AM4 Chipset T4",
+    "name": "RJ45 Quad Port, Intel NHI350AM4, 1 GbE, PCIE x4/x8/x16 INTEL I350AM T4 COMPATIBLE",
     "typeLabel": "Gigabit Quad-Port Server Network Card",
     "tagline": "Enterprise-Class Quad Port Networking For Servers, Virtualization & Network Appliances",
     "description": [
@@ -1925,7 +1925,7 @@
   {
     "slug": "10gb-dual-rj45-network-adapter-x540-t2",
     "category": "networking-cards",
-    "name": "10Gb NIC Dual RJ 45 Port Ethernet Converged Network Adapter PCIe x8 with X540 T2 Chipset",
+    "name": "RJ45- Dual Port, Intel X540T2 chipset, 10 GbE PCIE x8/x16 INTEL X540T2 COMPATIBLE",
     "typeLabel": "10Gb Dual-Port Network Card",
     "tagline": "Enterprise-Class 10 Gigabit Networking For Servers & High-Performance Workstations",
     "description": [
@@ -2010,7 +2010,7 @@
   {
     "slug": "10gb-single-sfp-network-adapter-x520-da1",
     "category": "networking-cards",
-    "name": "10Gb NIC Single SFP+ Port Ethernet Converged Network Adapter PCIe x8 with X520 82599ES Chipset DA1",
+    "name": "SFP+ Single Port, Intel 82599ES chipset, 10 GbE PCIE x8/x16, INTEL X520 DA1 COMPATIBLE",
     "typeLabel": "10Gb Single-Port Network Card",
     "tagline": "High-Performance 10Gb SFP+ Networking For Servers, Storage & Enterprise Infrastructure",
     "description": [
@@ -2094,7 +2094,7 @@
   {
     "slug": "10gb-dual-sfp-network-adapter-x520-da2",
     "category": "networking-cards",
-    "name": "10Gb Dual SFP+ Port Ethernet Converged Network Adapter PCIe x8 with X520 82599ES Chipset DA2",
+    "name": "SFP+ Dual Port, Intel 82599ES chipset, 10 GbE PCIE x8/x16, INTEL X520 DA2 COMPATIBLE",
     "typeLabel": "10Gb Dual-Port Network Card",
     "tagline": "Enterprise-Class Dual-Port 10GbE Networking For Servers, Storage & Virtualization",
     "description": [
@@ -2171,7 +2171,7 @@
   {
     "slug": "10gb-dual-sfp-network-adapter-bcm57810",
     "category": "networking-cards",
-    "name": "10Gb NIC Dual SFP+ Port Ethernet Converged Network Adapter PCIe x8 with BCM57810 Chipset",
+    "name": "SFP+ Dual Port, BCM57810 chipset, 10 GbE PCIE x8/x16, BROADCOM DUAL PORT CARD",
     "typeLabel": "10Gb Dual-Port Network Card",
     "tagline": "Enterprise 10GbE Connectivity For Servers, Storage & Virtualized Infrastructure",
     "description": [
@@ -2261,7 +2261,7 @@
   {
     "slug": "10gb-quad-sfp-network-adapter-xl710-da4",
     "category": "networking-cards",
-    "name": "10Gb NIC Quad (4 Port) SFP+ Port Ethernet Converged Network Adapter PCIe x8 with XL710 BM1 Chipset DA4",
+    "name": "SFP+ Quad port, Intel X710BM1, 10 GbE PCIE x8/x16, INTEL X710 DA4 COMPATIBLE",
     "typeLabel": "10Gb Quad-Port Network Card",
     "tagline": "High-Density 40Gb Aggregate Networking For Enterprise Infrastructure",
     "description": [
@@ -2341,7 +2341,7 @@
   {
     "slug": "40gb-single-qsfp-network-adapter-xl710-qda1",
     "category": "networking-cards",
-    "name": "40Gb NIC Single QSFP+ Port Ethernet Converged Network Adapter PCIe x8 with XL710 BM1 Chipset QDA1",
+    "name": "QSFP+ Single Port, Intel XL710BM1 chipset, 40 GbE, PCIE x8/x16, INTEL XL710-QDA1 COMPATIBLE",
     "typeLabel": "40Gb Single-Port Network Card",
     "tagline": "High-Speed 40 Gigabit Networking For Data Centers, Storage & Enterprise Infrastructure",
     "description": [
@@ -2427,7 +2427,7 @@
   {
     "slug": "40gb-dual-qsfp-network-adapter-xl710-qda2",
     "category": "networking-cards",
-    "name": "40Gb NIC Dual QSFP+ Port Ethernet Converged Network Adapter PCIe x8 with XL710 BM2 Chipset QDA2",
+    "name": "QSFP+ Dual Port, Intel XL710BM2 chipset, 40 GbE PCIE x8/x16, INTEL XL710-QDA2 COMPATIBLE",
     "typeLabel": "40Gb Dual-Port Network Card",
     "tagline": "Dual-Port 40GbE Connectivity For Data Centers, Virtualization & High-Performance Infrastructure",
     "description": [
@@ -4235,5 +4235,229 @@
         "text": "Good quality, working nicely"
       }
     ]
+  },
+  {
+    "slug": "10gb-dual-sfp-network-adapter-x710-da2",
+    "category": "networking-cards",
+    "name": "SFP+ Dual Port, Intel XL710-BM1 chipset, 10 GbE, PCIE x8/x16, INTEL X710 DA2 COMPATIBLE",
+    "typeLabel": "10Gb Dual-Port Network Card",
+    "tagline": "Converged 10GbE Fiber Networking For Servers & Data Center Infrastructure",
+    "description": [
+      "Powered by the Intel XL710-BM1 Ethernet Controller, this PCIe x8 dual-port network adapter delivers 10 Gigabit Ethernet connectivity through two SFP+ fiber interfaces. Built for server, data center, and virtualization environments that need dependable high-speed networking.",
+      "Two dedicated 10GbE SFP+ ports allow the adapter to handle demanding network workloads while keeping latency low.",
+      "The Intel XL710-BM1 controller is engineered for enterprise reliability, giving consistent throughput across storage, virtualization, and networking workloads."
+    ],
+    "price": 14449,
+    "stock": "in_stock",
+    "cardFeatures": [
+      "Intel XL710-BM1 Controller",
+      "Dual SFP+ 10GbE Ports",
+      "PCIe x8 Interface"
+    ],
+    "features": [
+      {
+        "title": "Dual-Port 10Gb SFP+ Networking",
+        "description": "Two dedicated 10 Gigabit Ethernet SFP+ interfaces give your infrastructure the bandwidth needed for demanding network workloads."
+      },
+      {
+        "title": "Intel XL710-BM1 Enterprise Controller",
+        "description": "Built around the Intel XL710-BM1 Ethernet Controller, recognized for stable, high-throughput performance in professional server environments."
+      },
+      {
+        "title": "Fiber SFP+ Deployment",
+        "description": "SFP+ interfaces support compatible optical transceivers or Direct Attach Copper (DAC) cables, fitting easily into data centers, storage networks, and enterprise switches."
+      },
+      {
+        "title": "Built For Virtualization & Storage",
+        "description": "Suited to environments requiring high throughput and efficient network communication, including virtualization hosts and storage networks."
+      },
+      {
+        "title": "PCIe x8 Server Performance",
+        "description": "A PCI Express x8 interface delivers the bandwidth needed for dual-port 10Gb networking while remaining compatible with larger PCIe slots."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Specifications",
+        "items": [
+          "Controller Type - Intel XL710-BM1",
+          "Maximum Data transfer rate - 10 GB",
+          "Ethernet Ports - 2",
+          "Interface - Pci Express x8,x16",
+          "Cable Type - Fiber",
+          "Cabling Type - SFP+"
+        ]
+      }
+    ],
+    "amazonUrl": "https://www.amazon.in/dp/B0FP4STLTQ",
+    "filterGroup": "10Gb",
+    "images": [
+      "/products/10gb-dual-sfp-network-adapter-x710-da2/1.jpg",
+      "/products/10gb-dual-sfp-network-adapter-x710-da2/2.jpg",
+      "/products/10gb-dual-sfp-network-adapter-x710-da2/3.jpg"
+    ],
+    "useCases": [
+      "Virtualization Hosts",
+      "Enterprise Servers",
+      "Storage Networks",
+      "Network Appliances",
+      "VMware",
+      "Hyper-V",
+      "Proxmox",
+      "NAS Systems",
+      "PCIe x8",
+      "PCIe x16"
+    ],
+    "reviews": []
+  },
+  {
+    "slug": "10gb-quad-rj45-network-adapter-x710-t4",
+    "category": "networking-cards",
+    "name": "RJ45, Quad Port, Intel X710T4, 10 GbE PCIE x8,x16, Intel X710T4 COMPATIBLE",
+    "typeLabel": "10Gb Quad-Port Network Card",
+    "tagline": "Quad-Port 10GbE Copper Networking For High-Density Server Deployments",
+    "description": [
+      "Built around the Intel X710T4 Ethernet Controller, this PCIe x8 quad-port network adapter delivers four independent 10 Gigabit Ethernet RJ45 copper connections. Designed for servers needing high port density without moving to fiber infrastructure.",
+      "Four dedicated 10GbE RJ45 ports let a single card replace multiple single-port adapters, freeing up PCIe slots.",
+      "The Intel X710T4 controller is built for enterprise networking, offering dependable performance for demanding, high-density server workloads."
+    ],
+    "price": 35000,
+    "stock": "in_stock",
+    "cardFeatures": [
+      "Intel X710T4 Controller",
+      "Quad RJ45 10GbE Ports",
+      "PCIe x8 Interface"
+    ],
+    "features": [
+      {
+        "title": "Quad-Port 10Gb RJ45 Networking",
+        "description": "Four independent 10 Gigabit Ethernet copper ports on a single card, ideal for high-density server and rack deployments."
+      },
+      {
+        "title": "Intel X710T4 Enterprise Controller",
+        "description": "Built around the Intel X710T4 Ethernet Controller, recognized for stable, high-throughput performance in professional server environments."
+      },
+      {
+        "title": "Copper RJ45 Deployment",
+        "description": "Standard RJ45 copper cabling means no additional transceivers or DAC cables are needed, simplifying installation into existing infrastructure."
+      },
+      {
+        "title": "Optimized For High-Density Servers",
+        "description": "A single card consolidates four 10Gb ports, reducing the number of PCIe slots and adapters needed in dense server builds."
+      },
+      {
+        "title": "PCIe x8 Server Performance",
+        "description": "A PCI Express x8 interface delivers the bandwidth needed for quad-port 10Gb networking while remaining compatible with larger PCIe slots."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Specifications",
+        "items": [
+          "Controller Type - Intel X710T4",
+          "Maximum Data transfer rate - 10 GB",
+          "Ethernet Ports - 4",
+          "Interface - Pci Express x8,x16",
+          "Cable Type - Copper",
+          "Cabling Type - RJ45"
+        ]
+      }
+    ],
+    "amazonUrl": "https://www.amazon.in/Millennium-Technology-Ethernet-Converged-Network/dp/B0GJ5S5L83",
+    "filterGroup": "10Gb",
+    "images": [
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/1.jpg",
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/2.jpg",
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/3.jpg",
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/4.jpg",
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/5.jpg"
+    ],
+    "useCases": [
+      "Enterprise Servers",
+      "High-Density Rack Deployments",
+      "Network Appliances",
+      "VMware",
+      "Hyper-V",
+      "Proxmox",
+      "NAS Systems",
+      "Backup Infrastructure",
+      "PCIe x8",
+      "PCIe x16"
+    ],
+    "reviews": []
+  },
+  {
+    "slug": "100gb-dual-qsfp28-network-adapter-e810-cqda2",
+    "category": "networking-cards",
+    "name": "QSFP Dual Port, INTEL E810 chipset,100 GbE PCIE x16, INTEL E810 CQDA2 COMPATIBLE",
+    "typeLabel": "100Gb Dual-Port Network Card",
+    "tagline": "100 Gigabit Ethernet Networking For Next-Generation Data Center Infrastructure",
+    "description": [
+      "Powered by the Intel E810 Ethernet Controller, this PCIe x16 dual-port network adapter delivers 100 Gigabit Ethernet connectivity through two QSFP28 fiber interfaces. Built for the highest-throughput data center, storage, and virtualization workloads.",
+      "Two dedicated 100GbE QSFP28 ports give the adapter the bandwidth to handle the most demanding network workloads with minimal latency.",
+      "The Intel E810 controller is engineered for next-generation data center networking, offering the throughput and reliability required for large-scale infrastructure."
+    ],
+    "price": 38499,
+    "stock": "in_stock",
+    "cardFeatures": [
+      "Intel E810 Controller",
+      "Dual QSFP28 100GbE Ports",
+      "PCIe x16 Interface"
+    ],
+    "features": [
+      {
+        "title": "Dual-Port 100Gb QSFP28 Networking",
+        "description": "Two dedicated 100 Gigabit Ethernet QSFP28 interfaces provide the bandwidth needed for the most demanding data center workloads."
+      },
+      {
+        "title": "Intel E810 Enterprise Controller",
+        "description": "Built around the Intel E810 Ethernet Controller, designed for next-generation data center networking with high reliability and throughput."
+      },
+      {
+        "title": "Fiber QSFP28 Deployment",
+        "description": "QSFP28 interfaces support compatible optical transceivers or Direct Attach Copper (DAC) cables, fitting into modern data center and storage network infrastructure."
+      },
+      {
+        "title": "Optimized For Large-Scale Infrastructure",
+        "description": "Suited to environments requiring the highest throughput and lowest latency, including hyperscale storage and virtualization platforms."
+      },
+      {
+        "title": "PCIe x16 Maximum Bandwidth",
+        "description": "A PCI Express x16 interface delivers the full bandwidth needed to sustain dual-port 100Gb networking."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Specifications",
+        "items": [
+          "Controller Type - Intel E810",
+          "Maximum Data transfer rate - 100 GB",
+          "Ethernet Ports - 2",
+          "Interface - Pci Express x16",
+          "Cable Type - Fiber",
+          "Cabling Type - QSFP28"
+        ]
+      }
+    ],
+    "amazonUrl": "https://www.amazon.in/Millennium-Technology-Ethernet-Converged-Network/dp/B0FP4S72YW/ref=ast_sto_dp_puis",
+    "filterGroup": "100Gb",
+    "images": [
+      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/1.jpg",
+      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/2.jpg",
+      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/3.jpg",
+      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/4.jpg"
+    ],
+    "useCases": [
+      "Hyperscale Data Centers",
+      "Enterprise Servers",
+      "Storage Networks",
+      "Virtualization Hosts",
+      "Network Appliances",
+      "VMware",
+      "Hyper-V",
+      "Proxmox",
+      "PCIe x16"
+    ],
+    "reviews": []
   }
 ]
