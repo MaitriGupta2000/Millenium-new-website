@@ -136,7 +136,7 @@ export function Footer() {
                   </ul>
                   {column.title === "Contact" && (
                     <p className="text-sm text-[#737373] font-body leading-relaxed mt-5 max-w-[240px]">
-                      Millennium Technology
+                      Millennium Online India Limited 
                       <br />
                       208-209, Regent Square, Above D-Mart, Near Mahalaxmi Temple, Anand Mahal Road, Adajan, Surat -
                       395009
