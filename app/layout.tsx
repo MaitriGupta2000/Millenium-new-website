@@ -23,33 +23,51 @@ const description =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Millennium Technology - Innovative Products Designed for You",
+    default: "Millennium Technology",
     template: "%s | Millennium Technology",
   },
   description,
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/small_logo.png",
+    shortcut: "/small_logo.png",
+    apple: "/small_logo.png",
+  },
   openGraph: {
     type: "website",
     url: siteUrl,
     siteName: "Millennium Technology",
-    title: "Millennium Technology - Innovative Products Designed for You",
+    title: "Millennium Technology",
     description,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Millennium Technology - Innovative Products Designed for You",
+    title: "Millennium Technology",
     description,
   },
 };
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "LocalBusiness",
   name: "Millennium Technology",
   url: siteUrl,
   logo: `${siteUrl}/logo.png`,
-  sameAs: [] as string[],
+  image: `${siteUrl}/logo.png`,
+  telephone: "+919662545915",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "208-209, Regent Square, Above D-Mart, Near Mahalaxmi Temple, Anand Mahal Road, Adajan",
+    addressLocality: "Surat",
+    addressRegion: "Gujarat",
+    postalCode: "395009",
+    addressCountry: "IN",
+  },
+  sameAs: [
+    "https://www.instagram.com/millenniumtechno",
+    "https://www.facebook.com/millenniumtech/",
+  ],
 };
 
 export default function RootLayout({
