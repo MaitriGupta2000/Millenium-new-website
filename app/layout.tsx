@@ -17,14 +17,15 @@ const playfair = Playfair_Display({
 });
 
 const siteUrl = "https://millenniumtechnology.in";
+const siteName = "Millenium Technology";
 const description =
-  "Millennium Technology designs and manufactures laptop screen extenders, networking cards, add-on cards, gaming accessories, and compute accessories.";
+  `${siteName} designs and manufactures laptop screen extenders, networking cards, add-on cards, gaming accessories, and compute accessories.`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Millennium Technology",
-    template: "%s | Millennium Technology",
+    default: siteName,
+    template: `%s | ${siteName}`,
   },
   description,
   alternates: { canonical: "/" },
@@ -37,13 +38,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "Millennium Technology",
-    title: "Millennium Technology",
+    siteName,
+    title: siteName,
     description,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Millennium Technology",
+    title: siteName,
     description,
   },
 };
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Millennium Technology",
+  name: siteName,
   url: siteUrl,
   logo: `${siteUrl}/logo.png`,
   image: `${siteUrl}/logo.png`,
