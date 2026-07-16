@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import "./globals.css";
 
@@ -88,6 +89,7 @@ export default function RootLayout({
         {children}
         <WhatsAppButton />
       </body>
+      <GoogleTagManager gtmId="GTM-MN6WQNCS" />
     </html>
   );
 }
