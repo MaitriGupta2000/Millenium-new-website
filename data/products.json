@@ -95,6 +95,7 @@
     "filterGroup": "DuoView",
     "images": [
       "/products/duoview-15-6-airlink-wireless/generated/photo-editing.jpg",
+      "/products/duoview-15-6-airlink-wireless/5.png",
       "/products/duoview-15-6-airlink-wireless/1.jpg",
       "/products/duoview-15-6-airlink-wireless/2.jpg",
       "/products/duoview-15-6-airlink-wireless/3.jpg",
@@ -190,6 +191,7 @@
     "filterGroup": "DuoView",
     "images": [
       "/products/duoview-15-6-ultraslim/generated/writing-research-v3.jpg",
+      "/products/duoview-15-6-ultraslim/5.png",
       "/products/duoview-15-6-ultraslim/1.jpg",
       "/products/duoview-15-6-ultraslim/2.jpg",
       "/products/duoview-15-6-ultraslim/3.jpg",
@@ -285,6 +287,7 @@
     "filterGroup": "DuoView",
     "images": [
       "/products/duoview-16-widestand/generated/project-management-v3.jpg",
+      "/products/duoview-16-widestand/5.png",
       "/products/duoview-16-widestand/1.jpg",
       "/products/duoview-16-widestand/2.jpg",
       "/products/duoview-16-widestand/3.jpg"
@@ -396,6 +399,7 @@
     "filterGroup": "DuoView",
     "images": [
       "/products/duoview-18-5-ultrawide/generated/financial-modeling-v3.jpg",
+      "/products/duoview-18-5-ultrawide/5.png",
       "/products/duoview-18-5-ultrawide/1.jpg",
       "/products/duoview-18-5-ultrawide/2.jpg",
       "/products/duoview-18-5-ultrawide/3.jpg",
@@ -516,6 +520,7 @@
     "filterGroup": "TriView",
     "images": [
       "/products/triview-14-ultrasleek/generated/social-media.jpg",
+      "/products/triview-14-ultrasleek/5.png",
       "/products/triview-14-ultrasleek/1.jpg",
       "/products/triview-14-ultrasleek/2.jpg",
       "/products/triview-14-ultrasleek/3.jpg"
@@ -615,6 +620,7 @@
     "filterGroup": "TriView",
     "images": [
       "/products/triview-14-duallink/generated/music-production.jpg",
+      "/products/triview-14-duallink/5.png",
       "/products/triview-14-duallink/1.jpg",
       "/products/triview-14-duallink/3.jpg",
       "/products/triview-14-duallink/4.jpg"
@@ -729,6 +735,7 @@
     "filterGroup": "TriView",
     "images": [
       "/products/triview-15-6-oneconnect/generated/qa-testing.jpg",
+      "/products/triview-15-6-oneconnect/5.png",
       "/products/triview-15-6-oneconnect/1.jpg",
       "/products/triview-15-6-oneconnect/2.jpg",
       "/products/triview-15-6-oneconnect/4.jpg"
@@ -838,6 +845,7 @@
     "filterGroup": "TriView",
     "images": [
       "/products/triview-15-6-flexsplit/generated/hero-trading.jpg",
+      "/products/triview-15-6-flexsplit/5.png",
       "/products/triview-15-6-flexsplit/1.jpg",
       "/products/triview-15-6-flexsplit/2.jpg",
       "/products/triview-15-6-flexsplit/3.jpg",
@@ -947,6 +955,7 @@
     "filterGroup": "TriView",
     "images": [
       "/products/triview-15-6-vertiflex/generated/live-streaming.jpg",
+      "/products/triview-15-6-vertiflex/5.png",
       "/products/triview-15-6-vertiflex/2.jpg",
       "/products/triview-15-6-vertiflex/3.jpg"
     ],
@@ -1048,6 +1057,7 @@
     "filterGroup": "TriView",
     "images": [
       "/products/triview-18-5-vertimax/generated/3d-cad-design.jpg",
+      "/products/triview-18-5-vertimax/5.png",
       "/products/triview-18-5-vertimax/2.jpg",
       "/products/triview-18-5-vertimax/3.jpg"
     ],
@@ -1157,6 +1167,7 @@
     "filterGroup": "QuadView",
     "images": [
       "/products/quadview-14-flex/generated/cybersecurity-soc.jpg",
+      "/products/quadview-14-flex/5.png",
       "/products/quadview-14-flex/1.jpg",
       "/products/quadview-14-flex/2.jpg",
       "/products/quadview-14-flex/3.jpg",
@@ -1278,6 +1289,7 @@
     "filterGroup": "QuadView",
     "images": [
       "/products/quadview-15-6-ultraview/generated/ai-ml-training.jpg",
+      "/products/quadview-15-6-ultraview/5.png",
       "/products/quadview-15-6-ultraview/1.jpg",
       "/products/quadview-15-6-ultraview/2.jpg",
       "/products/quadview-15-6-ultraview/3.jpg",
@@ -1405,6 +1417,7 @@
     "filterGroup": "QuadView",
     "images": [
       "/products/quadview-15-6-ultraview-pro/generated/architecture-bim.jpg",
+      "/products/quadview-15-6-ultraview-pro/5.png",
       "/products/quadview-15-6-ultraview-pro/1.jpg",
       "/products/quadview-15-6-ultraview-pro/2.jpg",
       "/products/quadview-15-6-ultraview-pro/3.jpg",
