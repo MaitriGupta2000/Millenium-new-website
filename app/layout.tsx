@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter, Playfair_Display } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -84,6 +85,19 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18325960469"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-gtag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18325960469');
+          `}
+        </Script>
       </head>
       <body className="font-sans antialiased bg-background text-[#1A1A1A]">
         {children}
