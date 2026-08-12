@@ -76,7 +76,7 @@
       {
         "title": "Weight",
         "items": [
-          "Approx. 0.68kg"
+          "Approx 0.68kg"
         ]
       }
     ],
@@ -92,7 +92,6 @@
       "Creative workflows"
     ],
     "amazonUrl": "https://amzn.in/d/0fxdN9wH",
-    "filterGroup": "DuoView",
     "images": [
       "/products/duoview-15-6-airlink-wireless/generated/photo-editing.jpg",
       "/products/duoview-15-6-airlink-wireless/5.png",
@@ -106,8 +105,7 @@
       "count": 1
     },
     "reviews": [],
-    "metaTitle": "DuoView 15.6\" AirLite Wireless Portable Monitor | Millennium",
-    "metaDescription": "Go wireless with DuoView AirLite — a 15.6\" Full HD portable monitor that turns any laptop into a dual-screen workstation. No cables, no clutter. Buy on Amazon India."
+    "filterGroup": "DuoView"
   },
   {
     "slug": "duoview-15-6-ultraslim",
