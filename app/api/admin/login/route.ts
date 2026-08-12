@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getSessionToken, timingSafeEqualStr } from "@/lib/adminSession";
+import { signSessionToken, timingSafeEqualStr } from "@/lib/adminSession";
 
 const COOKIE_NAME = "admin_session";
 
@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: false, error: "Wrong password" }, { status: 401 });
   }
 
-  const token = await getSessionToken(secret);
+  const token = await signSessionToken(secret);
   const res = NextResponse.json({ ok: true });
   res.cookies.set(COOKIE_NAME, token, {
     httpOnly: true,

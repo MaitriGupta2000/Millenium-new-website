@@ -56,4 +56,6 @@ export interface Product {
   reviews: Review[];
   /** Short tab label for category-page filtering (e.g. "DuoView", "10Gb", "USB"). */
   filterGroup?: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }
