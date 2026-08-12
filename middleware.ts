@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getSessionToken, timingSafeEqualStr } from "@/lib/adminSession";
+import { verifySessionToken } from "@/lib/adminSession";
 
 const COOKIE_NAME = "admin_session";
 
@@ -13,7 +13,7 @@ export async function middleware(req: NextRequest) {
   const cookie = req.cookies.get(COOKIE_NAME)?.value;
   const secret = process.env.ADMIN_SESSION_SECRET;
 
-  if (secret && cookie && timingSafeEqualStr(cookie, await getSessionToken(secret))) {
+  if (secret && cookie && (await verifySessionToken(cookie, secret))) {
     return NextResponse.next();
   }
 
