@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 });
 
 const siteUrl = "https://millenniumtechnology.in";
-const siteName = "Millenium Technology";
+const siteName = "Millennium Technology";
 const description =
   `${siteName} designs and manufactures laptop screen extenders, networking cards, add-on cards, gaming accessories, and compute accessories.`;
 

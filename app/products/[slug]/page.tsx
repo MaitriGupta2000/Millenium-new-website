@@ -18,8 +18,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const product = getProductBySlug(resolvedParams.slug);
   if (!product) return {};
   return {
-    title: `${product.name} - Millennium Technology`,
-    description: product.tagline,
+    title: product.metaTitle || `${product.name} - Millennium Technology`,
+    description: product.metaDescription || product.tagline,
+    openGraph: {
+      title: product.metaTitle || product.name,
+      description: product.metaDescription || product.tagline,
+      url: `${process.env.SITE_URL || 'https://millenniumtechnology.in'}/products/${product.slug}`,
+    },
+    twitter: {
+      title: product.metaTitle || product.name,
+      description: product.metaDescription || product.tagline,
+      card: "summary_large_image",
+    },
   };
 }
 
