@@ -66,7 +66,9 @@ export default function ProductForm({ initial, isNew }: { initial?: Product; isN
   const [cardFeaturesText, setCardFeaturesText] = useState(base.cardFeatures.join("\n"));
   const [useCasesText, setUseCasesText] = useState((base.useCases ?? []).join("\n"));
   const [amazonUrl, setAmazonUrl] = useState(base.amazonUrl);
-  const [imagesText, setImagesText] = useState(base.images.join("\n"));
+  const [images, setImages] = useState<string[]>(base.images);
+  const [uploading, setUploading] = useState(false);
+  const [imageError, setImageError] = useState("");
   const [filterGroup, setFilterGroup] = useState(base.filterGroup ?? "");
   const [ratingValue, setRatingValue] = useState(base.rating?.value?.toString() ?? "");
   const [ratingCount, setRatingCount] = useState(base.rating?.count?.toString() ?? "");
@@ -95,7 +97,7 @@ export default function ProductForm({ initial, isNew }: { initial?: Product; isN
       specs: specs.map((s) => ({ title: s.title, items: linesToArray(s.itemsText) })),
       useCases: linesToArray(useCasesText),
       amazonUrl: amazonUrl.trim(),
-      images: linesToArray(imagesText),
+      images,
       rating: (() => {
         const value = parseNumberField(ratingValue, "Rating value");
         const count = parseNumberField(ratingCount, "Rating count");
@@ -105,6 +107,45 @@ export default function ProductForm({ initial, isNew }: { initial?: Product; isN
       reviews,
       filterGroup: filterGroup.trim() || undefined,
     };
+  }
+
+  async function handleImageUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    e.target.value = "";
+    if (!file) return;
+    setImageError("");
+    if (!slug.trim()) {
+      setImageError("Set the slug before uploading images");
+      return;
+    }
+    setUploading(true);
+    const form = new FormData();
+    form.append("slug", slug.trim());
+    form.append("file", file);
+    const res = await fetch("/api/admin/upload", { method: "POST", body: form });
+    setUploading(false);
+    const data = await res.json().catch(() => ({}));
+    if (res.ok && data.ok) {
+      setImages((prev) => [...prev, data.path]);
+    } else {
+      setImageError(data.error || "Upload failed");
+    }
+  }
+
+  async function handleImageRemove(path: string) {
+    if (!confirm(`Remove this image? This commits straight to the live site repo.`)) return;
+    setImageError("");
+    const res = await fetch("/api/admin/upload", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ path }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (res.ok && data.ok) {
+      setImages((prev) => prev.filter((p) => p !== path));
+    } else {
+      setImageError(data.error || "Remove failed");
+    }
   }
 
   async function handleSubmit(e: React.FormEvent) {
@@ -206,8 +247,28 @@ export default function ProductForm({ initial, isNew }: { initial?: Product; isN
         <textarea value={useCasesText} onChange={(e) => setUseCasesText(e.target.value)} rows={3} className={inputCls} />
       </Section>
 
-      <Section title="Images (one URL/path per line)">
-        <textarea value={imagesText} onChange={(e) => setImagesText(e.target.value)} rows={3} className={inputCls} />
+      <Section title="Images">
+        {imageError && <p className="mb-2 text-xs text-red-600">{imageError}</p>}
+        <div className="mb-3 flex flex-wrap gap-3">
+          {images.map((path) => (
+            <div key={path} className="relative">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={path} alt="" className="h-24 w-24 rounded-md border border-neutral-200 object-cover" />
+              <button
+                type="button"
+                onClick={() => handleImageRemove(path)}
+                className="absolute -right-2 -top-2 rounded-full bg-red-600 px-1.5 py-0.5 text-xs leading-none text-white"
+                title="Remove image"
+              >
+                ×
+              </button>
+            </div>
+          ))}
+        </div>
+        <label className={addCls + " inline-block cursor-pointer"}>
+          {uploading ? "Uploading…" : "+ Upload image"}
+          <input type="file" accept="image/*" onChange={handleImageUpload} disabled={uploading} className="hidden" />
+        </label>
       </Section>
 
       <Section title="Rating (optional)">

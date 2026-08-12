@@ -13,8 +13,8 @@ function config() {
   return { owner, repo, branch, token };
 }
 
-function apiUrl(owner: string, repo: string) {
-  return `https://api.github.com/repos/${owner}/${repo}/contents/${FILE_PATH}`;
+function apiUrl(owner: string, repo: string, path: string = FILE_PATH) {
+  return `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
 }
 
 function authHeaders(token: string) {
@@ -49,5 +49,37 @@ export async function writeProductsFile(products: Product[], sha: string, messag
   });
   if (!res.ok) {
     throw new Error(`GitHub write failed: ${res.status} ${await res.text()}`);
+  }
+}
+
+export async function uploadPublicFile(repoPath: string, base64Content: string, message: string): Promise<void> {
+  const { owner, repo, branch, token } = config();
+  const res = await fetch(apiUrl(owner, repo, repoPath), {
+    method: "PUT",
+    headers: { ...authHeaders(token), "Content-Type": "application/json" },
+    body: JSON.stringify({ message, content: base64Content, branch }),
+  });
+  if (!res.ok) {
+    throw new Error(`GitHub upload failed: ${res.status} ${await res.text()}`);
+  }
+}
+
+export async function deletePublicFile(repoPath: string, message: string): Promise<void> {
+  const { owner, repo, branch, token } = config();
+  const getRes = await fetch(`${apiUrl(owner, repo, repoPath)}?ref=${branch}`, {
+    headers: authHeaders(token),
+    cache: "no-store",
+  });
+  if (!getRes.ok) {
+    throw new Error(`GitHub file lookup failed: ${getRes.status} ${await getRes.text()}`);
+  }
+  const { sha } = await getRes.json();
+  const res = await fetch(apiUrl(owner, repo, repoPath), {
+    method: "DELETE",
+    headers: { ...authHeaders(token), "Content-Type": "application/json" },
+    body: JSON.stringify({ message, sha, branch }),
+  });
+  if (!res.ok) {
+    throw new Error(`GitHub delete failed: ${res.status} ${await res.text()}`);
   }
 }
