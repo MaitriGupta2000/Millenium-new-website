@@ -992,7 +992,7 @@
       "The biggest limitation of modern workflows isn't speed. It's visibility. Every minute spent scrolling, switching tabs, opening windows, and searching for information breaks your focus. VertiMax solves that problem with dual 18.5-inch vertical displays that keep more information visible at once. Whether you're monitoring markets, analysing reports, reviewing documents, or managing data, everything stays where you need it.",
       "Markets move quickly. Opportunities move faster. VertiMax was designed for traders who need constant visibility across multiple data streams without sacrificing screen space."
     ],
-    "price": 33999,
+    "price": 31999,
     "stock": "in_stock",
     "cardFeatures": [
       "Dual 18.5\" Full HD Displays",
@@ -1068,8 +1068,15 @@
         ]
       }
     ],
+    "useCases": [
+      "Watchlists",
+      "Technical Charts",
+      "Order Books",
+      "News Feeds",
+      "Economic Calendars",
+      "Trading Platforms"
+    ],
     "amazonUrl": "https://amzn.in/d/04G5EeAT",
-    "filterGroup": "TriView",
     "images": [
       "/products/triview-18-5-vertimax/generated/3d-cad-design.jpg",
       "/products/triview-18-5-vertimax/5.png",
@@ -1081,16 +1088,7 @@
       "count": 16
     },
     "reviews": [],
-    "useCases": [
-      "Watchlists",
-      "Technical Charts",
-      "Order Books",
-      "News Feeds",
-      "Economic Calendars",
-      "Trading Platforms"
-    ],
-    "metaTitle": "TriView 18.5\" VertiMax Portable Monitor Screen Extender",
-    "metaDescription": "TriView VertiMax is Millennium's largest triple monitor setup for laptops — two 18.5\" Full HD screens for serious multitasking, trading and analysis."
+    "filterGroup": "TriView"
   },
   {
     "slug": "quadview-14-flex",
