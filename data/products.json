@@ -888,7 +888,7 @@
       "Most screens are designed horizontally. Most work isn't. Financial reports. Market watchlists. Research papers. Websites. Code. Documents. They're all vertical by nature. VertiFlex gives you two dedicated vertical displays that allow you to see significantly more information at once, helping you spend less time scrolling and more time focusing.",
       "Every second matters when markets move. VertiFlex was designed for traders who need constant visibility across multiple data sources. Monitor watchlists on one screen. Track charts on another. Follow market news and execution platforms simultaneously. All without constantly switching tabs or hiding windows."
     ],
-    "price": 26799,
+    "price": 22999,
     "stock": "in_stock",
     "cardFeatures": [
       "Dual 15.6\" Full HD Displays",
@@ -965,8 +965,8 @@
         ]
       }
     ],
+    "useCases": [],
     "amazonUrl": "https://amzn.in/d/0aRd2Jy2",
-    "filterGroup": "TriView",
     "images": [
       "/products/triview-15-6-vertiflex/generated/live-streaming.jpg",
       "/products/triview-15-6-vertiflex/5.png",
@@ -978,8 +978,7 @@
       "count": 112
     },
     "reviews": [],
-    "metaTitle": "TriView 15.6\" VertiFlex Portable Monitor Screen Extender",
-    "metaDescription": "TriView VertiFlex adds two 15.6\" Full HD screens with vertical and horizontal flexibility — a triple monitor setup for laptops that adapts to your task."
+    "filterGroup": "TriView"
   },
   {
     "slug": "triview-18-5-vertimax",
