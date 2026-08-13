@@ -1227,7 +1227,7 @@
       "Most multi-screen setups give you more windows. UltraView gives you more room to work. With three large 15.6-inch displays surrounding your laptop, every screen feels usable, comfortable, and productive. No cramped dashboards. No tiny spreadsheets. No constant zooming. Just the space you need to work the way you want.",
       "Modern work isn't linear. You might be monitoring operations, responding to customers, reviewing reports, attending meetings, and analysing performance-all at the same time. UltraView creates a dedicated space for every task, helping you stay organized and focused throughout the day."
     ],
-    "price": 46999,
+    "price": 43999,
     "stock": "in_stock",
     "cardFeatures": [
       "Quad Screen Laptop Extender",
@@ -1302,8 +1302,13 @@
         ]
       }
     ],
+    "useCases": [
+      "Window switching",
+      "Tab hunting",
+      "Constant resizing",
+      "Hidden information"
+    ],
     "amazonUrl": "https://amzn.in/d/04uANrgD",
-    "filterGroup": "QuadView",
     "images": [
       "/products/quadview-15-6-ultraview/generated/ai-ml-training.jpg",
       "/products/quadview-15-6-ultraview/5.png",
@@ -1336,14 +1341,7 @@
         "text": "it solved my purpose. it has back stand so you can adjust viewing angle as per your requirement."
       }
     ],
-    "useCases": [
-      "Window switching",
-      "Tab hunting",
-      "Constant resizing",
-      "Hidden information"
-    ],
-    "metaTitle": "QuadView 15.6\" UltraView Quad Monitor Screen Extender",
-    "metaDescription": "QuadView UltraView pairs three 15.6\" Full HD screens with your laptop for a complete quad monitor workstation — built for high-visibility work."
+    "filterGroup": "QuadView"
   },
   {
     "slug": "quadview-15-6-ultraview-pro",
