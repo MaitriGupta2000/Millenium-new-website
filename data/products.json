@@ -4557,5 +4557,117 @@
       "PCIe x16"
     ],
     "reviews": []
+  },
+  {
+    "slug": "duoview-15-6-fhd-portable-monitor",
+    "category": "monitor-extenders",
+    "name": "DuoView 15.6 FHD Foldable Portable Monitor",
+    "tag": "DUOVIEW",
+    "typeLabel": "Portable Laptop Screen Extender",
+    "tagline": "Foldable Screen. More Possibilities.",
+    "description": [
+      "The DuoView 15.6 FHD Portable Monitor gives your laptop an additional Full HD display for a more productive multi-screen workspace. Designed for professionals, traders, programmers, students, creators and remote workers, it lets you expand your screen space without carrying a traditional desktop monitor.",
+      "Featuring a 15.6-inch IPS display with 1920 × 1080 Full HD resolution, a 16:9 aspect ratio and 60Hz refresh rate, DuoView delivers clear visuals and sharp text for everyday work, entertainment and multitasking. The portable foldable design makes DuoView easy to carry alongside your laptop for work from home, business travel, coworking spaces, classrooms and mobile workstations."
+    ],
+    "price": 12999,
+    "stock": "in_stock",
+    "cardFeatures": [
+      "15.6\" Full HD IPS Display",
+      "1920 × 1080 Resolution",
+      "USB-C & HDMI Connectivity",
+      "Extend & Duplicate Modes"
+    ],
+    "features": [
+      {
+        "title": "Built For The Latest MacBooks — Including M5",
+        "description": "This portable monitor is designed to work with compatible MacBook models, including the latest Apple M5-powered MacBooks. Connect your MacBook through the supported USB-C connection and expand your workspace with an additional 15.6-inch Full HD display."
+      },
+      {
+        "title": "One Monitor. Multiple Orientations.",
+        "description": "Switch between different screen orientations to match the way you work. Use the display horizontally for documents, spreadsheets and videos, or rotate it vertically for coding, reading, research, social media and long-form content."
+      },
+      {
+        "title": "Your Second Screen. Wherever You Work.",
+        "description": "Add a 15.6-inch Full HD display to your laptop and create more room for applications, documents, charts and information. Keep more windows visible and spend less time switching between screens."
+      },
+      {
+        "title": "Extend Or Duplicate. Your Choice.",
+        "description": "Use Extend Mode to expand your desktop and run different applications across two screens, or switch to Duplicate Mode when you want the same content displayed on both screens."
+      },
+      {
+        "title": "USB-C & HDMI Connectivity",
+        "description": "Connect the portable monitor to compatible laptops and PCs through USB Type-C or HDMI. With flexible connectivity, you can use the monitor across different devices and setups."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Display",
+        "items": [
+          "Screen Size: 15.6\"",
+          "Resolution: 1920 × 1080 Full HD",
+          "Panel Type: IPS",
+          "Aspect Ratio: 16:9",
+          "Refresh Rate: 60Hz",
+          "Viewing Angle: 170°",
+          "Contrast Ratio: 800:1",
+          "Brightness: 250 cd/m²",
+          "Colour Gamut: NTSC 45%",
+          "Display Colours: 16.7M",
+          "Screen Finish: Anti-Glare",
+          "Display Type: LED",
+          "Response Time: 25ms"
+        ]
+      },
+      {
+        "title": "Connectivity",
+        "items": [
+          "USB Type-C",
+          "HDMI",
+          "Extend Mode",
+          "Duplicate Mode"
+        ]
+      },
+      {
+        "title": "Compatibility",
+        "items": [
+          "Compatible PCs",
+          "Windows",
+          "macOS",
+          "Supported USB-C Display Output Devices"
+        ]
+      },
+      {
+        "title": "Weight",
+        "items": [
+          "0.68 kgs"
+        ]
+      }
+    ],
+    "useCases": [
+      "Remote Work",
+      "Work From Home",
+      "Stock Trading",
+      "Coding & Programming",
+      "Data Analysis",
+      "Business & Office Work",
+      "Content Creation",
+      "Photo & Video Editing",
+      "Students & Online Learning",
+      "Research & Presentations",
+      "Freelancing",
+      "Travel & Mobile Workstations"
+    ],
+    "amazonUrl": "https://amzn.in/d/06rMhpXn",
+    "images": [
+      "/products/duoview-15-6-fhd-portable-monitor/1786613859530.png",
+      "/products/duoview-15-6-fhd-portable-monitor/1786615924871.jpg",
+      "/products/duoview-15-6-fhd-portable-monitor/1786615933538.jpg",
+      "/products/duoview-15-6-fhd-portable-monitor/1786615938581.jpg",
+      "/products/duoview-15-6-fhd-portable-monitor/1786615957108.jpg",
+      "/products/duoview-15-6-fhd-portable-monitor/1786615964548.jpg"
+    ],
+    "rating": null,
+    "reviews": [],
+    "filterGroup": "DuoView"
   }
 ]
