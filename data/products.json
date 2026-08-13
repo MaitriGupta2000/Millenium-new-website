@@ -1355,7 +1355,7 @@
       "Most professionals can work from a laptop. Some need a second screen. A few need a complete workstation. QuadView UltraView Pro was designed for professionals whose work depends on visibility, speed, and control. When dashboards, reports, communication, analytics, research, and execution all matter simultaneously, one screen simply isn't enough.",
       "A great workstation isn't about having more screens. It's about giving every workflow its own dedicated space. With UltraView Pro, communication, analysis, execution, and reporting can all remain visible simultaneously, helping you work without interruption. The result is a workspace that feels calmer, faster, and more efficient."
     ],
-    "price": 49999,
+    "price": 46999,
     "stock": "in_stock",
     "cardFeatures": [
       "Quad Screen Laptop Extender",
@@ -1430,8 +1430,8 @@
         ]
       }
     ],
+    "useCases": [],
     "amazonUrl": "https://amzn.in/d/0i1wL5UO",
-    "filterGroup": "QuadView",
     "images": [
       "/products/quadview-15-6-ultraview-pro/generated/architecture-bim.jpg",
       "/products/quadview-15-6-ultraview-pro/5.png",
@@ -1452,8 +1452,7 @@
         "text": "The product is much cheaper than other companies selling this, the screen is fantastic, colors are good. Type c works perfectly, single cable for both screens. Extremely sturdy, good quality product."
       }
     ],
-    "metaTitle": "QuadView 15.6\" UltraView Pro Quad Monitor Extender",
-    "metaDescription": "QuadView UltraView Pro is Millennium's flagship quad monitor laptop workstation — three 15.6\" Full HD screens for mission-critical, high-visibility work."
+    "filterGroup": "QuadView"
   },
   {
     "slug": "pcie-gigabit-network-adapter-rtl8111f",
