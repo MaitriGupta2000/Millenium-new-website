@@ -1102,7 +1102,7 @@
       "There comes a point where even a triple-screen setup starts feeling crowded. You're monitoring dashboards. Managing communication. Reviewing reports. Tracking performance. Running meetings. And suddenly every screen already has a job. QuadView was built for professionals who need one more screen-not for convenience, but because their workflow genuinely demands it.",
       "QuadView transforms a single laptop into a complete productivity hub. Keep communication tools open. Monitor performance dashboards. Review reports. Track projects. Manage operations. All without minimizing windows or constantly switching applications. The result is a workspace that feels organized, efficient, and always in control."
     ],
-    "price": 40999,
+    "price": 41999,
     "stock": "in_stock",
     "cardFeatures": [
       "Quad Screen Laptop Extender",
@@ -1178,8 +1178,8 @@
         ]
       }
     ],
+    "useCases": [],
     "amazonUrl": "https://amzn.in/d/0g87WLDJ",
-    "filterGroup": "QuadView",
     "images": [
       "/products/quadview-14-flex/generated/cybersecurity-soc.jpg",
       "/products/quadview-14-flex/5.png",
@@ -1212,8 +1212,7 @@
         "text": "it solved my purpose. it has back stand so you can adjust viewing angle as per your requirement."
       }
     ],
-    "metaTitle": "QuadView 14\" UltraView Quad Monitor Screen Extender",
-    "metaDescription": "QuadView UltraView adds three 14\" Full HD screens to your laptop — a compact quad monitor laptop setup for coders, traders and multitaskers on the move."
+    "filterGroup": "QuadView"
   },
   {
     "slug": "quadview-15-6-ultraview",
