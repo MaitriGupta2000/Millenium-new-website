@@ -218,7 +218,7 @@
       "The 16-inch display gives you more usable workspace than traditional 15.6-inch portable monitors. View larger spreadsheets. Keep more tabs open. Review presentations with greater clarity. That extra screen space creates a noticeably more comfortable workflow throughout the day."
     ],
     "price": 6949,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "16\" Full HD Display",
       "Integrated WideStand Design",
@@ -286,7 +286,6 @@
       "Students & Researchers"
     ],
     "amazonUrl": "https://amzn.in/d/07JI9TnW",
-    "filterGroup": "DuoView",
     "images": [
       "/products/duoview-16-widestand/generated/project-management-v3.jpg",
       "/products/duoview-16-widestand/5.png",
@@ -306,8 +305,7 @@
         "text": "the product is reeally very good but its very delicate yo have take care of it even a little pressure will damage the screen look beautiful truely oled type feel with bezele less view"
       }
     ],
-    "metaTitle": "DuoView 16\" WideStand Portable Monitor | Dual Screen Laptop Stand",
-    "metaDescription": "DuoView WideStand pairs a 16\" Full HD portable monitor with a built-in stand for a stable dual-monitor laptop setup at your desk or on the road."
+    "filterGroup": "DuoView"
   },
   {
     "slug": "duoview-18-5-ultrawide",
