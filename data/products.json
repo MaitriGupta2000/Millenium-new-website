@@ -4667,5 +4667,123 @@
     "rating": null,
     "reviews": [],
     "filterGroup": "DuoView"
+  },
+  {
+    "slug": "duoview-15-6-inch-portable-monitor",
+    "category": "monitor-extenders",
+    "name": "DuoView 15.6\" Portable Monitor",
+    "tag": "DUOVIEW",
+    "typeLabel": "Dual Laptop Screen Extender",
+    "tagline": "Your Second Screen. Anywhere.",
+    "description": [
+      "DuoView 15.6\" Portable Monitor is a slim and versatile Full HD external monitor designed to give you more screen space wherever you work. Featuring a 15.6-inch IPS display with 1920 × 1080 resolution and a 60Hz refresh rate, it delivers sharp visuals and smooth everyday performance for work, study, entertainment and multitasking. With USB-C and Mini HDMI connectivity, DuoView offers flexible connection options for compatible laptops, PCs and other devices. The built-in speaker provides convenient audio, while the adjustable 80° stand allows you to position the screen at a comfortable viewing angle. Designed for portability and flexibility, this 15.6-inch portable monitor can be used as a second screen for your laptop, an external display for your computer or a convenient monitor for travel and flexible workspaces. Its wall-mountable design also gives you additional options for creating a clean and space-efficient workstation. Whether you're working from home, travelling, studying, attending online meetings, presenting or simply need additional screen space, DuoView gives you a practical Full HD second display in a slim and portable form factor."
+    ],
+    "price": 6599,
+    "stock": "in_stock",
+    "cardFeatures": [
+      "15.6\" FHD IPS Display",
+      "1920 × 1080 Full HD Resolution",
+      "60Hz Refresh Rate",
+      "USB-C & Mini HDMI Connectivity",
+      "80° Adjustable Stand",
+      "Built-in Speaker",
+      "Wall-Mountable Design",
+      "Ultra-Slim Portable Design"
+    ],
+    "features": [
+      {
+        "title": "Your Second Screen. Everywhere.",
+        "description": "Expand your workspace with a 15.6-inch portable external monitor. Ideal for adding extra screen space to your laptop setup at home, in the office, while travelling or wherever you work."
+      },
+      {
+        "title": "Crisp Full HD IPS Display",
+        "description": "Experience sharp 1920 × 1080 Full HD visuals on a 15.6-inch IPS panel. The 60Hz refresh rate delivers smooth everyday viewing for work, browsing, videos, presentations and more."
+      },
+      {
+        "title": "Flexible USB-C & HDMI Connectivity",
+        "description": "Connect compatible devices through USB-C or Mini HDMI for a flexible external display setup. DuoView Portable Monitor is designed to work with compatible laptops, PCs and other supported devices."
+      },
+      {
+        "title": "Adjustable 80° Viewing Angle",
+        "description": "The integrated adjustable stand lets you position the monitor up to 80° for a comfortable viewing angle, whether you're working, presenting, watching content or travelling."
+      },
+      {
+        "title": "Portable, Light Weight, Slim & Wall-Mountable",
+        "description": "Take your second screen wherever you go. The ultra-slim portable design is easy to move between workspaces, while the wall-mountable design provides another option for a clean and space-efficient setup. Weighs 540 grams and extremely light weight to carry and work around. "
+      }
+    ],
+    "specs": [
+      {
+        "title": "Display",
+        "items": [
+          "Screen Size: 15.6\"",
+          "Panel Type: IPS",
+          "Resolution: 1920 × 1080",
+          "Full HD Aspect Ratio: 16:9",
+          "Refresh Rate: 60Hz",
+          "Display Type: FHD IPS"
+        ]
+      },
+      {
+        "title": "Connectivity",
+        "items": [
+          "USB-C: 1 × Type-C",
+          "USB A to USB-C: 1",
+          "Video Input: Mini HDMI",
+          "Audio: Built-in Speaker"
+        ]
+      },
+      {
+        "title": "Design",
+        "items": [
+          "Form Factor: Ultra-Slim Portable Monitor",
+          "Stand: Adjustable up to 80°",
+          "Mounting: Wall-Mountable",
+          "Design: Portable & Lightweight"
+        ]
+      },
+      {
+        "title": "Compatibility",
+        "items": [
+          "Works well with both Windows and MAC OS",
+          "Laptops Desktop",
+          "PCs",
+          "Compatible Gaming Devices",
+          "Compatible External Display Devices - PSPs, XBOX, etc."
+        ]
+      },
+      {
+        "title": "Weight",
+        "items": [
+          "0.54 kgs"
+        ]
+      }
+    ],
+    "useCases": [
+      "Laptop Second Screen",
+      "Work From Home",
+      "Office & Business",
+      "Multitasking & Productivity",
+      "Online Meetings",
+      "Presentations",
+      "Study & Education",
+      "Travel & Remote Work",
+      "Entertainment & Media",
+      "Gaming"
+    ],
+    "amazonUrl": "https://amzn.in/d/07EPnhKR",
+    "images": [
+      "/products/duoview-15-6-inch-portable-monitor/1787045208609.png",
+      "/products/duoview-15-6-inch-portable-monitor/1787045215103.png",
+      "/products/duoview-15-6-inch-portable-monitor/1787045221701.png",
+      "/products/duoview-15-6-inch-portable-monitor/1787045229122.png",
+      "/products/duoview-15-6-inch-portable-monitor/1787045235359.png",
+      "/products/duoview-15-6-inch-portable-monitor/1787045241270.png",
+      "/products/duoview-15-6-inch-portable-monitor/1787045247169.png",
+      "/products/duoview-15-6-inch-portable-monitor/1787045253437.png"
+    ],
+    "rating": null,
+    "reviews": [],
+    "filterGroup": "DuoView"
   }
 ]
