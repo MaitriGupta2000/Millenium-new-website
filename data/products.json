@@ -119,7 +119,7 @@
       "Many portable monitors promise mobility. Few are actually light enough to disappear into your everyday backpack. At just 0.68kg, DuoView UltraSlim is built for people who work on the move. Whether you're travelling between meetings, working from a café, or commuting daily, it adds screen space-not unnecessary weight.",
       "A second screen should feel as sharp as your primary one. UltraSlim features a 15.6-inch Full HD IPS display that delivers crisp text, vibrant colours, and wide viewing angles for everyday productivity and entertainment. Feature Highlights"
     ],
-    "price": 10999,
+    "price": 9999,
     "stock": "in_stock",
     "cardFeatures": [
       "15.6\" Full HD IPS Display",
@@ -188,7 +188,6 @@
       "Creators & Freelancers"
     ],
     "amazonUrl": "https://amzn.in/d/0bp14fee",
-    "filterGroup": "DuoView",
     "images": [
       "/products/duoview-15-6-ultraslim/generated/writing-research-v3.jpg",
       "/products/duoview-15-6-ultraslim/5.png",
@@ -202,8 +201,7 @@
       "count": 71
     },
     "reviews": [],
-    "metaTitle": "DuoView 15.6\" UltraSlim Portable Monitor | Laptop Screen Extender",
-    "metaDescription": "DuoView UltraSlim adds a slim 15.6\" Full HD second screen to your laptop. A lightweight portable monitor and laptop screen extender for work, trading and travel."
+    "filterGroup": "DuoView"
   },
   {
     "slug": "duoview-16-widestand",
