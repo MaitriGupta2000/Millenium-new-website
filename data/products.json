@@ -4784,5 +4784,136 @@
     "rating": null,
     "reviews": [],
     "filterGroup": "DuoView"
+  },
+  {
+    "slug": "duoview-23-8-gaming",
+    "category": "monitor-extenders",
+    "name": "DuoView 23.8\" Gaming Portable Monitor",
+    "tag": "DUOVIEW",
+    "typeLabel": "Dual Laptop Screen Extender",
+    "tagline": "Bigger Screen. Bigger Possibilities.",
+    "description": [
+      "The Millennium Technology 23.8\" Gaming Portable Monitor brings a larger FHD display to your laptop, MacBook or PC, giving you more screen space for gaming, work, entertainment and multitasking.",
+      "Featuring a 23.8-inch IPS display with 1920 × 1080 Full HD resolution and a fast 120Hz refresh rate, this portable monitor delivers smoother motion and a more immersive viewing experience than standard 60Hz displays.",
+      "Designed for both gaming and productivity, the monitor supports AMD FreeSync technology for smoother gameplay on compatible devices and features USB Type-C and HDMI connectivity for flexible connections with laptops, PCs, MacBooks, gaming consoles and other compatible devices.",
+      "The large 23.8-inch display provides significantly more workspace than a typical laptop screen, making it ideal for coding, trading, video editing, photo editing, office work, content creation, gaming and entertainment.",
+      "Use the monitor as a second screen, extend your desktop for multitasking or mirror your primary display when needed. The multi-angle stand lets you position the display according to your setup, while VESA mounting compatibility provides an option for a more permanent workstation configuration.",
+      "With its 7mm slim profile, anti-glare display and portable design, this monitor combines a large-screen viewing experience with the flexibility to move between your desk, home office, gaming setup and travel workspace."
+    ],
+    "price": 19998,
+    "stock": "in_stock",
+    "cardFeatures": [
+      "23.8\" Full HD IPS Display",
+      "120Hz Smooth Refresh Rate",
+      "AMD FreeSync Technology",
+      "USB-C & HDMI Connectivity",
+      "VESA Mount Compatible",
+      "Multi-Angle Stand"
+    ],
+    "features": [
+      {
+        "title": "23.8 Inch Portable Monitor for Laptop",
+        "description": "Upgrade from a cramped screen to a spacious 23.8 Inch FHD 1080P IPS display. The ideal external monitor for laptop, MacBook and PC, built for work from home, dual monitor setups, and travel."
+      },
+      {
+        "title": "120HZ Portable Gaming Monitor, 1500:1 Contrast",
+        "description": "Smooth 120Hz refresh, a 1500:1 contrast ratio (higher than most portable monitors on the market), 300 nits brightness and 100% sRGB on a true IPS panel for accurate color and fast motion."
+      },
+      {
+        "title": "AMD FreeSync for Smoother Gameplay",
+        "description": "With AMD FreeSync technology, the monitor can help reduce screen tearing and stuttering on compatible systems by synchronising the display refresh rate with the graphics output. Enjoy smoother gameplay when paired with compatible AMD FreeSync devices."
+      },
+      {
+        "title": "Multiple Display Modes for Every Workflow",
+        "description": "Use the monitor as a second screen, extend your laptop workspace or mirror your primary display. Keep charts, code, documents, dashboards or entertainment visible on a larger display while using your laptop for other tasks."
+      },
+      {
+        "title": "USB-C & HDMI Connectivity",
+        "description": "Connect compatible laptops, MacBooks, PCs and other supported devices through USB Type-C or HDMI. The flexible connectivity makes it easy to integrate the monitor into different work, gaming and entertainment setups."
+      },
+      {
+        "title": "Desk Stand or VESA Mount",
+        "description": "Use the built-in multi-angle stand for flexible desktop positioning or take advantage of VESA mounting compatibility for a more permanent workstation setup. Adjust your display position to suit your desk, gaming or productivity environment."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Display",
+        "items": [
+          "Screen Size: 23.8\"",
+          "Resolution: 1920 × 1080 Full HD",
+          "Panel Type: IPS",
+          "Aspect Ratio: 16:9",
+          "Refresh Rate: 120Hz",
+          "Viewing Angle: 170°",
+          "Screen Finish: Anti-Glare",
+          "Display Type: LED",
+          "Response Time: 25ms"
+        ]
+      },
+      {
+        "title": "Connectivity",
+        "items": [
+          "USB Type-C",
+          "HDMI"
+        ]
+      },
+      {
+        "title": "Compatibility",
+        "items": [
+          "Windows Laptops & PCs",
+          "MacBook",
+          "Compatible USB-C Devices",
+          "HDMI-Compatible Devices",
+          "Gaming Consoles",
+          "PS5",
+          "Xbox",
+          "Nintendo Switch"
+        ]
+      },
+      {
+        "title": "Use Cases ",
+        "items": [
+          "Productivity",
+          "Business",
+          "Work From Home",
+          "Remote Work",
+          "Presentations",
+          "Data Analysis",
+          "Gaming"
+        ]
+      }
+    ],
+    "useCases": [
+      "Gaming",
+      "MacBook & Laptop Workstations",
+      "Work From Home",
+      "Stock Trading",
+      "Coding & Programming",
+      "Content Creation",
+      "Photo Editing",
+      "Video Editing",
+      "Business & Office Work",
+      "Data Analysis",
+      "Entertainment & Streaming",
+      "PS5 & Gaming Consoles",
+      "Xbox & Gaming Consoles",
+      "Nintendo Switch",
+      "Research & Online Learning",
+      "Mobile Workstations"
+    ],
+    "amazonUrl": "https://amzn.in/d/02ZOauaT",
+    "images": [
+      "/products/duoview-23-8-gaming/1789205608769.png",
+      "/products/duoview-23-8-gaming/1789205616510.png",
+      "/products/duoview-23-8-gaming/1789205623124.png",
+      "/products/duoview-23-8-gaming/1789205634067.png",
+      "/products/duoview-23-8-gaming/1789205640800.png",
+      "/products/duoview-23-8-gaming/1789205648982.png",
+      "/products/duoview-23-8-gaming/1789205681860.png"
+    ],
+    "rating": null,
+    "reviews": [],
+    "filterGroup": "DuoView"
   }
 ]
