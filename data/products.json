@@ -3534,7 +3534,7 @@
       "Keep both DualSense controllers charged and ready for action. Simply dock your controllers after gaming and have them ready for your next session without dealing with extra charging cables. LED charging indicators provide quick status updates at a glance."
     ],
     "price": null,
-    "stock": "out_of_stock",
+    "stock": "in_stock",
     "cardFeatures": [
       "Compatible with PS5 / PS5 Slim / PS5 Pro",
       "Dual Controller Charging Dock",
@@ -3563,6 +3563,12 @@
       }
     ],
     "specs": [],
+    "useCases": [
+      "Bedroom Gaming Setups",
+      "Living Room Entertainment Centers",
+      "Gaming Desks",
+      "Streaming Stations"
+    ],
     "amazonUrl": "https://amzn.in/d/01f1qIsk",
     "images": [
       "/products/ps5-rgb-dual-cooling-dock-charging-station/generated/gaming-lounge.jpg",
@@ -3582,12 +3588,6 @@
         "title": "Compact and Reliable",
         "text": "The 40W 4-Port Fast Charging Adapter is compact, reliable, and charges multiple devices quickly using PD and QC 3.0. It handles simultaneous charging with no overheating. Great build quality and excellent value with two adapters in the pack. Perfect for home and travel use."
       }
-    ],
-    "useCases": [
-      "Bedroom Gaming Setups",
-      "Living Room Entertainment Centers",
-      "Gaming Desks",
-      "Streaming Stations"
     ]
   },
   {
