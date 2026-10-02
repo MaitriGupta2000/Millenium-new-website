@@ -4914,5 +4914,120 @@
     "rating": null,
     "reviews": [],
     "filterGroup": "DuoView"
+  },
+  {
+    "slug": "quadview-18-5-ultraview",
+    "category": "monitor-extenders",
+    "name": "QuadView 18.5\" UltraView Quad Monitor Laptop Screen Extender",
+    "tag": "QUADVIEW",
+    "typeLabel": "Quad Laptop Screen Extender",
+    "tagline": "Quad Screen. Single Wire. Maximum Visibility.",
+    "description": [
+      "Expand your laptop into a quad-screen workstation with XAVION's 18.5-inch portable foldable monitor. Designed for multitasking, business, gaming and trading setups, it gives you additional screen space while maintaining a portable form factor.",
+      "The QuadView 18.5 features a foldable design with a single-wire connection for a streamlined multi-display setup. Its Full HD 1920 × 1080 resolution, IPS display and 170° viewing angle are designed to deliver clear visuals across the screen.",
+      "Compatible with Windows and macOS, including M1, M2, M3 and M4 chip system laptops. The setup supports laptops with a full-featured USB Type-C port capable of video transmission and power supply, or a USB-A port as specified in the listing.",
+      "With a portable and lightweight design, the XAVION QuadView 18.5 is designed for professionals, stock traders, programmers, students, academic researchers, data analysts, designers and entrepreneurs who need additional screen space for multitasking.",
+      "The display specifications listed include a 16:9 aspect ratio, 1000:1 contrast ratio, 60 Hz refresh rate, 300 Lux brightness, 45% colour gamut, 170° viewing angle and 25 millisecond response time."
+    ],
+    "price": 57999,
+    "stock": "in_stock",
+    "cardFeatures": [
+      "Quad Screen Portable Foldable Monitor",
+      "18.5\" Full HD IPS Display",
+      "Single-Wire Multi-Display Setup",
+      "Windows & macOS Compatible"
+    ],
+    "features": [
+      {
+        "title": "Quad Screen Setup With Single-Wire Connectivity",
+        "description": "Expand your laptop workspace with a portable foldable quad-screen monitor designed for business, gaming and trading setups. "
+      },
+      {
+        "title": "18.5-Inch Full HD IPS Display",
+        "description": "The listing identifies the product as an 18.5-inch portable monitor and specifies Full HD 1920 × 1080 resolution, IPS display technology and a 170° viewing angle."
+      },
+      {
+        "title": "Compatible With Windows & macOS",
+        "description": "Supports Windows and macOS, including laptops using M1, M2, M3 and M4 chip systems."
+      },
+      {
+        "title": "Designed For Business, Gaming & Trading",
+        "description": "Business, gaming and trading setups among the specific uses for this product, making the additional screen space suitable for multi-window workflows."
+      },
+      {
+        "title": "Portable Foldable Design",
+        "description": "Portable, lightweight and foldable laptop screen extender designed to travel with your laptop."
+      },
+      {
+        "title": "Built For People Who Need To See Everything",
+        "description": "Most professionals don't need four screens. But for those who do, nothing else feels quite the same. UltraView creates an environment where information remains visible, organized, and accessible-allowing you to focus on execution rather than screen management. For professionals managing multiple workflows, that visibility becomes a genuine advantage."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Display",
+        "items": [
+          "18.5\" IPS Display",
+          "Full HD 1920 × 1080 Resolution",
+          "16:9 Aspect Ratio",
+          "170° Viewing Angle",
+          "1000:1 Contrast Ratio",
+          "300 Lux Brightness",
+          "60 Hz Refresh Rate",
+          "45% Colour Gamut",
+          "25 Millisecond Response Time",
+          "Anti-Glare Screen"
+        ]
+      },
+      {
+        "title": "Connectivity",
+        "items": [
+          "USB-C Connectivity",
+          "Multi-Display Expansion"
+        ]
+      },
+      {
+        "title": "Compatibility",
+        "items": [
+          "Windows",
+          "macOS"
+        ]
+      },
+      {
+        "title": "Form Factor",
+        "items": [
+          "Foldable Quad Screen Design",
+          "Portable Professional Workstation"
+        ]
+      },
+      {
+        "title": "Weight",
+        "items": [
+          "2.9 kgs"
+        ]
+      }
+    ],
+    "useCases": [
+      "Business",
+      "Gaming",
+      "Trading Setup",
+      "Multitasking",
+      "Remote Work"
+    ],
+    "amazonUrl": "https://amzn.in/d/0dVYA5mC",
+    "images": [
+      "/products/quadview-18-5-ultraview/1790954757635.png",
+      "/products/quadview-18-5-ultraview/1790954771014.png",
+      "/products/quadview-18-5-ultraview/1790954779287.png",
+      "/products/quadview-18-5-ultraview/1790954786528.png",
+      "/products/quadview-18-5-ultraview/1790954793250.png",
+      "/products/quadview-18-5-ultraview/1790954813274.png",
+      "/products/quadview-18-5-ultraview/1790954820415.png",
+      "/products/quadview-18-5-ultraview/1790954828130.png",
+      "/products/quadview-18-5-ultraview/1790954835256.png"
+    ],
+    "rating": null,
+    "reviews": [],
+    "filterGroup": "QuadView"
   }
 ]
