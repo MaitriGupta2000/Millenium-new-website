@@ -5029,5 +5029,122 @@
     "rating": null,
     "reviews": [],
     "filterGroup": "QuadView"
+  },
+  {
+    "slug": "16-inch-touchscreen-portable-monitor",
+    "category": "monitor-extenders",
+    "name": "DuoView 16\" TouchScreen Portable Monitor",
+    "tag": "DUOVIEW",
+    "typeLabel": "16-inch Touchscreen Portable Monitor",
+    "tagline": "Touch. Create. Work Smarter.",
+    "description": [
+      "Upgrade your workspace with the Millennium Technology 16-inch Touchscreen Portable Monitor, designed for professionals, students, traders and creators who need more screen space and interactive control. Its Full HD 1920 × 1080 IPS display delivers clear visuals, while the 10-point touchscreen supports intuitive tapping, swiping, pinch-to-zoom and compatible touch-based workflows.",
+      "Connect compatible laptops and other supported devices through USB Type-C or Mini HDMI. The portable monitor supports plug-and-play connectivity on most compatible devices, with touch functionality depending on the connected device, operating system and connection. It is designed for multitasking, presentations, coding, business applications, trading dashboards and everyday productivity.",
+      "Featuring a slim black design, anti-glare screen and built-in speakers, this 16-inch external monitor is suitable for workstations, home offices and travel setups. Its 60Hz refresh rate and Full HD resolution make it a practical companion for everyday work, content viewing and general computing.",
+      "Compatibility note: The product listing specifies Windows and Mac systems, including Apple M1, M2 and M3 models. Actual display and touchscreen support can vary by device, port and operating system. Check your device's compatibility before purchasing."
+    ],
+    "price": 10999,
+    "stock": "in_stock",
+    "cardFeatures": [
+      "16-inch Full HD 1920 × 1080 IPS Display",
+      "10-Point Touchscreen with Interactive Controls",
+      "USB Type-C and Mini HDMI Connectivity",
+      "Anti-Glare Screen with 60Hz Refresh Rate",
+      "Lightweight Portable Design – Approx. 800g",
+      "Built-In Speakers for Everyday Convenience"
+    ],
+    "features": [
+      {
+        "title": "10-Point Touchscreen Experience",
+        "description": "Interact naturally with compatible applications using tap, swipe, pinch-to-zoom, sketching and annotation. Touch functionality depends on your connected device, operating system and connection setup."
+      },
+      {
+        "title": "Full HD IPS Display",
+        "description": "The 16-inch Full HD 1920 × 1080 IPS screen provides clear text, detailed visuals and wide viewing angles for work, study and everyday content viewing."
+      },
+      {
+        "title": "USB-C, USB A and Mini HDMI Connectivity",
+        "description": "Connect compatible laptops, PCs and other supported devices using USB A, USB Type-C or Mini HDMI. Check whether your device requires a full-featured USB-C port, a separate power connection or an adapter."
+      },
+      {
+        "title": "Portable Design for Work Anywhere",
+        "description": "The portable 16-inch form factor and approximately 680g listed weight make this monitor suitable for mobile workstations, business travel, home offices and flexible desk setups."
+      },
+      {
+        "title": "Built-In Speakers and Anti-Glare Screen",
+        "description": "Built-in speakers provide convenient audio for compatible calls and media, while the anti-glare screen helps reduce distracting reflections in everyday working environments."
+      },
+      {
+        "title": "Weight",
+        "description": "Weighs super light - 800g; the lightest portable monitor in the market. "
+      }
+    ],
+    "specs": [
+      {
+        "title": "Display",
+        "items": [
+          "Screen Size: 16 inches",
+          "Resolution: Full HD 1920 × 1080",
+          "Aspect Ratio: 16:9",
+          "Panel Type: IPS",
+          "Display Technology: LED",
+          "Refresh Rate: 60Hz",
+          "Contrast Ratio: 800:1",
+          "Viewing Angle: 170 degrees",
+          "Screen Surface: Anti-Glare",
+          "Brightness: 300 Lux (as listed)",
+          "Color Gamut: 45%",
+          "Color Screen: Yes",
+          "Picture Quality Enhancement: IPS, Low Blue Light Mode",
+          "Response Time: 25 milliseconds"
+        ]
+      },
+      {
+        "title": "Connectivity",
+        "items": [
+          "USB A, USB-C, mini HDMI"
+        ]
+      },
+      {
+        "title": "Weight",
+        "items": [
+          "800g"
+        ]
+      },
+      {
+        "title": "Compatibility ",
+        "items": [
+          "Operating System Compatibility: Windows",
+          "Mac Compatibility: Apple M1, M2 and M3 models as stated in the listing",
+          "Device Compatibility: Compatible laptops, PCs and other supported devices",
+          "Touchscreen Compatibility: Depends on device, operating system and connection",
+          "Warranty Type: 1 Year Manufacturer Warranty"
+        ]
+      }
+    ],
+    "useCases": [
+      "Business and Office Productivity",
+      "Remote Work and Home Office",
+      "Stock Trading and Financial Dashboards",
+      "Students and Online Learning",
+      "Presentations and Interactive Workflows",
+      "Coding and Software Development",
+      "Travel and Mobile Workstations",
+      "Everyday Entertainment and Content Viewing"
+    ],
+    "amazonUrl": "https://www.amazon.in/dp/B0HLZGQS74?th=1",
+    "images": [
+      "/products/16-inch-touchscreen-portable-monitor/1791547768951.png",
+      "/products/16-inch-touchscreen-portable-monitor/1791547792790.png",
+      "/products/16-inch-touchscreen-portable-monitor/1791547805598.png",
+      "/products/16-inch-touchscreen-portable-monitor/1791547812764.png",
+      "/products/16-inch-touchscreen-portable-monitor/1791547819279.png",
+      "/products/16-inch-touchscreen-portable-monitor/1791547863041.png",
+      "/products/16-inch-touchscreen-portable-monitor/1791547930181.png",
+      "/products/16-inch-touchscreen-portable-monitor/1791547964880.png"
+    ],
+    "rating": null,
+    "reviews": [],
+    "filterGroup": "DuoView"
   }
 ]
