@@ -5146,5 +5146,132 @@
     "rating": null,
     "reviews": [],
     "filterGroup": "DuoView"
+  },
+  {
+    "slug": "duoview-23-8-180hz-gaming-portable-monitor",
+    "category": "monitor-extenders",
+    "name": "DuoView 23.8\" 2.5K QHD 180Hz Gaming Portable Monitor",
+    "tag": "DUOVIEW",
+    "typeLabel": "23.8-inch Gaming Portable Monitor",
+    "tagline": "Big Screen. Fast Frames. Immersive Gaming.",
+    "description": [
+      "Level up your gaming setup with the Millennium Technology 23.8-inch Gaming Portable Monitor, designed for gamers and power users who want a large, immersive display. Featuring a stated 2.5K QHD resolution and a 180Hz refresh rate, this monitor is designed to deliver detailed visuals and fluid on-screen motion for compatible gaming systems.",
+      "The large 23.8-inch display provides an expansive viewing area for gaming, multitasking, content creation and everyday computing. The high refresh rate is particularly useful for fast-paced gameplay when supported by your connected device, graphics hardware, connection and game settings.",
+      "Connect compatible laptops, desktops, gaming consoles and other supported devices through HDMI or USB Type-C. The monitor's portable-display design gives you flexibility to build a gaming or productivity setup in different spaces, while its adjustable stand supports convenient positioning.",
+      "Whether you're gaming, working across multiple windows or enjoying your favourite content, the Millennium Technology Gaming Portable Monitor brings a large-screen experience to your setup. Check your device's supported resolution, refresh rate, output capabilities and power requirements before connecting."
+    ],
+    "price": 25999,
+    "stock": "in_stock",
+    "cardFeatures": [
+      "23.8-inch Large Gaming Display",
+      "2.5K QHD Resolution — Confirm Native Resolution",
+      "180Hz High Refresh Rate",
+      "HDMI and USB Type-C Connectivity",
+      "Wide 16:9 Viewing Format",
+      "3.2kgs",
+      "Adjustable Stand for Flexible Positioning"
+    ],
+    "features": [
+      {
+        "title": "Large 23.8-inch Gaming Display",
+        "description": "Enjoy a more expansive viewing area for gaming, entertainment and multitasking. The large screen provides room for immersive gameplay and multiple on-screen elements."
+      },
+      {
+        "title": "180Hz High Refresh Rate",
+        "description": "A stated 180Hz refresh rate is designed to deliver smoother motion in fast-paced games. Actual refresh rate depends on the connected device, supported output resolution, connection and game settings."
+      },
+      {
+        "title": "2.5K QHD Visual Detail",
+        "description": "The advertised 2.5K QHD resolution is intended to provide detailed visuals for gaming and everyday use. Verify the native panel resolution before publishing this specification."
+      },
+      {
+        "title": "Flexible HDMI and USB-C Connectivity",
+        "description": "Connect supported devices through HDMI or USB Type-C. Depending on your device and connection, additional power may be required. Check port compatibility and supported video output before connecting."
+      },
+      {
+        "title": "Adjustable Stand for Flexible Viewing- Vertical and Horizontal Both",
+        "description": "Position the monitor to suit your desk and viewing preferences using its adjustable support. The supplied manual indicates a rotatable angle of 0–180°; confirm the exact adjustment mechanism before describing its range."
+      }
+    ],
+    "specs": [
+      {
+        "title": "Display",
+        "items": [
+          "Screen Size: 23.8 inches",
+          "Resolution: 2.5K QHD",
+          "Aspect Ratio: 16:9",
+          "Refresh Rate: 180Hz",
+          "Contrast Ratio: 1000:1",
+          "Color Depth: 16.7 million colors",
+          "Viewing Angle: ≥178°",
+          "Active Screen Area: Approximately 527.04 × 296.46 mm",
+          "Display Type: LED display screen",
+          "Panel Type: IPS"
+        ]
+      },
+      {
+        "title": "Connectivity",
+        "items": [
+          "Input Sources: HDMI / Type-C1 / Type-C2",
+          "HDMI Input: Supported",
+          "USB Type-C Inputs: 2 listed in input-source menu",
+          "Headphone Output: Supported, according to manual controls",
+          "External Power: May be required depending on connected device"
+        ]
+      },
+      {
+        "title": "Design and Dimensions",
+        "items": [
+          "Product Type: Portable Gaming Monitor",
+          "Screen Size: 23.8 inches",
+          "Aspect Ratio: 16:9",
+          "Stand Adjustment: Rotatable angle listed as 0–180°",
+          "Weight: 3.2kgs",
+          "Colour: Black",
+          "Mounting Type: Mount supported"
+        ]
+      },
+      {
+        "title": "Compatibility & Package Contents",
+        "items": [
+          "Compatible Devices: Devices with supported HDMI or USB Type-C video output",
+          "PC and Laptop Compatibility: Subject to supported output and connection",
+          "Gaming Console Compatibility: Yes",
+          "Operating System Compatibility: Windows and Mac OS",
+          "Included Items: Portable Monitor",
+          "Included Items: HDMI Cable",
+          "Included Items: Full-Function USB Type-C Cable",
+          "Included Items: Power Cord",
+          "Included Items: PD Charging Plug / Adapter",
+          "Included Items: Instruction Manual",
+          "Warranty: 1 year"
+        ]
+      }
+    ],
+    "useCases": [
+      "PC Gaming and Competitive Gaming",
+      "Console Gaming on Compatible Devices",
+      "Gaming and Streaming Setups",
+      "Multitasking and Extended Desktop Workspaces",
+      "Content Creation and Media Viewing",
+      "Home Office and Productivity",
+      "Portable Gaming and Flexible Desk Setups"
+    ],
+    "amazonUrl": "https://amzn.in/d/0bkxKY68",
+    "images": [
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632397072.png",
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632403800.png",
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632417838.png",
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632423893.png",
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632432183.png",
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632444163.png",
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632459343.png",
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632467075.png",
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632474541.png",
+      "/products/duoview-23-8-180hz-gaming-portable-monitor/1791632504142.png"
+    ],
+    "rating": null,
+    "reviews": [],
+    "filterGroup": "DuoView"
   }
 ]
