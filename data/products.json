@@ -656,7 +656,7 @@
       "Most triple-screen setups increase productivity. They also increase cable clutter. TriView OneConnect is built differently. With simplified connectivity and an integrated multi-screen design, you can create a professional triple-screen workstation in minutes without carrying a bag full of adapters and cables. Because more screens should make work easier-not more complicated.",
       "At some point, every professional hits the same limitation. The laptop screen simply isn't enough. You need to attend meetings while reviewing reports. Monitor dashboards while responding to emails. Analyse data while referencing documents. OneConnect creates a complete triple-screen workspace that helps you stay focused on work instead of constantly switching tabs."
     ],
-    "price": 32999,
+    "price": 31999,
     "stock": "in_stock",
     "cardFeatures": [
       "Triple Screen Laptop Extender",
@@ -738,7 +738,6 @@
       "MBA Students & Researchers"
     ],
     "amazonUrl": "https://amzn.in/d/015yGhsZ",
-    "filterGroup": "TriView",
     "images": [
       "/products/triview-15-6-oneconnect/generated/qa-testing.jpg",
       "/products/triview-15-6-oneconnect/5.png",
@@ -751,8 +750,7 @@
       "count": 1
     },
     "reviews": [],
-    "metaTitle": "TriView 15.6\" OneConnect Portable Monitor Screen Extender",
-    "metaDescription": "TriView OneConnect adds two 15.6\" Full HD screens to your laptop through a single cable — a clean, simple triple monitor setup for laptop work."
+    "filterGroup": "TriView"
   },
   {
     "slug": "triview-15-6-foldable-dual-monitor",
