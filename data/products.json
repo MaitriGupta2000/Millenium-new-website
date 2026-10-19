@@ -545,7 +545,7 @@
       "Your work probably doesn't happen in one window. Emails arrive while you're in meetings. Reports need reviewing while messages keep coming in. Dashboards, spreadsheets, presentations, and communication tools all compete for attention. TriView DualLink gives every task its own screen so you can stay focused without constantly switching tabs.",
       "A laptop screen was never designed to manage modern workloads alone."
     ],
-    "price": 22999,
+    "price": 21999,
     "stock": "in_stock",
     "cardFeatures": [
       "Triple Screen Laptop Extender",
@@ -619,7 +619,6 @@
       "Research online"
     ],
     "amazonUrl": "https://amzn.in/d/0glU0Qqb",
-    "filterGroup": "TriView",
     "images": [
       "/products/triview-14-duallink/generated/music-production.jpg",
       "/products/triview-14-duallink/5.png",
@@ -639,8 +638,7 @@
         "text": "Very nice improve my any project"
       }
     ],
-    "metaTitle": "TriView 14\" DualLink Portable Monitor Laptop Screen Extender",
-    "metaDescription": "TriView DualLink gives your laptop two extra 14\" Full HD screens with a stable dual-connection design — a reliable triple monitor setup for laptops."
+    "filterGroup": "TriView"
   },
   {
     "slug": "triview-15-6-oneconnect",
