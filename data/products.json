@@ -438,7 +438,7 @@
       "A single laptop screen can only show so much. One window becomes two. Two become five. Soon you're constantly switching tabs instead of getting work done. TriView UltraSleek instantly expands your laptop into a three-screen workspace, allowing you to keep your work, communication, and reference material visible at the same time. The result isn't just more screens. It's fewer interruptions throughout your day.",
       "Modern work rarely happens in a single window. You might be reviewing reports, responding to emails, attending video calls, analysing dashboards, and preparing presentations-all within the same hour. TriView UltraSleek gives every task its own space so you can focus on work instead of managing windows."
     ],
-    "price": 28949,
+    "price": 26949,
     "stock": "in_stock",
     "cardFeatures": [
       "Triple Screen Laptop Extender",
@@ -519,7 +519,6 @@
       "MBA Students & Researchers"
     ],
     "amazonUrl": "https://amzn.in/d/0cBI35vO",
-    "filterGroup": "TriView",
     "images": [
       "/products/triview-14-ultrasleek/generated/social-media.jpg",
       "/products/triview-14-ultrasleek/5.png",
@@ -532,8 +531,7 @@
       "count": 1
     },
     "reviews": [],
-    "metaTitle": "TriView 14\" UltraThin Portable Monitor Laptop Screen Extender",
-    "metaDescription": "TriView UltraThin adds two slim 14\" Full HD screens to your laptop for a true triple monitor setup — light enough to carry, wide enough to work."
+    "filterGroup": "TriView"
   },
   {
     "slug": "triview-14-duallink",
