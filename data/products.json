@@ -760,7 +760,7 @@
       "Most triple-screen extenders lock you into a single setup. FlexSplit gives you the freedom to arrange your workspace based on the task at hand. Writing a report? Go vertical. Analysing dashboards? Go ultra-wide. Presenting to a client? Rotate a screen outward. Working with a teammate? Detach and share a display. FlexSplit adapts to your workflow instead of forcing you into one.",
       "Each 15.6-inch display can be detached and repositioned independently, allowing you to create entirely new workspace layouts. Whether you need a collaborative setup, a vertical reading experience, or a wider productivity workspace, FlexSplit gives you complete control. Most laptop screen extenders add screens. FlexSplit adds flexibility."
     ],
-    "price": 28499,
+    "price": 27499,
     "stock": "in_stock",
     "cardFeatures": [
       "Dual 15.6\" Full HD Displays",
@@ -844,7 +844,6 @@
       "Financial statements"
     ],
     "amazonUrl": "https://amzn.in/d/06gETrM6",
-    "filterGroup": "TriView",
     "images": [
       "/products/triview-15-6-flexsplit/generated/hero-trading.jpg",
       "/products/triview-15-6-flexsplit/5.png",
@@ -863,8 +862,7 @@
       "count": 13
     },
     "reviews": [],
-    "metaTitle": "TriView 15.6\" Foldable Portable Monitor Screen Extender",
-    "metaDescription": "TriView Foldable configures 11+ ways around your laptop — two 15.6\" Full HD screens in a flexible, foldable triple monitor setup for any workspace."
+    "filterGroup": "TriView"
   },
   {
     "slug": "triview-15-6-vertiflex",
