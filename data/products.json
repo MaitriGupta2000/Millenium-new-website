@@ -317,7 +317,7 @@
       "If you've ever switched between spreadsheets, presentations, emails, and browser tabs all day, you already know the problem. The screen isn't big enough. DuoView UltraWide gives you an expansive 18.5-inch workspace that helps you keep more information visible at once, reducing constant window switching and improving focus. Less clicking. Less searching. More getting things done.",
       "Most professionals don't need another screen. They need more room to think. UltraWide gives you the space to compare documents, monitor dashboards, review reports, analyse data, and keep critical information visible throughout your workflow. Whether you're working remotely, in the office, or on the move, the extra screen real estate creates a noticeably smoother work experience."
     ],
-    "price": 12999,
+    "price": 11999,
     "stock": "in_stock",
     "cardFeatures": [
       "18.5\" Full HD Display",
@@ -396,7 +396,6 @@
       "Designers"
     ],
     "amazonUrl": "https://amzn.in/d/03BXqVPM",
-    "filterGroup": "DuoView",
     "images": [
       "/products/duoview-18-5-ultrawide/generated/financial-modeling-v3.jpg",
       "/products/duoview-18-5-ultrawide/5.png",
@@ -423,8 +422,7 @@
         "text": "Support selected phones and miss guided information on Amazon, but product support the laptop and working ok"
       }
     ],
-    "metaTitle": "DuoView 18.5\" UltraWide Portable Monitor | Large Laptop Extender",
-    "metaDescription": "Go big with DuoView UltraWide — an 18.5\" Full HD portable monitor for laptops. The largest dual-screen laptop extender in the DuoView range."
+    "filterGroup": "DuoView"
   },
   {
     "slug": "triview-14-ultra-thin",
