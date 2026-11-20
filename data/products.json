@@ -1449,7 +1449,7 @@
       "Experience reliable wired network connectivity with support for 10Mbps, 100Mbps, and 1000Mbps Gigabit Ethernet speeds.",
       "Designed to fit standard PCI Express slots for easy installation and stable performance."
     ],
-    "price": 539,
+    "price": 575,
     "stock": "in_stock",
     "cardFeatures": [
       "Gigabit Ethernet Speed (10/100/1000Mbps)",
@@ -1519,8 +1519,21 @@
         ]
       }
     ],
+    "useCases": [
+      "High-speed internet connections",
+      "Local network transfers",
+      "Office networking",
+      "Home desktop upgrades",
+      "PCIe x1",
+      "PCIe x4",
+      "PCIe x8",
+      "PCIe x16 slots",
+      "Office desktops",
+      "Workstations",
+      "POS systems",
+      "Business PCs"
+    ],
     "amazonUrl": "https://amzn.in/d/01LZFfHn",
-    "filterGroup": "Gigabit",
     "images": [
       "/products/pcie-gigabit-network-adapter-rtl8111f/generated/pc-build.jpg",
       "/products/pcie-gigabit-network-adapter-rtl8111f/1.jpg",
@@ -1551,20 +1564,7 @@
         "text": "Very small card but performance is good."
       }
     ],
-    "useCases": [
-      "High-speed internet connections",
-      "Local network transfers",
-      "Office networking",
-      "Home desktop upgrades",
-      "PCIe x1",
-      "PCIe x4",
-      "PCIe x8",
-      "PCIe x16 slots",
-      "Office desktops",
-      "Workstations",
-      "POS systems",
-      "Business PCs"
-    ]
+    "filterGroup": "Gigabit"
   },
   {
     "slug": "pcie-gigabit-network-adapter-82574-ct",
