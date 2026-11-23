@@ -1752,7 +1752,7 @@
       "Built around the trusted Intel 82571 Gigabit Ethernet Controller, this adapter delivers stable network performance, reliable packet handling, and broad operating system compatibility for enterprise deployments."
     ],
     "price": 4999,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "Intel 82571 Gigabit Controller",
       "4 × RJ45 Gigabit Ethernet Ports",
@@ -1788,8 +1788,19 @@
         ]
       }
     ],
+    "useCases": [
+      "Multiple network segments",
+      "Dedicated traffic channels",
+      "Server networking",
+      "Network appliances",
+      "Virtualization hosts",
+      "Virtualization Hosts",
+      "Hypervisor Systems",
+      "NAS Deployments",
+      "Network Appliances",
+      "Business Servers"
+    ],
     "amazonUrl": "https://amzn.in/d/06YAS9Od",
-    "filterGroup": "Gigabit",
     "images": [
       "/products/pcie-quad-port-server-network-adapter-82571/generated/server-rack.jpg",
       "/products/pcie-quad-port-server-network-adapter-82571/1.jpg",
@@ -1827,18 +1838,7 @@
         "text": "Excellent and Very Nice Product with High Quality"
       }
     ],
-    "useCases": [
-      "Multiple network segments",
-      "Dedicated traffic channels",
-      "Server networking",
-      "Network appliances",
-      "Virtualization hosts",
-      "Virtualization Hosts",
-      "Hypervisor Systems",
-      "NAS Deployments",
-      "Network Appliances",
-      "Business Servers"
-    ]
+    "filterGroup": "Gigabit"
   },
   {
     "slug": "pcie-quad-port-server-network-adapter-i350-t4",
