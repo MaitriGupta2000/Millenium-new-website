@@ -2356,7 +2356,7 @@
       "Built around Intel's XL710-BM1 Ethernet Controller, the adapter is designed for modern data center and enterprise deployments requiring scalable, high-performance networking. Ideal for infrastructure where multiple high-speed network connections are essential."
     ],
     "price": 27499,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "Intel XL710-BM1 Controller",
       "4 × SFP+ 10GbE Ports",
@@ -2397,8 +2397,19 @@
         ]
       }
     ],
+    "useCases": [
+      "Multi-network environments",
+      "Storage traffic separation",
+      "Virtualization clusters",
+      "High-density servers",
+      "Network appliances",
+      "NAS Infrastructure",
+      "SAN Deployments",
+      "Backup Servers",
+      "High-Speed File Transfers",
+      "Data Replication"
+    ],
     "amazonUrl": "https://amzn.in/d/0j9ZbLCl",
-    "filterGroup": "10Gb",
     "images": [
       "/products/10gb-quad-sfp-network-adapter-xl710-da4/generated/server-rack.jpg",
       "/products/10gb-quad-sfp-network-adapter-xl710-da4/1.jpg",
@@ -2411,18 +2422,7 @@
       "count": 3
     },
     "reviews": [],
-    "useCases": [
-      "Multi-network environments",
-      "Storage traffic separation",
-      "Virtualization clusters",
-      "High-density servers",
-      "Network appliances",
-      "NAS Infrastructure",
-      "SAN Deployments",
-      "Backup Servers",
-      "High-Speed File Transfers",
-      "Data Replication"
-    ]
+    "filterGroup": "10Gb"
   },
   {
     "slug": "40gb-single-qsfp-network-adapter-xl710-qda1",
