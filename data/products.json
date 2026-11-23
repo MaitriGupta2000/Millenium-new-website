@@ -2104,8 +2104,8 @@
       "Built around the Intel 82599ES Ethernet Controller, the adapter is engineered for professional networking environments where performance, reliability, and scalability are critical. Widely deployed in enterprise servers, virtualization platforms, and storage infrastructure.",
       "Deliver up to 10Gbps network throughput through a dedicated SFP+ interface."
     ],
-    "price": 5099,
-    "stock": "in_stock",
+    "price": 5499,
+    "stock": "out_of_stock",
     "cardFeatures": [
       "Intel 82599ES Controller",
       "Single SFP+ 10GbE Port",
@@ -2142,8 +2142,20 @@
         ]
       }
     ],
+    "useCases": [
+      "High-speed storage access",
+      "Server networking",
+      "Data center environments",
+      "Virtualization workloads",
+      "Large file transfers",
+      "VMware Hosts",
+      "Hyper-V Environments",
+      "Proxmox Deployments",
+      "NAS Systems",
+      "Storage Networks",
+      "Enterprise Servers"
+    ],
     "amazonUrl": "https://amzn.in/d/0fttMSwQ",
-    "filterGroup": "10Gb",
     "images": [
       "/products/10gb-single-sfp-network-adapter-x520-da1/generated/server-rack.jpg",
       "/products/10gb-single-sfp-network-adapter-x520-da1/1.jpg",
@@ -2163,19 +2175,7 @@
         "text": "it's a great card if your motherboard will recognize it. But some bioses will absolutely not acknowledge it.  So if it works it's a five, but if it doesn't, it's a zero."
       }
     ],
-    "useCases": [
-      "High-speed storage access",
-      "Server networking",
-      "Data center environments",
-      "Virtualization workloads",
-      "Large file transfers",
-      "VMware Hosts",
-      "Hyper-V Environments",
-      "Proxmox Deployments",
-      "NAS Systems",
-      "Storage Networks",
-      "Enterprise Servers"
-    ]
+    "filterGroup": "10Gb"
   },
   {
     "slug": "10gb-dual-sfp-network-adapter-x520-da2",
