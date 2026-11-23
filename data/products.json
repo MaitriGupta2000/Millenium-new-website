@@ -2522,7 +2522,7 @@
       "Built around Intel's XL710-BM2 Ethernet Controller, the adapter is designed for enterprise environments requiring high throughput, reliability, and scalable network infrastructure. Suitable for modern server deployments, virtualization platforms, and high-performance storage environments."
     ],
     "price": 23000,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "Intel XL710-BM2 Controller",
       "2 × QSFP+ Ports",
@@ -2563,20 +2563,6 @@
         ]
       }
     ],
-    "amazonUrl": "https://amzn.in/d/08gwiu7O",
-    "filterGroup": "40Gb",
-    "images": [
-      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/generated/server-rack.jpg",
-      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/1.jpg",
-      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/2.jpg",
-      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/3.jpg",
-      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/4.jpg"
-    ],
-    "rating": {
-      "value": 5,
-      "count": 0
-    },
-    "reviews": [],
     "useCases": [
       "Data Centers",
       "Virtualization Clusters",
@@ -2592,7 +2578,21 @@
       "Spine-Leaf Networks",
       "Storage Fabrics",
       "Server Interconnects"
-    ]
+    ],
+    "amazonUrl": "https://amzn.in/d/08gwiu7O",
+    "images": [
+      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/generated/server-rack.jpg",
+      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/1.jpg",
+      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/2.jpg",
+      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/3.jpg",
+      "/products/40gb-dual-qsfp-network-adapter-xl710-qda2/4.jpg"
+    ],
+    "rating": {
+      "value": 5,
+      "count": 0
+    },
+    "reviews": [],
+    "filterGroup": "40Gb"
   },
   {
     "slug": "pcie-4-port-usb-3-0-expansion-card",
