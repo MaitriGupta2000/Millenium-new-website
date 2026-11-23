@@ -4330,7 +4330,7 @@
       "The Intel XL710-BM1 controller is engineered for enterprise reliability, giving consistent throughput across storage, virtualization, and networking workloads."
     ],
     "price": 14449,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "Intel XL710-BM1 Controller",
       "Dual SFP+ 10GbE Ports",
@@ -4371,13 +4371,6 @@
         ]
       }
     ],
-    "amazonUrl": "https://www.amazon.in/dp/B0FP4STLTQ",
-    "filterGroup": "10Gb",
-    "images": [
-      "/products/10gb-dual-sfp-network-adapter-x710-da2/1.jpg",
-      "/products/10gb-dual-sfp-network-adapter-x710-da2/2.jpg",
-      "/products/10gb-dual-sfp-network-adapter-x710-da2/3.jpg"
-    ],
     "useCases": [
       "Virtualization Hosts",
       "Enterprise Servers",
@@ -4390,7 +4383,15 @@
       "PCIe x8",
       "PCIe x16"
     ],
-    "reviews": []
+    "amazonUrl": "https://www.amazon.in/dp/B0FP4STLTQ",
+    "images": [
+      "/products/10gb-dual-sfp-network-adapter-x710-da2/1.jpg",
+      "/products/10gb-dual-sfp-network-adapter-x710-da2/2.jpg",
+      "/products/10gb-dual-sfp-network-adapter-x710-da2/3.jpg"
+    ],
+    "rating": null,
+    "reviews": [],
+    "filterGroup": "10Gb"
   },
   {
     "slug": "10gb-quad-rj45-network-adapter-x710-t4",
