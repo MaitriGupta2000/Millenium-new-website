@@ -4406,7 +4406,7 @@
       "The Intel X710T4 controller is built for enterprise networking, offering dependable performance for demanding, high-density server workloads."
     ],
     "price": 35000,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "Intel X710T4 Controller",
       "Quad RJ45 10GbE Ports",
@@ -4447,15 +4447,6 @@
         ]
       }
     ],
-    "amazonUrl": "https://www.amazon.in/Millennium-Technology-Ethernet-Converged-Network/dp/B0GJ5S5L83",
-    "filterGroup": "10Gb",
-    "images": [
-      "/products/10gb-quad-rj45-network-adapter-x710-t4/1.jpg",
-      "/products/10gb-quad-rj45-network-adapter-x710-t4/2.jpg",
-      "/products/10gb-quad-rj45-network-adapter-x710-t4/3.jpg",
-      "/products/10gb-quad-rj45-network-adapter-x710-t4/4.jpg",
-      "/products/10gb-quad-rj45-network-adapter-x710-t4/5.jpg"
-    ],
     "useCases": [
       "Enterprise Servers",
       "High-Density Rack Deployments",
@@ -4468,7 +4459,17 @@
       "PCIe x8",
       "PCIe x16"
     ],
-    "reviews": []
+    "amazonUrl": "https://www.amazon.in/Millennium-Technology-Ethernet-Converged-Network/dp/B0GJ5S5L83",
+    "images": [
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/1.jpg",
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/2.jpg",
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/3.jpg",
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/4.jpg",
+      "/products/10gb-quad-rj45-network-adapter-x710-t4/5.jpg"
+    ],
+    "rating": null,
+    "reviews": [],
+    "filterGroup": "10Gb"
   },
   {
     "slug": "100gb-dual-qsfp28-network-adapter-e810-cqda2",
