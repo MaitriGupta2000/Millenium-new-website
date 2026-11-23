@@ -4152,7 +4152,7 @@
       "Simply connect your HDMI source and plug the capture card into your computer's USB 3.0 port. No external power supply or complicated driver installation required, so you can start recording or streaming within minutes."
     ],
     "price": 899,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "HDMI Video Input",
       "USB 3.0 Output",
@@ -4198,6 +4198,7 @@
         ]
       }
     ],
+    "useCases": [],
     "amazonUrl": "https://amzn.in/d/0f7tTNx0",
     "images": [
       "/products/4k-hdmi-video-capture-card/generated/creator-desk.jpg",
