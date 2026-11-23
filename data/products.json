@@ -4483,7 +4483,7 @@
       "The Intel E810 controller is engineered for next-generation data center networking, offering the throughput and reliability required for large-scale infrastructure."
     ],
     "price": 38499,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "Intel E810 Controller",
       "Dual QSFP28 100GbE Ports",
@@ -4524,14 +4524,6 @@
         ]
       }
     ],
-    "amazonUrl": "https://www.amazon.in/Millennium-Technology-Ethernet-Converged-Network/dp/B0FP4S72YW/ref=ast_sto_dp_puis",
-    "filterGroup": "100Gb",
-    "images": [
-      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/1.jpg",
-      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/2.jpg",
-      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/3.jpg",
-      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/4.jpg"
-    ],
     "useCases": [
       "Hyperscale Data Centers",
       "Enterprise Servers",
@@ -4543,7 +4535,16 @@
       "Proxmox",
       "PCIe x16"
     ],
-    "reviews": []
+    "amazonUrl": "https://www.amazon.in/Millennium-Technology-Ethernet-Converged-Network/dp/B0FP4S72YW/ref=ast_sto_dp_puis",
+    "images": [
+      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/1.jpg",
+      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/2.jpg",
+      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/3.jpg",
+      "/products/100gb-dual-qsfp28-network-adapter-e810-cqda2/4.jpg"
+    ],
+    "rating": null,
+    "reviews": [],
+    "filterGroup": "100Gb"
   },
   {
     "slug": "duoview-15-6-fhd-portable-monitor",
