@@ -1672,7 +1672,7 @@
       "Powered by the Intel 82571 PT Ethernet Controller, the adapter delivers stable network performance and broad compatibility across enterprise, workstation, and server environments. Designed for applications where reliability and consistent connectivity are essential."
     ],
     "price": 2249,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "Intel 82571 PT Controller",
       "Dual RJ45 Gigabit Ethernet Ports",
@@ -1711,20 +1711,6 @@
         ]
       }
     ],
-    "amazonUrl": "https://amzn.in/d/07ujBw5z",
-    "filterGroup": "Gigabit",
-    "images": [
-      "/products/pcie-dual-port-server-network-adapter-82571-pt/generated/server-rack.jpg",
-      "/products/pcie-dual-port-server-network-adapter-82571-pt/1.jpg",
-      "/products/pcie-dual-port-server-network-adapter-82571-pt/2.jpg",
-      "/products/pcie-dual-port-server-network-adapter-82571-pt/3.jpg",
-      "/products/pcie-dual-port-server-network-adapter-82571-pt/4.jpg"
-    ],
-    "rating": {
-      "value": 5,
-      "count": 5
-    },
-    "reviews": [],
     "useCases": [
       "Server deployments",
       "Network segmentation",
@@ -1738,7 +1724,21 @@
       "Workstations",
       "Firewall Appliances",
       "Virtualization Platforms"
-    ]
+    ],
+    "amazonUrl": "https://amzn.in/d/07ujBw5z",
+    "images": [
+      "/products/pcie-dual-port-server-network-adapter-82571-pt/generated/server-rack.jpg",
+      "/products/pcie-dual-port-server-network-adapter-82571-pt/1.jpg",
+      "/products/pcie-dual-port-server-network-adapter-82571-pt/2.jpg",
+      "/products/pcie-dual-port-server-network-adapter-82571-pt/3.jpg",
+      "/products/pcie-dual-port-server-network-adapter-82571-pt/4.jpg"
+    ],
+    "rating": {
+      "value": 5,
+      "count": 5
+    },
+    "reviews": [],
+    "filterGroup": "Gigabit"
   },
   {
     "slug": "pcie-quad-port-server-network-adapter-82571",
