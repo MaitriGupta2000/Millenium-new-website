@@ -2911,7 +2911,7 @@
       "FireWire remains widely used in certain professional and legacy workflows, particularly for digital video capture devices, audio recording interfaces, and industrial equipment."
     ],
     "price": 949,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "4 FireWire Ports",
       "3 × 6-Pin IEEE 1394a Ports",
@@ -2950,8 +2950,20 @@
         ]
       }
     ],
+    "useCases": [
+      "3 × 6-Pin FireWire Ports",
+      "1 × 4-Pin FireWire Port",
+      "DV & HDV Camcorders",
+      "Audio Interfaces",
+      "Video Capture Systems",
+      "Professional Recording Equipment",
+      "Legacy Storage Devices",
+      "PCIe x1",
+      "PCIe x4",
+      "PCIe x8",
+      "PCIe x16 Slots"
+    ],
     "amazonUrl": "https://amzn.in/d/06qjTM89",
-    "filterGroup": "FireWire",
     "images": [
       "/products/pcie-firewire-1394-card-4-port/generated/pc-build.jpg",
       "/products/pcie-firewire-1394-card-4-port/1.jpg",
@@ -2971,19 +2983,7 @@
         "text": "Wao acha he"
       }
     ],
-    "useCases": [
-      "3 × 6-Pin FireWire Ports",
-      "1 × 4-Pin FireWire Port",
-      "DV & HDV Camcorders",
-      "Audio Interfaces",
-      "Video Capture Systems",
-      "Professional Recording Equipment",
-      "Legacy Storage Devices",
-      "PCIe x1",
-      "PCIe x4",
-      "PCIe x8",
-      "PCIe x16 Slots"
-    ]
+    "filterGroup": "FireWire"
   },
   {
     "slug": "pcie-2-port-serial-card",
