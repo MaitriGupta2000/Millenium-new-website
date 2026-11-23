@@ -2436,7 +2436,7 @@
       "The Intel XL710-BM1 Ethernet Controller is designed for enterprise environments that demand scalability, reliability, and high-performance networking. Suitable for modern server infrastructure and high-density deployments requiring advanced network connectivity."
     ],
     "price": 19999,
-    "stock": "in_stock",
+    "stock": "out_of_stock",
     "cardFeatures": [
       "Intel XL710-BM1 Controller",
       "1 × QSFP+ Port",
@@ -2477,20 +2477,6 @@
         ]
       }
     ],
-    "amazonUrl": "https://amzn.in/d/03EwE6LS",
-    "filterGroup": "40Gb",
-    "images": [
-      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/generated/server-rack.jpg",
-      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/1.jpg",
-      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/2.jpg",
-      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/3.jpg",
-      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/4.jpg"
-    ],
-    "rating": {
-      "value": 4.3,
-      "count": 3
-    },
-    "reviews": [],
     "useCases": [
       "Data Centers",
       "HPC Clusters",
@@ -2508,7 +2494,21 @@
       "High-Speed Backup Networks",
       "PCIe x8",
       "PCIe x16"
-    ]
+    ],
+    "amazonUrl": "https://amzn.in/d/03EwE6LS",
+    "images": [
+      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/generated/server-rack.jpg",
+      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/1.jpg",
+      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/2.jpg",
+      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/3.jpg",
+      "/products/40gb-single-qsfp-network-adapter-xl710-qda1/4.jpg"
+    ],
+    "rating": {
+      "value": 4.3,
+      "count": 3
+    },
+    "reviews": [],
+    "filterGroup": "40Gb"
   },
   {
     "slug": "40gb-dual-qsfp-network-adapter-xl710-qda2",
